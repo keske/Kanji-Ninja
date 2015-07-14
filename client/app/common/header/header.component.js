@@ -1,6 +1,6 @@
 import template from './header.html';
 import controller from './header.controller';
-import './header.styl';
+import './header.scss';
 
 let headerComponent = function() {
   return {

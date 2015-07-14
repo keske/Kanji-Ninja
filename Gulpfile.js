@@ -21,7 +21,7 @@ var resolveToApp = function(glob) {
 
 var resolveToComponents = function(glob) {
   glob = glob || '';
-  return path.join(root, 'app/components', glob); // app/components/{glob}
+  return path.join(root, 'app/', glob); // app/components/{glob}
 };
 
 var root = 'client';
@@ -29,7 +29,7 @@ var root = 'client';
 // map of all our paths
 var paths = {
   js: resolveToComponents('**/*!(.spec.js).js'), // don't include spec files
-  styl: resolveToApp('**/*.styl'), // our stylus files
+  scss: resolveToApp('**/*.scss'), // our scssus files
   html: [
     resolveToApp('**/*.html'),
     path.join(root, 'index.html')
@@ -62,7 +62,7 @@ gulp.task('serve', function() {
 gulp.task('watch', function() {
   var allPaths = [].concat(
     [paths.js],
-    paths.html, [paths.styl]
+    paths.html, [paths.scss]
   );
 
 

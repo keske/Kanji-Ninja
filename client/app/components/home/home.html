@@ -1,8 +1,29 @@
 <header>
 </header>
 <main>
-  <div>
-    <h1>you can find me inasdsadasd {{ vm.name }}.html</h1>
+
+  <div class="サーチ">
+    <input
+      ng-model="query"
+      type="text"
+      size="99"
+      placeholder=""
+    >
   </div>
+
+  <div ng-repeat="word in vm.kanji | filter: query">
+    {{ word.Kanji }}
+
+    <span ng-repeat="word in word.Onyomi">
+      On: {{ word }}
+    </span>
+
+    <span ng-repeat="word in word.Kunyomi">
+      Kun: {{ word }}
+    </span>
+
+    {{ word.Ru }}
+  </div>
+
 </main>
 <footer></footer>
