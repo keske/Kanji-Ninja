@@ -11,6 +11,9 @@
     outline: none;
     padding: 5px 10px;
 
+    width: 100%;
+    display: inline-block;
+
     border: 2px solid rgba(0, 0, 0, .1);
     border-radius: 3px;
 
@@ -22,18 +25,36 @@
   }
 }
 
+.タイプ {
+
+}
+
 .アイテム {
-  padding-top: 50px;
+  padding: 10px 0;
+
+  // &:nth-child(odd) {
+  //   background: rgba(0, 0, 0, .02);
+  // }
+
+  &:nth-child(1) {
+    margin-top: 50px;
+  }
 
   .漢字 {
     font-size: 84px;
-    font-family: Serif;
+    color: $赤い;
 
     text-align: center;
+
+    cursor: default;
+
+    &:hover {
+      font-family: Serif;
+    }
   }
 
   .音読み, .訓読み {
-    padding-left: 20px;
+    padding-left: 40px;
 
     font-family: Helvetica;
 
@@ -48,5 +69,7 @@
   .意味 {
     font-family: Serif;
     font-size: 16px;
+
+    padding-left: 20px;
   }
 }

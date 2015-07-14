@@ -3,475 +3,475 @@ var データ = [{
   "character": "日",
   "onyomi": "ニチ ジツ -",
   "kunyomi": "ひ -び",
-  "meaning": "day, sun, Japan"
+  "meaning": "День, солнце"
 }, {
   "category": "jlptn5",
   "character": "一",
   "onyomi": "イチ イツ ヒト.",
   "kunyomi": "ひと-",
-  "meaning": "one"
+  "meaning": "Один"
 }, {
   "category": "jlptn5",
   "character": "国",
   "onyomi": "コク ク",
   "kunyomi": "",
-  "meaning": "country"
+  "meaning": "Страна"
 }, {
   "category": "jlptn5",
   "character": "人",
   "onyomi": "ジン ニン -",
   "kunyomi": "ひと -り",
-  "meaning": "person"
+  "meaning": "Человек"
 }, {
   "category": "jlptn5",
   "character": "年",
   "onyomi": "ネン ト",
   "kunyomi": "",
-  "meaning": "year"
+  "meaning": "Год"
 }, {
   "category": "jlptn5",
   "character": "大",
   "onyomi": "ダイ タイ -オオ.イ",
   "kunyomi": "おお- おお.きい",
-  "meaning": "large, big"
+  "meaning": "Большой"
 }, {
   "category": "jlptn5",
   "character": "十",
   "onyomi": "ジュウ ジッ ジュッ",
   "kunyomi": "とお",
-  "meaning": "ten"
+  "meaning": "Десять"
 }, {
   "category": "jlptn5",
   "character": "二",
   "onyomi": "ニ ジ フタタ.",
   "kunyomi": "ふた ふた.つ",
-  "meaning": "two"
+  "meaning": "Два"
 }, {
   "category": "jlptn5",
   "character": "本",
   "onyomi": "ホン モ",
   "kunyomi": "",
-  "meaning": "book, present, main, true, real, counter for long things"
+  "meaning": "книга" // resent, main, true, real, counter for long things
 }, {
   "category": "jlptn5",
   "character": "中",
   "onyomi": "チュウ アタ.",
   "kunyomi": "なか うち",
-  "meaning": "in, inside, middle, mean, center"
+  "meaning": "в, внутри, середина, значить, центр"
 }, {
   "category": "jlptn5",
   "character": "長",
   "onyomi": "チョウ オ",
   "kunyomi": "なが.い",
-  "meaning": "long, leader"
+  "meaning": "длинный, лидер"
 }, {
   "category": "jlptn5",
   "character": "出",
   "onyomi": "シュツ スイ イ.ダ",
   "kunyomi": "で.る -で だ.す -だ.す い.でる",
-  "meaning": "exit, leave"
+  "meaning": "выход, покинуть"
 }, {
   "category": "jlptn5",
   "character": "三",
   "onyomi": "サン ゾウ ミッ.",
   "kunyomi": "み み.つ",
-  "meaning": "three"
+  "meaning": "Три"
 }, {
   "category": "jlptn5",
   "character": "時",
   "onyomi": "ジ -ド",
   "kunyomi": "とき",
-  "meaning": "time, hour"
+  "meaning": "Время, час"
 }, {
   "category": "jlptn5",
   "character": "行",
   "onyomi": "コウ ギョウ アン オコ.ナ",
   "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
-  "meaning": "going, journey"
+  "meaning": "Идти" // journey
 }, {
   "category": "jlptn5",
   "character": "見",
   "onyomi": "ケン",
   "kunyomi": "み.る み.える み.せる",
-  "meaning": "see, hopes, chances, idea, opinion, look at, visible"
+  "meaning": "видеть" // hopes, chances, idea, opinion, look at, visible
 }, {
   "category": "jlptn5",
   "character": "月",
   "onyomi": "ゲツ ガツ ツ",
   "kunyomi": "",
-  "meaning": "month, moon"
+  "meaning": "Месяц, луна"
 }, {
   "category": "jlptn5",
   "character": "後",
   "onyomi": "ゴ コウ オク.レ",
   "kunyomi": "のち うし.ろ うしろ あと",
-  "meaning": "behind, back, later"
+  "meaning": "Позади, сзади, позже"
 }, {
   "category": "jlptn5",
   "character": "前",
   "onyomi": "ゼン -マ",
   "kunyomi": "まえ",
-  "meaning": "in front, before"
+  "meaning": "Впереди, спереди"
 }, {
   "category": "jlptn5",
   "character": "生",
   "onyomi": "セイ ショウ -",
   "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
-  "meaning": "life, genuine, birth"
+  "meaning": "Жизнь"
 }, {
   "category": "jlptn5",
   "character": "五",
   "onyomi": "ゴ イツ.",
   "kunyomi": "いつ",
-  "meaning": "five"
+  "meaning": "Пять"
 }, {
   "category": "jlptn5",
   "character": "間",
   "onyomi": "カン ケン",
   "kunyomi": "あいだ ま あい",
-  "meaning": "interval, space"
+  "meaning": "Интервал"
 }, {
   "category": "jlptn5",
   "character": "上",
   "onyomi": "ジョウ ショウ シャン ヨ.",
   "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
-  "meaning": "above, up"
+  "meaning": "наверху, вверху, наверх"
 }, {
   "category": "jlptn5",
   "character": "東",
   "onyomi": "トウ ヒガ",
   "kunyomi": "",
-  "meaning": "east"
+  "meaning": "Восток"
 }, {
   "category": "jlptn5",
   "character": "四",
   "onyomi": "シ ヨ",
   "kunyomi": "よ よ.つ よっ.つ",
-  "meaning": "four"
+  "meaning": "Четыре"
 }, {
   "category": "jlptn5",
   "character": "今",
   "onyomi": "コン キン イ",
   "kunyomi": "",
-  "meaning": "now"
+  "meaning": "Сейчас"
 }, {
   "category": "jlptn5",
   "character": "金",
   "onyomi": "キン コン ゴン -ガ",
   "kunyomi": "かね かな-",
-  "meaning": "gold"
+  "meaning": "Золото, деньги"
 }, {
   "category": "jlptn5",
   "character": "九",
   "onyomi": "キュウ ク ココノ.",
   "kunyomi": "ここの",
-  "meaning": "nine"
+  "meaning": "Девять"
 }, {
   "category": "jlptn5",
   "character": "入",
   "onyomi": "ニュウ ジュ ハイ.",
   "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
-  "meaning": "enter, insert"
+  "meaning": "Войти, ввести, вставить"
 }, {
   "category": "jlptn5",
   "character": "学",
   "onyomi": "ガク マナ.",
   "kunyomi": "",
-  "meaning": "study, learning, science"
+  "meaning": "Исследование, изучение, обучение, учеба, наука" // study, learning, science
 }, {
   "category": "jlptn5",
   "character": "高",
   "onyomi": "コウ タカ.メ",
   "kunyomi": "たか.い たか -だか たか.まる",
-  "meaning": "tall, high, expensive"
+  "meaning": "Высокий, дорогой"
 }, {
   "category": "jlptn5",
   "character": "円",
   "onyomi": "エン マロ.ヤ",
   "kunyomi": "まる.い まる まど まど.か",
-  "meaning": "circle, yen, round"
+  "meaning": "Круг, иена, круглый"
 }, {
   "category": "jlptn5",
   "character": "子",
   "onyomi": "シ ス ツ",
   "kunyomi": "こ -こ",
-  "meaning": "child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac"
+  "meaning": "Ребенок" // child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac
 }, {
   "category": "jlptn5",
   "character": "外",
   "onyomi": "ガイ ゲ",
   "kunyomi": "そと ほか はず.す はず.れる と",
-  "meaning": "outside"
+  "meaning": "Снаружи"
 }, {
   "category": "jlptn5",
   "character": "八",
   "onyomi": "ハチ ヨ",
   "kunyomi": "や や.つ やっ.つ",
-  "meaning": "eight"
+  "meaning": "Восемь"
 }, {
   "category": "jlptn5",
   "character": "六",
   "onyomi": "ロク リク ム",
   "kunyomi": "む む.つ むっ.つ",
-  "meaning": "six"
+  "meaning": "Шесть"
 }, {
   "category": "jlptn5",
   "character": "下",
   "onyomi": "カ ゲ オ.リ",
   "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
-  "meaning": "below, down, descend, give, low, inferior"
+  "meaning": "Ниже, вниз, спуститься"
 }, {
   "category": "jlptn5",
   "character": "来",
   "onyomi": "ライ タイ",
   "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
-  "meaning": "come, due, next, cause, become"
+  "meaning": "Придти, причина, стать"
 }, {
   "category": "jlptn5",
   "character": "気",
   "onyomi": "キ ケ",
   "kunyomi": "いき",
-  "meaning": "spirit, mind"
+  "meaning": "Дух, разум"
 }, {
   "category": "jlptn5",
   "character": "小",
   "onyomi": "ショウ",
   "kunyomi": "ちい.さい こ- お- さ",
-  "meaning": "little, small"
+  "meaning": "Маленький"
 }, {
   "category": "jlptn5",
   "character": "七",
   "onyomi": "シチ ナ",
   "kunyomi": "なな なな.つ",
-  "meaning": "seven"
+  "meaning": "Семь"
 }, {
   "category": "jlptn5",
   "character": "山",
   "onyomi": "サン セン ヤ",
   "kunyomi": "",
-  "meaning": "mountain"
+  "meaning": "Гора"
 }, {
   "category": "jlptn5",
   "character": "話",
   "onyomi": "ワ",
   "kunyomi": "はな.す はなし",
-  "meaning": "tale, talk"
+  "meaning": "Разговор, сказка"
 }, {
   "category": "jlptn5",
   "character": "女",
   "onyomi": "ジョ ニョ ニョウ",
   "kunyomi": "おんな",
-  "meaning": "woman, female"
+  "meaning": "Женщина"
 }, {
   "category": "jlptn5",
   "character": "北",
   "onyomi": "ホク キ",
   "kunyomi": "",
-  "meaning": "north"
+  "meaning": "Север"
 }, {
   "category": "jlptn5",
   "character": "午",
   "onyomi": "ゴ",
   "kunyomi": "うま",
-  "meaning": "noon, sign of the horse, 11AM-1PM, seventh sign of Chinese zodiac"
+  "meaning": "Полдень"
 }, {
   "category": "jlptn5",
   "character": "百",
   "onyomi": "ヒャク ビャク モ",
   "kunyomi": "",
-  "meaning": "hundred"
+  "meaning": "Сто"
 }, {
   "category": "jlptn5",
   "character": "書",
   "onyomi": "ショ -ガ",
   "kunyomi": "か.く -が.き",
-  "meaning": "write"
+  "meaning": "Писать"
 }, {
   "category": "jlptn5",
   "character": "先",
   "onyomi": "セン マ.",
   "kunyomi": "さき",
-  "meaning": "before, ahead, previous, future, precedence"
+  "meaning": "Перед, вперед, предыдущий, будущее"
 }, {
   "category": "jlptn5",
   "character": "名",
   "onyomi": "メイ ミョウ -",
   "kunyomi": "な",
-  "meaning": "name, noted, distinguished, reputation"
+  "meaning": "Имя"
 }, {
   "category": "jlptn5",
   "character": "川",
   "onyomi": "セン カ",
   "kunyomi": "",
-  "meaning": "stream, river"
+  "meaning": "Река"
 }, {
   "category": "jlptn5",
   "character": "千",
   "onyomi": "セン",
   "kunyomi": "",
-  "meaning": "thousand"
+  "meaning": "Тысяча"
 }, {
   "category": "jlptn5",
   "character": "水",
   "onyomi": "スイ",
   "kunyomi": "みず みず",
-  "meaning": "water"
+  "meaning": "Вода"
 }, {
   "category": "jlptn5",
   "character": "半",
   "onyomi": "ハン ナカ.",
   "kunyomi": "",
-  "meaning": "half, middle, odd number, semi-, part-"
+  "meaning": "Половина, середина, нечетное число"
 }, {
   "category": "jlptn5",
   "character": "男",
   "onyomi": "ダン ナン",
   "kunyomi": "おとこ",
-  "meaning": "male"
+  "meaning": "Мужчина"
 }, {
   "category": "jlptn5",
   "character": "西",
   "onyomi": "セイ サイ ス ニ",
   "kunyomi": "",
-  "meaning": "west, Spain"
+  "meaning": "Запад, Испания"
 }, {
   "category": "jlptn5",
   "character": "電",
   "onyomi": "デン",
   "kunyomi": "",
-  "meaning": "electricity"
+  "meaning": "Электричество"
 }, {
   "category": "jlptn5",
   "character": "校",
   "onyomi": "コウ キョ",
   "kunyomi": "",
-  "meaning": "exam, school, printing, proof, correction"
+  "meaning": "Экзамен, школа, печать"
 }, {
   "category": "jlptn5",
   "character": "語",
   "onyomi": "ゴ",
   "kunyomi": "かた.る かた.らう",
-  "meaning": "word, speech, language"
+  "meaning": "Слово, речь, язык"
 }, {
   "category": "jlptn5",
   "character": "土",
   "onyomi": "ド ト ツ",
   "kunyomi": "",
-  "meaning": "soil, earth, ground, Turkey"
+  "meaning": "Почва, земля, грунт, Турция"
 }, {
   "category": "jlptn5",
   "character": "木",
   "onyomi": "ボク モク",
   "kunyomi": "き こ",
-  "meaning": "tree, wood"
+  "meaning": "Дерево, древесина"
 }, {
   "category": "jlptn5",
   "character": "聞",
   "onyomi": "ブン モン",
   "kunyomi": "き.く き.こえる",
-  "meaning": "hear, ask, listen"
+  "meaning": "Слышать, спрашивать, слушать"
 }, {
   "category": "jlptn5",
   "character": "食",
   "onyomi": "ショク ジキ ハ.",
   "kunyomi": "く.う く.らう た.べる",
-  "meaning": "eat, food"
+  "meaning": "Еда"
 }, {
   "category": "jlptn5",
   "character": "車",
   "onyomi": "シャ クル",
   "kunyomi": "",
-  "meaning": "car"
+  "meaning": "Машина"
 }, {
   "category": "jlptn5",
   "character": "何",
   "onyomi": "カ",
   "kunyomi": "なに なん なに- なん",
-  "meaning": "what"
+  "meaning": "Что?"
 }, {
   "category": "jlptn5",
   "character": "南",
   "onyomi": "ナン ナ ミナ",
   "kunyomi": "",
-  "meaning": "south"
+  "meaning": "Юг"
 }, {
   "category": "jlptn5",
   "character": "万",
   "onyomi": "マン バン ヨロ",
   "kunyomi": "",
-  "meaning": "ten thousand"
+  "meaning": "Десять тысяч"
 }, {
   "category": "jlptn5",
   "character": "毎",
   "onyomi": "マイ -ゴト.",
   "kunyomi": "ごと",
-  "meaning": "every"
+  "meaning": "Каждый"
 }, {
   "category": "jlptn5",
   "character": "白",
   "onyomi": "ハク ビャク シロ.",
   "kunyomi": "しろ しら-",
-  "meaning": "white"
+  "meaning": "Белый"
 }, {
   "category": "jlptn5",
   "character": "天",
   "onyomi": "テン",
   "kunyomi": "あまつ あめ あま",
-  "meaning": "heavens, sky, imperial"
+  "meaning": "Небеса, небо, императорский"
 }, {
   "category": "jlptn5",
   "character": "母",
   "onyomi": "ボ",
   "kunyomi": "はは も",
-  "meaning": "mama, mother"
+  "meaning": "Мама"
 }, {
   "category": "jlptn5",
   "character": "火",
   "onyomi": "カ",
   "kunyomi": "ひ -び ほ-",
-  "meaning": "fire"
+  "meaning": "Огонь"
 }, {
   "category": "jlptn5",
   "character": "右",
   "onyomi": "ウ ユウ ミ",
   "kunyomi": "",
-  "meaning": "right"
+  "meaning": "Право"
 }, {
   "category": "jlptn5",
   "character": "読",
   "onyomi": "ドク トク トウ -ヨ.",
   "kunyomi": "よ.む",
-  "meaning": "read"
+  "meaning": "Читать"
 }, {
   "category": "jlptn5",
   "character": "友",
   "onyomi": "ユウ ト",
   "kunyomi": "",
-  "meaning": "friend"
+  "meaning": "Друг"
 }, {
   "category": "jlptn5",
   "character": "左",
   "onyomi": "サ シャ ヒダ",
   "kunyomi": "",
-  "meaning": "left"
+  "meaning": "Лево"
 }, {
   "category": "jlptn5",
   "character": "休",
   "onyomi": "キュウ",
   "kunyomi": "やす.む やす.まる やす.める",
-  "meaning": "rest, day off, retire, sleep"
+  "meaning": "Отдых, выходной, покой, сон"
 }, {
   "category": "jlptn5",
   "character": "父",
   "onyomi": "フ",
   "kunyomi": "ちち",
-  "meaning": "father"
+  "meaning": "Отец"
 }, {
   "category": "jlptn5",
   "character": "雨",
   "onyomi": "ウ",
   "kunyomi": "あめ あま- -さめ",
-  "meaning": "rain"
+  "meaning": "Дождь"
 }];
 
 module.exports = データ;

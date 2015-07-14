@@ -1,5 +1,5 @@
-<header>
-</header>
+<header></header>
+
 <main>
 
   <div class="container">
@@ -16,11 +16,24 @@
         </div><!-- サーチ -->
       </div><!-- col -->
     </div><!-- row -->
+  </div><!-- container -->
 
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8
+      col-md-offset-2 col-lg-offset-2">
+        <div class="タイプ">
+          А-Я
+        </div><!-- タイプ -->
+      </div><!-- col -->
+    </div><!-- row -->
+  </div><!-- container -->
+
+  <div class="container">
     <div class="row アイテム"
-      ng-repeat="word in vm.kanji | filter: query">
+      ng-repeat="word in vm.kanji | filter: query | orderBy: 'meaning'">
 
-      <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 漢字">
+      <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col 漢字">
         {{ word.character }}
       </div><!-- col -->
 
@@ -49,4 +62,5 @@
   </div><!-- container -->
 
 </main>
+
 <footer></footer>
