@@ -1,5 +1,6 @@
 import template from './home.html';
 import controller from './home.controller';
+import 'bootstrap-webpack';
 import './home.scss';
 
 let homeComponent = function() {

@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var path = require('path');
 
 module.exports = {
   devtool: 'sourcemap',
@@ -10,6 +11,21 @@ module.exports = {
 
   module: {
     loaders: [{
+      test: /bootstrap\/js\//,
+      loader: 'imports?jQuery=jquery'
+    }, {
+      test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+      loader: "url?limit=10000&minetype=application/font-woff"
+    }, {
+      test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+      loader: "url?limit=10000&minetype=application/octet-stream"
+    }, {
+      test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+      loader: "file"
+    }, {
+      test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+      loader: "url?limit=10000&minetype=image/svg+xml"
+    }, {
       test: /\.js$/,
       exclude: [/app\/lib/, /node_modules/],
       loader: 'babel'
@@ -19,8 +35,9 @@ module.exports = {
     }, {
       test: /\.scss$/,
       loader: "style!css!sass"
-        // test: /\.css$/,
-        // loader: ExtractTextPlugin.extract('css-loader?module!cssnext-loader')
+    }, {
+      test: /\.less$/,
+      loader: "style!css!less"
     }, {
       test: /\.css$/,
       loader: 'style!css'
