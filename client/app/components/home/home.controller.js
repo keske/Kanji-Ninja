@@ -3,6 +3,14 @@ class HomeController {
     this.name = 'home';
 
     this.kanji = 漢字サービス.getAll();
+
+    this.getOnyomi = (onyomi) => {
+      return onyomi.replace(' ', '、');
+    };
+
+    this.getKunyomi = (kunyomi) => {
+      return kunyomi.replace(' ', '、');
+    };
   }
 }
 

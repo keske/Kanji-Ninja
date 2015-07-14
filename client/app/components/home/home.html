@@ -4,34 +4,49 @@
 
   <div class="container">
     <div class="row">
-      <div class="col">
-        bootstrap-webpack
-      </div>
-    </div>
-  </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8
+      col-md-offset-2 col-lg-offset-2">
+        <div class="サーチ">
+          <input
+            ng-model="query"
+            type="text"
+            size="99"
+            placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи"
+          >
+        </div><!-- サーチ -->
+      </div><!-- col -->
+    </div><!-- row -->
 
-  <div class="サーチ">
-    <input
-      ng-model="query"
-      type="text"
-      size="99"
-      placeholder=""
-    >
-  </div>
+    <div class="row アイテム"
+      ng-repeat="word in vm.kanji | filter: query">
 
-  <div ng-repeat="word in vm.kanji | filter: query">
-    {{ word.Kanji }}
+      <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 漢字">
+        {{ word.character }}
+      </div><!-- col -->
 
-    <span ng-repeat="word in word.Onyomi">
-      On: {{ word }}
-    </span>
+      <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+        <p class="音読み">
+          <span class="題" ng-if="vm.getOnyomi(word.onyomi)">
+            Онъёми
+          </span>
+          {{ vm.getOnyomi(word.onyomi) }}
+        </p>
+        <p class="訓読み">
+          <span class="題" ng-if="vm.getKunyomi(word.kunyomi)">
+            Кунъёми
+          </span>
+          {{ vm.getKunyomi(word.kunyomi) }}
+        </p>
+      </div><!-- col -->
 
-    <span ng-repeat="word in word.Kunyomi">
-      Kun: {{ word }}
-    </span>
+      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+        <p class="意味">
+          {{ word.meaning }}
+        </p>
+      </div><!-- col -->
+    </div><!-- row -->
 
-    {{ word.Ru }}
-  </div>
+  </div><!-- container -->
 
 </main>
 <footer></footer>

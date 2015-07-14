@@ -1,0 +1,52 @@
+@import '../../colors';
+
+.サーチ {
+  position: fixed;
+  z-index: 3;
+
+  background: rgba(255, 255, 255, .95);
+  padding: 5px 0;
+
+  input[type="text"] {
+    outline: none;
+    padding: 5px 10px;
+
+    border: 2px solid rgba(0, 0, 0, .1);
+    border-radius: 3px;
+
+    background: rgba(255, 255, 255, .75);
+
+    &:focus {
+      border: 2px solid $青い;
+    }
+  }
+}
+
+.アイテム {
+  padding-top: 50px;
+
+  .漢字 {
+    font-size: 84px;
+    font-family: Serif;
+
+    text-align: center;
+  }
+
+  .音読み, .訓読み {
+    padding-left: 20px;
+
+    font-family: Helvetica;
+
+    .題 {
+      font-size: 10px;
+      color: #999;
+
+      display: block;
+    }
+  }
+
+  .意味 {
+    font-family: Serif;
+    font-size: 16px;
+  }
+}
