@@ -1,8 +1,8 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import homeComponent from './home.component';
+import ホームコンポ from './ホーム.コンポ';
 
-let homeModule = angular.module('home', [
+let homeModule = angular.module('ホーム', [
     uiRouter
   ])
   .config(($stateProvider, $urlRouterProvider) => {
@@ -14,6 +14,6 @@ let homeModule = angular.module('home', [
         template: '<home></home>'
       });
   })
-  .directive('home', homeComponent);
+  .directive('home', ホームコンポ);
 
 export default homeModule;

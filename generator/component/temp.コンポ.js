@@ -1,8 +1,8 @@
 import template from './<%= name %>.html';
-import controller from './<%= name %>.controller';
-import './<%= name %>.styl';
+import controller from './<%= name %>.コントローラー';
+import './<%= name %>.scss';
 
-let <%= name %> Component = function() {
+let <%= name %>コンポ = function() {
   return {
     template,
     controller,
@@ -13,4 +13,4 @@ let <%= name %> Component = function() {
   };
 };
 
-export default <%= name %> Component;
+export default <%= name %>コンポ;

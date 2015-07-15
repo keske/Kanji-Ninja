@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "36628871ccdd35a13b57"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1b6b3d4a7c5aa54503c2"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -549,23 +549,23 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _commonCommon = __webpack_require__(11);
+	var _commonCommon = __webpack_require__(12);
 	
 	var _commonCommon2 = _interopRequireDefault(_commonCommon);
 	
-	var _componentsComponents = __webpack_require__(15);
+	var _componentsComponents = __webpack_require__(19);
 	
 	var _componentsComponents2 = _interopRequireDefault(_componentsComponents);
 	
-	var _servicesServices = __webpack_require__(19);
+	var _servicesServices = __webpack_require__(23);
 	
 	var _servicesServices2 = _interopRequireDefault(_servicesServices);
 	
-	var _appComponent = __webpack_require__(10);
+	var _appComponent = __webpack_require__(11);
 	
 	var _appComponent2 = _interopRequireDefault(_appComponent);
 	
-	__webpack_require__(30);
+	__webpack_require__(35);
 	
 	_angular2['default'].module('app', [_angularUiRouter2['default'], _servicesServices2['default'].name, _commonCommon2['default'].name, _componentsComponents2['default'].name]).directive('app', _appComponent2['default']);
 
@@ -573,7 +573,7 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(9);
+	__webpack_require__(10);
 	module.exports = angular;
 
 
@@ -5256,7 +5256,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n\n.ボタン {\n  border-radius: 10px;\n  padding: 10px 20px;\n  cursor: pointer;\n  display: inline-block; }\n  .ボタン:hover {\n    opacity: .87; }\n  .ボタン.青い {\n    background: #4A90E2;\n    color: #FFF; }\n    .ボタン.青い.アウトライン {\n      background: #FFF;\n      border: 1px solid #4A90E2;\n      color: #4A90E2; }\n      .ボタン.青い.アウトライン:hover {\n        background: #4A90E2;\n        color: #FFF; }\n  .ボタン.block {\n    display: block; }\n", ""]);
 	
 	// exports
 
@@ -5270,7 +5270,7 @@
 	
 	
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, ".footer {\n  text-align: center;\n  margin-bottom: 100px; }\n  .footer .git a {\n    font-size: 12px; }\n", ""]);
 	
 	// exports
 
@@ -5284,13 +5284,27 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: inline-block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #4A90E2; }\n\n.アイテム {\n  padding: 10px 0; }\n  .アイテム:nth-child(1) {\n    margin-top: 50px; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #850515;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px;\n    font-family: Helvetica; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #999;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    padding-left: 20px; }\n", ""]);
+	exports.push([module.id, ".header {\n  color: red; }\n", ""]);
 	
 	// exports
 
 
 /***/ },
 /* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(2)();
+	// imports
+	
+	
+	// module
+	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: inline-block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #4A90E2; }\n\n.グループ {\n  margin-top: 30px; }\n  .グループ ul {\n    list-style-type: none;\n    padding: 0; }\n    .グループ ul li {\n      display: inline-block;\n      cursor: pointer;\n      font-size: 12px;\n      color: #4A90E2;\n      margin-right: 10px; }\n\n.アイテム {\n  padding: 30px 0; }\n  .アイテム:nth-child(1) {\n    margin-top: 50px; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #850515;\n    font-family: Serif;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #999;\n    border-radius: 3px;\n    border: 1px solid #CCC;\n    padding: 2px 4px;\n    position: absolute; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #CCC;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    padding-left: 20px; }\n\n.モレ {\n  text-align: center;\n  margin-bottom: 100px; }\n", ""]);
+	
+	// exports
+
+
+/***/ },
+/* 10 */
 /***/ function(module, exports) {
 
 	/**
@@ -33661,34 +33675,6 @@
 	!window.angular.$$csp() && window.angular.element(document).find('head').prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 
 /***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	var _appHtml = __webpack_require__(27);
-	
-	var _appHtml2 = _interopRequireDefault(_appHtml);
-	
-	__webpack_require__(31);
-	
-	var appComponent = function appComponent() {
-	  return {
-	    template: _appHtml2['default'], // because we have a variable name template we can use the shorcut here
-	    restrict: 'E'
-	  };
-	};
-	
-	exports['default'] = appComponent;
-	module.exports = exports['default'];
-
-/***/ },
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -33700,17 +33686,20 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _angular = __webpack_require__(1);
+	var _appHtml = __webpack_require__(31);
 	
-	var _angular2 = _interopRequireDefault(_angular);
+	var _appHtml2 = _interopRequireDefault(_appHtml);
 	
-	var _headerHeader = __webpack_require__(14);
+	__webpack_require__(36);
 	
-	var _headerHeader2 = _interopRequireDefault(_headerHeader);
+	var appComponent = function appComponent() {
+	  return {
+	    template: _appHtml2['default'], // because we have a variable name template we can use the shorcut here
+	    restrict: 'E'
+	  };
+	};
 	
-	var commonModule = _angular2['default'].module('app.common', [_headerHeader2['default'].name]);
-	
-	exports['default'] = commonModule;
+	exports['default'] = appComponent;
 	module.exports = exports['default'];
 
 /***/ },
@@ -33725,53 +33714,25 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _headerHtml = __webpack_require__(28);
+	var _angular = __webpack_require__(1);
 	
-	var _headerHtml2 = _interopRequireDefault(_headerHtml);
+	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _headerController = __webpack_require__(13);
+	var _headerHeader = __webpack_require__(16);
 	
-	var _headerController2 = _interopRequireDefault(_headerController);
+	var _headerHeader2 = _interopRequireDefault(_headerHeader);
 	
-	__webpack_require__(32);
+	var _footerFooter = __webpack_require__(13);
 	
-	var headerComponent = function headerComponent() {
-	  return {
-	    template: _headerHtml2['default'],
-	    controller: _headerController2['default'],
-	    restrict: 'E',
-	    controllerAs: 'vm',
-	    scope: {},
-	    bindToController: true
-	  };
-	};
+	var _footerFooter2 = _interopRequireDefault(_footerFooter);
 	
-	exports['default'] = headerComponent;
+	var commonModule = _angular2['default'].module('app.common', [_headerHeader2['default'].name, _footerFooter2['default'].name]);
+	
+	exports['default'] = commonModule;
 	module.exports = exports['default'];
 
 /***/ },
 /* 13 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
-	
-	var HeaderController = function HeaderController() {
-	  _classCallCheck(this, HeaderController);
-	
-	  this.name = 'header';
-	};
-	
-	exports['default'] = HeaderController;
-	module.exports = exports['default'];
-
-/***/ },
-/* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33790,42 +33751,38 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _headerComponent = __webpack_require__(12);
+	var _footer = __webpack_require__(15);
 	
-	var _headerComponent2 = _interopRequireDefault(_headerComponent);
+	var _footer2 = _interopRequireDefault(_footer);
 	
-	var headerModule = _angular2['default'].module('header', [_angularUiRouter2['default']]).directive('header', _headerComponent2['default']);
+	var footerModule = _angular2['default'].module('footer', [_angularUiRouter2['default']]).directive('footer', _footer2['default']);
 	
-	exports['default'] = headerModule;
+	exports['default'] = footerModule;
 	module.exports = exports['default'];
 
 /***/ },
-/* 15 */
-/***/ function(module, exports, __webpack_require__) {
+/* 14 */
+/***/ function(module, exports) {
 
 	'use strict';
 	
 	Object.defineProperty(exports, '__esModule', {
-		value: true
+	  value: true
 	});
 	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	var _angular = __webpack_require__(1);
+	var Footerコントローラー = function Footerコントローラー() {
+	  _classCallCheck(this, Footerコントローラー);
 	
-	var _angular2 = _interopRequireDefault(_angular);
+	  this.name = 'footer';
+	};
 	
-	var _homeHome = __webpack_require__(18);
-	
-	var _homeHome2 = _interopRequireDefault(_homeHome);
-	
-	var componentModule = _angular2['default'].module('app.components', [_homeHome2['default'].name]);
-	
-	exports['default'] = componentModule;
+	exports['default'] = Footerコントローラー;
 	module.exports = exports['default'];
 
 /***/ },
-/* 16 */
+/* 15 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33836,22 +33793,20 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _homeHtml = __webpack_require__(29);
+	var _footerHtml = __webpack_require__(32);
 	
-	var _homeHtml2 = _interopRequireDefault(_homeHtml);
+	var _footerHtml2 = _interopRequireDefault(_footerHtml);
 	
-	var _homeController = __webpack_require__(17);
+	var _footer = __webpack_require__(14);
 	
-	var _homeController2 = _interopRequireDefault(_homeController);
+	var _footer2 = _interopRequireDefault(_footer);
 	
-	__webpack_require__(23);
+	__webpack_require__(37);
 	
-	__webpack_require__(33);
-	
-	var homeComponent = function homeComponent() {
+	var footerコンポ = function footerコンポ() {
 	  return {
-	    template: _homeHtml2['default'],
-	    controller: _homeController2['default'],
+	    template: _footerHtml2['default'],
+	    controller: _footer2['default'],
 	    restrict: 'E',
 	    controllerAs: 'vm',
 	    scope: {},
@@ -33859,7 +33814,36 @@
 	  };
 	};
 	
-	exports['default'] = homeComponent;
+	exports['default'] = footerコンポ;
+	module.exports = exports['default'];
+
+/***/ },
+/* 16 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	    value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _angular = __webpack_require__(1);
+	
+	var _angular2 = _interopRequireDefault(_angular);
+	
+	var _angularUiRouter = __webpack_require__(4);
+	
+	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
+	
+	var _header = __webpack_require__(18);
+	
+	var _header2 = _interopRequireDefault(_header);
+	
+	var headerModule = _angular2['default'].module('header', [_angularUiRouter2['default']]).directive('header', _header2['default']);
+	
+	exports['default'] = headerModule;
 	module.exports = exports['default'];
 
 /***/ },
@@ -33874,28 +33858,78 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	var HomeController = function HomeController(漢字サービス) {
-	  _classCallCheck(this, HomeController);
+	var Headerコントローラー = function Headerコントローラー() {
+	  _classCallCheck(this, Headerコントローラー);
 	
-	  this.name = 'home';
-	
-	  this.kanji = 漢字サービス.getAll();
-	
-	  this.getOnyomi = function (onyomi) {
-	    return onyomi.replace(' ', '、');
-	  };
-	
-	  this.getKunyomi = function (kunyomi) {
-	    return kunyomi.replace(' ', '、');
-	  };
+	  this.name = 'header';
 	};
 	
-	HomeController.$inject = ['漢字サービス'];
-	exports['default'] = HomeController;
+	exports['default'] = Headerコントローラー;
 	module.exports = exports['default'];
 
 /***/ },
 /* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _headerHtml = __webpack_require__(33);
+	
+	var _headerHtml2 = _interopRequireDefault(_headerHtml);
+	
+	var _header = __webpack_require__(17);
+	
+	var _header2 = _interopRequireDefault(_header);
+	
+	__webpack_require__(38);
+	
+	var headerコンポ = function headerコンポ() {
+	  return {
+	    template: _headerHtml2['default'],
+	    controller: _header2['default'],
+	    restrict: 'E',
+	    controllerAs: 'vm',
+	    scope: {},
+	    bindToController: true
+	  };
+	};
+	
+	exports['default'] = headerコンポ;
+	module.exports = exports['default'];
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+		value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _angular = __webpack_require__(1);
+	
+	var _angular2 = _interopRequireDefault(_angular);
+	
+	var _ = __webpack_require__(20);
+	
+	var _2 = _interopRequireDefault(_);
+	
+	var componentModule = _angular2['default'].module('app.components', [_2['default'].name]);
+	
+	exports['default'] = componentModule;
+	module.exports = exports['default'];
+
+/***/ },
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -33914,530 +33948,21 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _homeComponent = __webpack_require__(16);
+	var _ = __webpack_require__(22);
 	
-	var _homeComponent2 = _interopRequireDefault(_homeComponent);
+	var _2 = _interopRequireDefault(_);
 	
-	var homeModule = _angular2['default'].module('home', [_angularUiRouter2['default']]).config(function ($stateProvider, $urlRouterProvider) {
+	var homeModule = _angular2['default'].module('ホーム', [_angularUiRouter2['default']]).config(function ($stateProvider, $urlRouterProvider) {
 	  $urlRouterProvider.otherwise('/');
 	
 	  $stateProvider.state('home', {
 	    url: '/',
 	    template: '<home></home>'
 	  });
-	}).directive('home', _homeComponent2['default']);
+	}).directive('home', _2['default']);
 	
 	exports['default'] = homeModule;
 	module.exports = exports['default'];
-
-/***/ },
-/* 19 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	var _angular = __webpack_require__(1);
-	
-	var _angular2 = _interopRequireDefault(_angular);
-	
-	var _ = __webpack_require__(21);
-	
-	var _2 = _interopRequireDefault(_);
-	
-	var servicesModule = _angular2['default'].module('app.services', [_2['default'].name]);
-	
-	exports['default'] = servicesModule;
-	module.exports = exports['default'];
-
-/***/ },
-/* 20 */
-/***/ function(module, exports) {
-
-	"use strict";
-	
-	var データ = [{
-	  "category": "jlptn5",
-	  "character": "日",
-	  "onyomi": "ニチ ジツ -",
-	  "kunyomi": "ひ -び",
-	  "meaning": "День, солнце"
-	}, {
-	  "category": "jlptn5",
-	  "character": "一",
-	  "onyomi": "イチ イツ ヒト.",
-	  "kunyomi": "ひと-",
-	  "meaning": "Один"
-	}, {
-	  "category": "jlptn5",
-	  "character": "国",
-	  "onyomi": "コク ク",
-	  "kunyomi": "",
-	  "meaning": "Страна"
-	}, {
-	  "category": "jlptn5",
-	  "character": "人",
-	  "onyomi": "ジン ニン -",
-	  "kunyomi": "ひと -り",
-	  "meaning": "Человек"
-	}, {
-	  "category": "jlptn5",
-	  "character": "年",
-	  "onyomi": "ネン ト",
-	  "kunyomi": "",
-	  "meaning": "Год"
-	}, {
-	  "category": "jlptn5",
-	  "character": "大",
-	  "onyomi": "ダイ タイ -オオ.イ",
-	  "kunyomi": "おお- おお.きい",
-	  "meaning": "Большой"
-	}, {
-	  "category": "jlptn5",
-	  "character": "十",
-	  "onyomi": "ジュウ ジッ ジュッ",
-	  "kunyomi": "とお",
-	  "meaning": "Десять"
-	}, {
-	  "category": "jlptn5",
-	  "character": "二",
-	  "onyomi": "ニ ジ フタタ.",
-	  "kunyomi": "ふた ふた.つ",
-	  "meaning": "Два"
-	}, {
-	  "category": "jlptn5",
-	  "character": "本",
-	  "onyomi": "ホン モ",
-	  "kunyomi": "",
-	  "meaning": "книга" // resent, main, true, real, counter for long things
-	}, {
-	  "category": "jlptn5",
-	  "character": "中",
-	  "onyomi": "チュウ アタ.",
-	  "kunyomi": "なか うち",
-	  "meaning": "в, внутри, середина, значить, центр"
-	}, {
-	  "category": "jlptn5",
-	  "character": "長",
-	  "onyomi": "チョウ オ",
-	  "kunyomi": "なが.い",
-	  "meaning": "длинный, лидер"
-	}, {
-	  "category": "jlptn5",
-	  "character": "出",
-	  "onyomi": "シュツ スイ イ.ダ",
-	  "kunyomi": "で.る -で だ.す -だ.す い.でる",
-	  "meaning": "выход, покинуть"
-	}, {
-	  "category": "jlptn5",
-	  "character": "三",
-	  "onyomi": "サン ゾウ ミッ.",
-	  "kunyomi": "み み.つ",
-	  "meaning": "Три"
-	}, {
-	  "category": "jlptn5",
-	  "character": "時",
-	  "onyomi": "ジ -ド",
-	  "kunyomi": "とき",
-	  "meaning": "Время, час"
-	}, {
-	  "category": "jlptn5",
-	  "character": "行",
-	  "onyomi": "コウ ギョウ アン オコ.ナ",
-	  "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
-	  "meaning": "Идти" // journey
-	}, {
-	  "category": "jlptn5",
-	  "character": "見",
-	  "onyomi": "ケン",
-	  "kunyomi": "み.る み.える み.せる",
-	  "meaning": "видеть" // hopes, chances, idea, opinion, look at, visible
-	}, {
-	  "category": "jlptn5",
-	  "character": "月",
-	  "onyomi": "ゲツ ガツ ツ",
-	  "kunyomi": "",
-	  "meaning": "Месяц, луна"
-	}, {
-	  "category": "jlptn5",
-	  "character": "後",
-	  "onyomi": "ゴ コウ オク.レ",
-	  "kunyomi": "のち うし.ろ うしろ あと",
-	  "meaning": "Позади, сзади, позже"
-	}, {
-	  "category": "jlptn5",
-	  "character": "前",
-	  "onyomi": "ゼン -マ",
-	  "kunyomi": "まえ",
-	  "meaning": "Впереди, спереди"
-	}, {
-	  "category": "jlptn5",
-	  "character": "生",
-	  "onyomi": "セイ ショウ -",
-	  "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
-	  "meaning": "Жизнь"
-	}, {
-	  "category": "jlptn5",
-	  "character": "五",
-	  "onyomi": "ゴ イツ.",
-	  "kunyomi": "いつ",
-	  "meaning": "Пять"
-	}, {
-	  "category": "jlptn5",
-	  "character": "間",
-	  "onyomi": "カン ケン",
-	  "kunyomi": "あいだ ま あい",
-	  "meaning": "Интервал"
-	}, {
-	  "category": "jlptn5",
-	  "character": "上",
-	  "onyomi": "ジョウ ショウ シャン ヨ.",
-	  "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
-	  "meaning": "наверху, вверху, наверх"
-	}, {
-	  "category": "jlptn5",
-	  "character": "東",
-	  "onyomi": "トウ ヒガ",
-	  "kunyomi": "",
-	  "meaning": "Восток"
-	}, {
-	  "category": "jlptn5",
-	  "character": "四",
-	  "onyomi": "シ ヨ",
-	  "kunyomi": "よ よ.つ よっ.つ",
-	  "meaning": "Четыре"
-	}, {
-	  "category": "jlptn5",
-	  "character": "今",
-	  "onyomi": "コン キン イ",
-	  "kunyomi": "",
-	  "meaning": "Сейчас"
-	}, {
-	  "category": "jlptn5",
-	  "character": "金",
-	  "onyomi": "キン コン ゴン -ガ",
-	  "kunyomi": "かね かな-",
-	  "meaning": "Золото, деньги"
-	}, {
-	  "category": "jlptn5",
-	  "character": "九",
-	  "onyomi": "キュウ ク ココノ.",
-	  "kunyomi": "ここの",
-	  "meaning": "Девять"
-	}, {
-	  "category": "jlptn5",
-	  "character": "入",
-	  "onyomi": "ニュウ ジュ ハイ.",
-	  "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
-	  "meaning": "Войти, ввести, вставить"
-	}, {
-	  "category": "jlptn5",
-	  "character": "学",
-	  "onyomi": "ガク マナ.",
-	  "kunyomi": "",
-	  "meaning": "Исследование, изучение, обучение, учеба, наука" // study, learning, science
-	}, {
-	  "category": "jlptn5",
-	  "character": "高",
-	  "onyomi": "コウ タカ.メ",
-	  "kunyomi": "たか.い たか -だか たか.まる",
-	  "meaning": "Высокий, дорогой"
-	}, {
-	  "category": "jlptn5",
-	  "character": "円",
-	  "onyomi": "エン マロ.ヤ",
-	  "kunyomi": "まる.い まる まど まど.か",
-	  "meaning": "Круг, иена, круглый"
-	}, {
-	  "category": "jlptn5",
-	  "character": "子",
-	  "onyomi": "シ ス ツ",
-	  "kunyomi": "こ -こ",
-	  "meaning": "Ребенок" // child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac
-	}, {
-	  "category": "jlptn5",
-	  "character": "外",
-	  "onyomi": "ガイ ゲ",
-	  "kunyomi": "そと ほか はず.す はず.れる と",
-	  "meaning": "Снаружи"
-	}, {
-	  "category": "jlptn5",
-	  "character": "八",
-	  "onyomi": "ハチ ヨ",
-	  "kunyomi": "や や.つ やっ.つ",
-	  "meaning": "Восемь"
-	}, {
-	  "category": "jlptn5",
-	  "character": "六",
-	  "onyomi": "ロク リク ム",
-	  "kunyomi": "む む.つ むっ.つ",
-	  "meaning": "Шесть"
-	}, {
-	  "category": "jlptn5",
-	  "character": "下",
-	  "onyomi": "カ ゲ オ.リ",
-	  "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
-	  "meaning": "Ниже, вниз, спуститься"
-	}, {
-	  "category": "jlptn5",
-	  "character": "来",
-	  "onyomi": "ライ タイ",
-	  "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
-	  "meaning": "Придти, причина, стать"
-	}, {
-	  "category": "jlptn5",
-	  "character": "気",
-	  "onyomi": "キ ケ",
-	  "kunyomi": "いき",
-	  "meaning": "Дух, разум"
-	}, {
-	  "category": "jlptn5",
-	  "character": "小",
-	  "onyomi": "ショウ",
-	  "kunyomi": "ちい.さい こ- お- さ",
-	  "meaning": "Маленький"
-	}, {
-	  "category": "jlptn5",
-	  "character": "七",
-	  "onyomi": "シチ ナ",
-	  "kunyomi": "なな なな.つ",
-	  "meaning": "Семь"
-	}, {
-	  "category": "jlptn5",
-	  "character": "山",
-	  "onyomi": "サン セン ヤ",
-	  "kunyomi": "",
-	  "meaning": "Гора"
-	}, {
-	  "category": "jlptn5",
-	  "character": "話",
-	  "onyomi": "ワ",
-	  "kunyomi": "はな.す はなし",
-	  "meaning": "Разговор, сказка"
-	}, {
-	  "category": "jlptn5",
-	  "character": "女",
-	  "onyomi": "ジョ ニョ ニョウ",
-	  "kunyomi": "おんな",
-	  "meaning": "Женщина"
-	}, {
-	  "category": "jlptn5",
-	  "character": "北",
-	  "onyomi": "ホク キ",
-	  "kunyomi": "",
-	  "meaning": "Север"
-	}, {
-	  "category": "jlptn5",
-	  "character": "午",
-	  "onyomi": "ゴ",
-	  "kunyomi": "うま",
-	  "meaning": "Полдень"
-	}, {
-	  "category": "jlptn5",
-	  "character": "百",
-	  "onyomi": "ヒャク ビャク モ",
-	  "kunyomi": "",
-	  "meaning": "Сто"
-	}, {
-	  "category": "jlptn5",
-	  "character": "書",
-	  "onyomi": "ショ -ガ",
-	  "kunyomi": "か.く -が.き",
-	  "meaning": "Писать"
-	}, {
-	  "category": "jlptn5",
-	  "character": "先",
-	  "onyomi": "セン マ.",
-	  "kunyomi": "さき",
-	  "meaning": "Перед, вперед, предыдущий, будущее"
-	}, {
-	  "category": "jlptn5",
-	  "character": "名",
-	  "onyomi": "メイ ミョウ -",
-	  "kunyomi": "な",
-	  "meaning": "Имя"
-	}, {
-	  "category": "jlptn5",
-	  "character": "川",
-	  "onyomi": "セン カ",
-	  "kunyomi": "",
-	  "meaning": "Река"
-	}, {
-	  "category": "jlptn5",
-	  "character": "千",
-	  "onyomi": "セン",
-	  "kunyomi": "",
-	  "meaning": "Тысяча"
-	}, {
-	  "category": "jlptn5",
-	  "character": "水",
-	  "onyomi": "スイ",
-	  "kunyomi": "みず みず",
-	  "meaning": "Вода"
-	}, {
-	  "category": "jlptn5",
-	  "character": "半",
-	  "onyomi": "ハン ナカ.",
-	  "kunyomi": "",
-	  "meaning": "Половина, середина, нечетное число"
-	}, {
-	  "category": "jlptn5",
-	  "character": "男",
-	  "onyomi": "ダン ナン",
-	  "kunyomi": "おとこ",
-	  "meaning": "Мужчина"
-	}, {
-	  "category": "jlptn5",
-	  "character": "西",
-	  "onyomi": "セイ サイ ス ニ",
-	  "kunyomi": "",
-	  "meaning": "Запад, Испания"
-	}, {
-	  "category": "jlptn5",
-	  "character": "電",
-	  "onyomi": "デン",
-	  "kunyomi": "",
-	  "meaning": "Электричество"
-	}, {
-	  "category": "jlptn5",
-	  "character": "校",
-	  "onyomi": "コウ キョ",
-	  "kunyomi": "",
-	  "meaning": "Экзамен, школа, печать"
-	}, {
-	  "category": "jlptn5",
-	  "character": "語",
-	  "onyomi": "ゴ",
-	  "kunyomi": "かた.る かた.らう",
-	  "meaning": "Слово, речь, язык"
-	}, {
-	  "category": "jlptn5",
-	  "character": "土",
-	  "onyomi": "ド ト ツ",
-	  "kunyomi": "",
-	  "meaning": "Почва, земля, грунт, Турция"
-	}, {
-	  "category": "jlptn5",
-	  "character": "木",
-	  "onyomi": "ボク モク",
-	  "kunyomi": "き こ",
-	  "meaning": "Дерево, древесина"
-	}, {
-	  "category": "jlptn5",
-	  "character": "聞",
-	  "onyomi": "ブン モン",
-	  "kunyomi": "き.く き.こえる",
-	  "meaning": "Слышать, спрашивать, слушать"
-	}, {
-	  "category": "jlptn5",
-	  "character": "食",
-	  "onyomi": "ショク ジキ ハ.",
-	  "kunyomi": "く.う く.らう た.べる",
-	  "meaning": "Еда"
-	}, {
-	  "category": "jlptn5",
-	  "character": "車",
-	  "onyomi": "シャ クル",
-	  "kunyomi": "",
-	  "meaning": "Машина"
-	}, {
-	  "category": "jlptn5",
-	  "character": "何",
-	  "onyomi": "カ",
-	  "kunyomi": "なに なん なに- なん",
-	  "meaning": "Что?"
-	}, {
-	  "category": "jlptn5",
-	  "character": "南",
-	  "onyomi": "ナン ナ ミナ",
-	  "kunyomi": "",
-	  "meaning": "Юг"
-	}, {
-	  "category": "jlptn5",
-	  "character": "万",
-	  "onyomi": "マン バン ヨロ",
-	  "kunyomi": "",
-	  "meaning": "Десять тысяч"
-	}, {
-	  "category": "jlptn5",
-	  "character": "毎",
-	  "onyomi": "マイ -ゴト.",
-	  "kunyomi": "ごと",
-	  "meaning": "Каждый"
-	}, {
-	  "category": "jlptn5",
-	  "character": "白",
-	  "onyomi": "ハク ビャク シロ.",
-	  "kunyomi": "しろ しら-",
-	  "meaning": "Белый"
-	}, {
-	  "category": "jlptn5",
-	  "character": "天",
-	  "onyomi": "テン",
-	  "kunyomi": "あまつ あめ あま",
-	  "meaning": "Небеса, небо, императорский"
-	}, {
-	  "category": "jlptn5",
-	  "character": "母",
-	  "onyomi": "ボ",
-	  "kunyomi": "はは も",
-	  "meaning": "Мама"
-	}, {
-	  "category": "jlptn5",
-	  "character": "火",
-	  "onyomi": "カ",
-	  "kunyomi": "ひ -び ほ-",
-	  "meaning": "Огонь"
-	}, {
-	  "category": "jlptn5",
-	  "character": "右",
-	  "onyomi": "ウ ユウ ミ",
-	  "kunyomi": "",
-	  "meaning": "Право"
-	}, {
-	  "category": "jlptn5",
-	  "character": "読",
-	  "onyomi": "ドク トク トウ -ヨ.",
-	  "kunyomi": "よ.む",
-	  "meaning": "Читать"
-	}, {
-	  "category": "jlptn5",
-	  "character": "友",
-	  "onyomi": "ユウ ト",
-	  "kunyomi": "",
-	  "meaning": "Друг"
-	}, {
-	  "category": "jlptn5",
-	  "character": "左",
-	  "onyomi": "サ シャ ヒダ",
-	  "kunyomi": "",
-	  "meaning": "Лево"
-	}, {
-	  "category": "jlptn5",
-	  "character": "休",
-	  "onyomi": "キュウ",
-	  "kunyomi": "やす.む やす.まる やす.める",
-	  "meaning": "Отдых, выходной, покой, сон"
-	}, {
-	  "category": "jlptn5",
-	  "character": "父",
-	  "onyomi": "フ",
-	  "kunyomi": "ちち",
-	  "meaning": "Отец"
-	}, {
-	  "category": "jlptn5",
-	  "character": "雨",
-	  "onyomi": "ウ",
-	  "kunyomi": "あめ あま- -さめ",
-	  "meaning": "Дождь"
-	}];
-	
-	module.exports = データ;
 
 /***/ },
 /* 21 */
@@ -34451,11 +33976,771 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
+	
+	var _underscore = __webpack_require__(40);
+	
+	var _underscore2 = _interopRequireDefault(_underscore);
+	
+	var ホームコントローラー = function ホームコントローラー(漢字サービス) {
+	  var _this = this;
+	
+	  _classCallCheck(this, ホームコントローラー);
+	
+	  this.name = 'home';
+	  this.limit = 7;
+	
+	  this.kanji = 漢字サービス.getAll();
+	
+	  this.getOnyomi = function (onyomi) {
+	    return onyomi.replace(' ', '、 ');
+	  };
+	
+	  this.getKunyomi = function (kunyomi) {
+	    return kunyomi.replace(' ', '、 ');
+	  };
+	
+	  this.groups = [];
+	  for (var i in this.kanji) {
+	    this.groups.push(this.kanji[i].group);
+	  }
+	  this.groups = _underscore2['default'].uniq(this.groups);
+	
+	  this.applyGroup = function (group) {
+	    _this.query = group;
+	  };
+	
+	  this.showMore = function () {
+	    _this.limit += 7;
+	  };
+	};
+	
+	ホームコントローラー.$inject = ['漢字サービス'];
+	exports['default'] = ホームコントローラー;
+	module.exports = exports['default'];
+
+/***/ },
+/* 22 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _html = __webpack_require__(34);
+	
+	var _html2 = _interopRequireDefault(_html);
+	
+	var _ = __webpack_require__(21);
+	
+	var _2 = _interopRequireDefault(_);
+	
+	__webpack_require__(27);
+	
+	__webpack_require__(39);
+	
+	var ホームコンポ = function ホームコンポ() {
+	  return {
+	    template: _html2['default'],
+	    controller: _2['default'],
+	    restrict: 'E',
+	    controllerAs: 'vm',
+	    scope: {},
+	    bindToController: true
+	  };
+	};
+	
+	exports['default'] = ホームコンポ;
+	module.exports = exports['default'];
+
+/***/ },
+/* 23 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
 	var _angular = __webpack_require__(1);
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _js = __webpack_require__(20);
+	var _ = __webpack_require__(25);
+	
+	var _2 = _interopRequireDefault(_);
+	
+	var servicesModule = _angular2['default'].module('app.services', [_2['default'].name]);
+	
+	exports['default'] = servicesModule;
+	module.exports = exports['default'];
+
+/***/ },
+/* 24 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	var データ = [{
+	  "jlpt": "jlptn5",
+	  "character": "日",
+	  "onyomi": "ニチ ジツ -",
+	  "kunyomi": "ひ -び",
+	  "meaning": "День, солнце",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "一",
+	  "onyomi": "イチ イツ ヒト.",
+	  "kunyomi": "ひと-",
+	  "meaning": "Один",
+	  "group": "Цифры",
+	  "hidden": "1"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "国",
+	  "onyomi": "コク ク",
+	  "kunyomi": "",
+	  "meaning": "Страна",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "人",
+	  "onyomi": "ジン ニン -",
+	  "kunyomi": "ひと -り",
+	  "meaning": "Человек",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "年",
+	  "onyomi": "ネン ト",
+	  "kunyomi": "",
+	  "meaning": "Год",
+	  "group": "Даты",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "大",
+	  "onyomi": "ダイ タイ -オオ.イ",
+	  "kunyomi": "おお- おお.きい",
+	  "meaning": "Большой",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "十",
+	  "onyomi": "ジュウ ジッ ジュッ",
+	  "kunyomi": "とお",
+	  "meaning": "Десять",
+	  "group": "Цифры",
+	  "hidden": "10"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "二",
+	  "onyomi": "ニ ジ フタタ.",
+	  "kunyomi": "ふた ふた.つ",
+	  "meaning": "Два",
+	  "group": "Цифры",
+	  "hidden": "2"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "本",
+	  "onyomi": "ホン モ",
+	  "kunyomi": "",
+	  "meaning": "книга", // resent, main, true, real, counter for long things
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "中",
+	  "onyomi": "チュウ アタ.",
+	  "kunyomi": "なか うち",
+	  "meaning": "В, внутри, середина, значить, центр",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "長",
+	  "onyomi": "チョウ オ",
+	  "kunyomi": "なが.い",
+	  "meaning": "Длинный, лидер",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "出",
+	  "onyomi": "シュツ スイ イ.ダ",
+	  "kunyomi": "で.る -で だ.す -だ.す い.でる",
+	  "meaning": "Выход, покинуть",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "三",
+	  "onyomi": "サン ゾウ ミッ.",
+	  "kunyomi": "み み.つ",
+	  "meaning": "Три",
+	  "group": "Цифры",
+	  "hidden": "3"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "時",
+	  "onyomi": "ジ -ド",
+	  "kunyomi": "とき",
+	  "meaning": "Время, час",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "行",
+	  "onyomi": "コウ ギョウ アン オコ.ナ",
+	  "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
+	  "meaning": "Идти",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "見",
+	  "onyomi": "ケン",
+	  "kunyomi": "み.る み.える み.せる",
+	  "meaning": "Видеть",
+	  "group": "Глаголы",
+	  "hidden": "Смотреть"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "月",
+	  "onyomi": "ゲツ ガツ ツ",
+	  "kunyomi": "",
+	  "meaning": "Месяц, луна",
+	  "group": "Даты",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "後",
+	  "onyomi": "ゴ コウ オク.レ",
+	  "kunyomi": "のち うし.ろ うしろ あと",
+	  "meaning": "Позади, сзади, позже",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "前",
+	  "onyomi": "ゼン -マ",
+	  "kunyomi": "まえ",
+	  "meaning": "Впереди, спереди",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "生",
+	  "onyomi": "セイ ショウ -",
+	  "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
+	  "meaning": "Жизнь",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "五",
+	  "onyomi": "ゴ イツ.",
+	  "kunyomi": "いつ",
+	  "meaning": "Пять",
+	  "group": "Цифры",
+	  "hidden": "5"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "間",
+	  "onyomi": "カン ケン",
+	  "kunyomi": "あいだ ま あい",
+	  "meaning": "Интервал",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "上",
+	  "onyomi": "ジョウ ショウ シャン ヨ.",
+	  "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
+	  "meaning": "наверху, вверху, наверх",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "東",
+	  "onyomi": "トウ ヒガ",
+	  "kunyomi": "",
+	  "meaning": "Восток",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "四",
+	  "onyomi": "シ ヨ",
+	  "kunyomi": "よ よ.つ よっ.つ",
+	  "meaning": "Четыре",
+	  "group": "Цифры",
+	  "hidden": "4"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "今",
+	  "onyomi": "コン キン イ",
+	  "kunyomi": "",
+	  "meaning": "Сейчас",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "金",
+	  "onyomi": "キン コン ゴン -ガ",
+	  "kunyomi": "かね かな-",
+	  "meaning": "Золото, деньги",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "九",
+	  "onyomi": "キュウ ク ココノ.",
+	  "kunyomi": "ここの",
+	  "meaning": "Девять",
+	  "group": "Цифры",
+	  "hidden": "9"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "入",
+	  "onyomi": "ニュウ ジュ ハイ.",
+	  "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
+	  "meaning": "Войти, ввести, вставить",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "学",
+	  "onyomi": "ガク マナ.",
+	  "kunyomi": "",
+	  "meaning": "Исследование, изучение, обучение, учеба, наука",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "高",
+	  "onyomi": "コウ タカ.メ",
+	  "kunyomi": "たか.い たか -だか たか.まる",
+	  "meaning": "Высокий, дорогой",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "円",
+	  "onyomi": "エン マロ.ヤ",
+	  "kunyomi": "まる.い まる まど まど.か",
+	  "meaning": "Круг, иена, круглый",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "子",
+	  "onyomi": "シ ス ツ",
+	  "kunyomi": "こ -こ",
+	  "meaning": "Ребенок",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "外",
+	  "onyomi": "ガイ ゲ",
+	  "kunyomi": "そと ほか はず.す はず.れる と",
+	  "meaning": "Снаружи",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "八",
+	  "onyomi": "ハチ ヨ",
+	  "kunyomi": "や や.つ やっ.つ",
+	  "meaning": "Восемь",
+	  "group": "Цифры",
+	  "hidden": "8"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "六",
+	  "onyomi": "ロク リク ム",
+	  "kunyomi": "む む.つ むっ.つ",
+	  "meaning": "Шесть",
+	  "group": "Цифры",
+	  "hidden": "6"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "下",
+	  "onyomi": "カ ゲ オ.リ",
+	  "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
+	  "meaning": "Ниже, вниз, спуститься",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "来",
+	  "onyomi": "ライ タイ",
+	  "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
+	  "meaning": "Придти, причина, стать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "気",
+	  "onyomi": "キ ケ",
+	  "kunyomi": "いき",
+	  "meaning": "Дух, разум",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "小",
+	  "onyomi": "ショウ",
+	  "kunyomi": "ちい.さい こ- お- さ",
+	  "meaning": "Маленький",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "七",
+	  "onyomi": "シチ ナ",
+	  "kunyomi": "なな なな.つ",
+	  "meaning": "Семь",
+	  "group": "Цифры",
+	  "hidden": "7"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "山",
+	  "onyomi": "サン セン ヤ",
+	  "kunyomi": "",
+	  "meaning": "Гора",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "話",
+	  "onyomi": "ワ",
+	  "kunyomi": "はな.す はなし",
+	  "meaning": "Разговор, сказка",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "女",
+	  "onyomi": "ジョ ニョ ニョウ",
+	  "kunyomi": "おんな",
+	  "meaning": "Женщина",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "北",
+	  "onyomi": "ホク キ",
+	  "kunyomi": "",
+	  "meaning": "Север",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "午",
+	  "onyomi": "ゴ",
+	  "kunyomi": "うま",
+	  "meaning": "Полдень",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "百",
+	  "onyomi": "ヒャク ビャク モ",
+	  "kunyomi": "",
+	  "meaning": "Сто",
+	  "group": "Цифры",
+	  "hidden": "100"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "書",
+	  "onyomi": "ショ -ガ",
+	  "kunyomi": "か.く -が.き",
+	  "meaning": "Писать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "先",
+	  "onyomi": "セン マ.",
+	  "kunyomi": "さき",
+	  "meaning": "Перед, вперед, предыдущий, будущее",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "名",
+	  "onyomi": "メイ ミョウ -",
+	  "kunyomi": "な",
+	  "meaning": "Имя",
+	  "group": "",
+	  "hidden": "Люди"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "川",
+	  "onyomi": "セン カ",
+	  "kunyomi": "",
+	  "meaning": "Река",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "千",
+	  "onyomi": "セン",
+	  "kunyomi": "",
+	  "meaning": "Тысяча",
+	  "group": "Цифры",
+	  "hidden": "1000"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "水",
+	  "onyomi": "スイ",
+	  "kunyomi": "みず みず",
+	  "meaning": "Вода",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "半",
+	  "onyomi": "ハン ナカ.",
+	  "kunyomi": "",
+	  "meaning": "Половина, середина, нечетное число",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "男",
+	  "onyomi": "ダン ナン",
+	  "kunyomi": "おとこ",
+	  "meaning": "Мужчина",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "西",
+	  "onyomi": "セイ サイ ス ニ",
+	  "kunyomi": "",
+	  "meaning": "Запад, Испания",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "電",
+	  "onyomi": "デン",
+	  "kunyomi": "",
+	  "meaning": "Электричество",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "校",
+	  "onyomi": "コウ キョ",
+	  "kunyomi": "",
+	  "meaning": "Экзамен, школа, печать",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "語",
+	  "onyomi": "ゴ",
+	  "kunyomi": "かた.る かた.らう",
+	  "meaning": "Слово, речь, язык",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "土",
+	  "onyomi": "ド ト ツ",
+	  "kunyomi": "",
+	  "meaning": "Почва, земля, грунт, Турция",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "木",
+	  "onyomi": "ボク モク",
+	  "kunyomi": "き こ",
+	  "meaning": "Дерево, древесина",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "聞",
+	  "onyomi": "ブン モン",
+	  "kunyomi": "き.く き.こえる",
+	  "meaning": "Слышать, спрашивать, слушать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "食",
+	  "onyomi": "ショク ジキ ハ.",
+	  "kunyomi": "く.う く.らう た.べる",
+	  "meaning": "Еда",
+	  "group": "Глаголы",
+	  "hidden": "Есть"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "車",
+	  "onyomi": "シャ クル",
+	  "kunyomi": "",
+	  "meaning": "Машина",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "何",
+	  "onyomi": "カ",
+	  "kunyomi": "なに なん なに- なん",
+	  "meaning": "Что?",
+	  "group": "Вопросы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "南",
+	  "onyomi": "ナン ナ ミナ",
+	  "kunyomi": "",
+	  "meaning": "Юг",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "万",
+	  "onyomi": "マン バン ヨロ",
+	  "kunyomi": "",
+	  "meaning": "Десять тысяч",
+	  "group": "Цифры",
+	  "hidden": "10 000"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "毎",
+	  "onyomi": "マイ -ゴト.",
+	  "kunyomi": "ごと",
+	  "meaning": "Каждый",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "白",
+	  "onyomi": "ハク ビャク シロ.",
+	  "kunyomi": "しろ しら-",
+	  "meaning": "Белый",
+	  "group": "Цвета",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "天",
+	  "onyomi": "テン",
+	  "kunyomi": "あまつ あめ あま",
+	  "meaning": "Небеса, небо, императорский",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "母",
+	  "onyomi": "ボ",
+	  "kunyomi": "はは も",
+	  "meaning": "Мама",
+	  "group": "Семья",
+	  "hidden": "Мать"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "火",
+	  "onyomi": "カ",
+	  "kunyomi": "ひ -び ほ-",
+	  "meaning": "Огонь",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "右",
+	  "onyomi": "ウ ユウ ミ",
+	  "kunyomi": "",
+	  "meaning": "Право",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "読",
+	  "onyomi": "ドク トク トウ -ヨ.",
+	  "kunyomi": "よ.む",
+	  "meaning": "Читать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "友",
+	  "onyomi": "ユウ ト",
+	  "kunyomi": "",
+	  "meaning": "Друг",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "左",
+	  "onyomi": "サ シャ ヒダ",
+	  "kunyomi": "",
+	  "meaning": "Лево",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "休",
+	  "onyomi": "キュウ",
+	  "kunyomi": "やす.む やす.まる やす.める",
+	  "meaning": "Отдых, выходной, покой, сон",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "父",
+	  "onyomi": "フ",
+	  "kunyomi": "ちち",
+	  "meaning": "Отец",
+	  "group": "Семья",
+	  "hidden": "Папа"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "雨",
+	  "onyomi": "ウ",
+	  "kunyomi": "あめ あま- -さめ",
+	  "meaning": "Дождь",
+	  "group": "",
+	  "hidden": ""
+	}];
+	
+	module.exports = データ;
+
+/***/ },
+/* 25 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _angular = __webpack_require__(1);
+	
+	var _angular2 = _interopRequireDefault(_angular);
+	
+	var _js = __webpack_require__(24);
 	
 	var _js2 = _interopRequireDefault(_js);
 	
@@ -34470,28 +34755,28 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 26 */
 /***/ function(module, exports) {
 
 
 
 /***/ },
-/* 23 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
+	__webpack_require__(30);
 	__webpack_require__(26);
-	__webpack_require__(22);
 
 
 /***/ },
-/* 24 */
+/* 28 */
 /***/ function(module, exports) {
 
 	module.exports =
 		"/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\nhtml {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background-color: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\n* {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n*:before,\n*:after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml {\n  font-size: 10px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n}\nbody {\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 1.428571429;\n  color: #333333;\n  background-color: #ffffff;\n}\ninput,\nbutton,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n}\na {\n  color: #337ab7;\n  text-decoration: none;\n}\na:hover,\na:focus {\n  color: #23527c;\n  text-decoration: underline;\n}\na:focus {\n  outline: thin dotted;\n  outline: 5px auto -webkit-focus-ring-color;\n  outline-offset: -2px;\n}\nfigure {\n  margin: 0;\n}\nimg {\n  vertical-align: middle;\n}\n.img-responsive {\n  display: block;\n  max-width: 100%;\n  height: auto;\n}\n.img-rounded {\n  border-radius: 6px;\n}\n.img-thumbnail {\n  padding: 4px;\n  line-height: 1.428571429;\n  background-color: #ffffff;\n  border: 1px solid #dddddd;\n  border-radius: 4px;\n  -webkit-transition: all 0.2s ease-in-out;\n  -o-transition: all 0.2s ease-in-out;\n  transition: all 0.2s ease-in-out;\n  display: inline-block;\n  max-width: 100%;\n  height: auto;\n}\n.img-circle {\n  border-radius: 50%;\n}\nhr {\n  margin-top: 20px;\n  margin-bottom: 20px;\n  border: 0;\n  border-top: 1px solid #eeeeee;\n}\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  border: 0;\n}\n.sr-only-focusable:active,\n.sr-only-focusable:focus {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 0;\n  overflow: visible;\n  clip: auto;\n}\n[role=\"button\"] {\n  cursor: pointer;\n}\n.container {\n  margin-right: auto;\n  margin-left: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n@media (min-width: 768px) {\n  .container {\n    width: 750px;\n  }\n}\n@media (min-width: 992px) {\n  .container {\n    width: 970px;\n  }\n}\n@media (min-width: 1200px) {\n  .container {\n    width: 1170px;\n  }\n}\n.container-fluid {\n  margin-right: auto;\n  margin-left: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.row {\n  margin-left: -15px;\n  margin-right: -15px;\n}\n.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n  position: relative;\n  min-height: 1px;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {\n  float: left;\n}\n.col-xs-12 {\n  width: 100%;\n}\n.col-xs-11 {\n  width: 91.66666666666666%;\n}\n.col-xs-10 {\n  width: 83.33333333333334%;\n}\n.col-xs-9 {\n  width: 75%;\n}\n.col-xs-8 {\n  width: 66.66666666666666%;\n}\n.col-xs-7 {\n  width: 58.333333333333336%;\n}\n.col-xs-6 {\n  width: 50%;\n}\n.col-xs-5 {\n  width: 41.66666666666667%;\n}\n.col-xs-4 {\n  width: 33.33333333333333%;\n}\n.col-xs-3 {\n  width: 25%;\n}\n.col-xs-2 {\n  width: 16.666666666666664%;\n}\n.col-xs-1 {\n  width: 8.333333333333332%;\n}\n.col-xs-pull-12 {\n  right: 100%;\n}\n.col-xs-pull-11 {\n  right: 91.66666666666666%;\n}\n.col-xs-pull-10 {\n  right: 83.33333333333334%;\n}\n.col-xs-pull-9 {\n  right: 75%;\n}\n.col-xs-pull-8 {\n  right: 66.66666666666666%;\n}\n.col-xs-pull-7 {\n  right: 58.333333333333336%;\n}\n.col-xs-pull-6 {\n  right: 50%;\n}\n.col-xs-pull-5 {\n  right: 41.66666666666667%;\n}\n.col-xs-pull-4 {\n  right: 33.33333333333333%;\n}\n.col-xs-pull-3 {\n  right: 25%;\n}\n.col-xs-pull-2 {\n  right: 16.666666666666664%;\n}\n.col-xs-pull-1 {\n  right: 8.333333333333332%;\n}\n.col-xs-pull-0 {\n  right: auto;\n}\n.col-xs-push-12 {\n  left: 100%;\n}\n.col-xs-push-11 {\n  left: 91.66666666666666%;\n}\n.col-xs-push-10 {\n  left: 83.33333333333334%;\n}\n.col-xs-push-9 {\n  left: 75%;\n}\n.col-xs-push-8 {\n  left: 66.66666666666666%;\n}\n.col-xs-push-7 {\n  left: 58.333333333333336%;\n}\n.col-xs-push-6 {\n  left: 50%;\n}\n.col-xs-push-5 {\n  left: 41.66666666666667%;\n}\n.col-xs-push-4 {\n  left: 33.33333333333333%;\n}\n.col-xs-push-3 {\n  left: 25%;\n}\n.col-xs-push-2 {\n  left: 16.666666666666664%;\n}\n.col-xs-push-1 {\n  left: 8.333333333333332%;\n}\n.col-xs-push-0 {\n  left: auto;\n}\n.col-xs-offset-12 {\n  margin-left: 100%;\n}\n.col-xs-offset-11 {\n  margin-left: 91.66666666666666%;\n}\n.col-xs-offset-10 {\n  margin-left: 83.33333333333334%;\n}\n.col-xs-offset-9 {\n  margin-left: 75%;\n}\n.col-xs-offset-8 {\n  margin-left: 66.66666666666666%;\n}\n.col-xs-offset-7 {\n  margin-left: 58.333333333333336%;\n}\n.col-xs-offset-6 {\n  margin-left: 50%;\n}\n.col-xs-offset-5 {\n  margin-left: 41.66666666666667%;\n}\n.col-xs-offset-4 {\n  margin-left: 33.33333333333333%;\n}\n.col-xs-offset-3 {\n  margin-left: 25%;\n}\n.col-xs-offset-2 {\n  margin-left: 16.666666666666664%;\n}\n.col-xs-offset-1 {\n  margin-left: 8.333333333333332%;\n}\n.col-xs-offset-0 {\n  margin-left: 0%;\n}\n@media (min-width: 768px) {\n  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {\n    float: left;\n  }\n  .col-sm-12 {\n    width: 100%;\n  }\n  .col-sm-11 {\n    width: 91.66666666666666%;\n  }\n  .col-sm-10 {\n    width: 83.33333333333334%;\n  }\n  .col-sm-9 {\n    width: 75%;\n  }\n  .col-sm-8 {\n    width: 66.66666666666666%;\n  }\n  .col-sm-7 {\n    width: 58.333333333333336%;\n  }\n  .col-sm-6 {\n    width: 50%;\n  }\n  .col-sm-5 {\n    width: 41.66666666666667%;\n  }\n  .col-sm-4 {\n    width: 33.33333333333333%;\n  }\n  .col-sm-3 {\n    width: 25%;\n  }\n  .col-sm-2 {\n    width: 16.666666666666664%;\n  }\n  .col-sm-1 {\n    width: 8.333333333333332%;\n  }\n  .col-sm-pull-12 {\n    right: 100%;\n  }\n  .col-sm-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-sm-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-sm-pull-9 {\n    right: 75%;\n  }\n  .col-sm-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-sm-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-sm-pull-6 {\n    right: 50%;\n  }\n  .col-sm-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-sm-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-sm-pull-3 {\n    right: 25%;\n  }\n  .col-sm-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-sm-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-sm-pull-0 {\n    right: auto;\n  }\n  .col-sm-push-12 {\n    left: 100%;\n  }\n  .col-sm-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-sm-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-sm-push-9 {\n    left: 75%;\n  }\n  .col-sm-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-sm-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-sm-push-6 {\n    left: 50%;\n  }\n  .col-sm-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-sm-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-sm-push-3 {\n    left: 25%;\n  }\n  .col-sm-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-sm-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-sm-push-0 {\n    left: auto;\n  }\n  .col-sm-offset-12 {\n    margin-left: 100%;\n  }\n  .col-sm-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-sm-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-sm-offset-9 {\n    margin-left: 75%;\n  }\n  .col-sm-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-sm-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-sm-offset-6 {\n    margin-left: 50%;\n  }\n  .col-sm-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-sm-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-sm-offset-3 {\n    margin-left: 25%;\n  }\n  .col-sm-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-sm-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-sm-offset-0 {\n    margin-left: 0%;\n  }\n}\n@media (min-width: 992px) {\n  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {\n    float: left;\n  }\n  .col-md-12 {\n    width: 100%;\n  }\n  .col-md-11 {\n    width: 91.66666666666666%;\n  }\n  .col-md-10 {\n    width: 83.33333333333334%;\n  }\n  .col-md-9 {\n    width: 75%;\n  }\n  .col-md-8 {\n    width: 66.66666666666666%;\n  }\n  .col-md-7 {\n    width: 58.333333333333336%;\n  }\n  .col-md-6 {\n    width: 50%;\n  }\n  .col-md-5 {\n    width: 41.66666666666667%;\n  }\n  .col-md-4 {\n    width: 33.33333333333333%;\n  }\n  .col-md-3 {\n    width: 25%;\n  }\n  .col-md-2 {\n    width: 16.666666666666664%;\n  }\n  .col-md-1 {\n    width: 8.333333333333332%;\n  }\n  .col-md-pull-12 {\n    right: 100%;\n  }\n  .col-md-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-md-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-md-pull-9 {\n    right: 75%;\n  }\n  .col-md-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-md-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-md-pull-6 {\n    right: 50%;\n  }\n  .col-md-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-md-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-md-pull-3 {\n    right: 25%;\n  }\n  .col-md-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-md-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-md-pull-0 {\n    right: auto;\n  }\n  .col-md-push-12 {\n    left: 100%;\n  }\n  .col-md-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-md-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-md-push-9 {\n    left: 75%;\n  }\n  .col-md-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-md-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-md-push-6 {\n    left: 50%;\n  }\n  .col-md-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-md-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-md-push-3 {\n    left: 25%;\n  }\n  .col-md-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-md-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-md-push-0 {\n    left: auto;\n  }\n  .col-md-offset-12 {\n    margin-left: 100%;\n  }\n  .col-md-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-md-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-md-offset-9 {\n    margin-left: 75%;\n  }\n  .col-md-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-md-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-md-offset-6 {\n    margin-left: 50%;\n  }\n  .col-md-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-md-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-md-offset-3 {\n    margin-left: 25%;\n  }\n  .col-md-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-md-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-md-offset-0 {\n    margin-left: 0%;\n  }\n}\n@media (min-width: 1200px) {\n  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {\n    float: left;\n  }\n  .col-lg-12 {\n    width: 100%;\n  }\n  .col-lg-11 {\n    width: 91.66666666666666%;\n  }\n  .col-lg-10 {\n    width: 83.33333333333334%;\n  }\n  .col-lg-9 {\n    width: 75%;\n  }\n  .col-lg-8 {\n    width: 66.66666666666666%;\n  }\n  .col-lg-7 {\n    width: 58.333333333333336%;\n  }\n  .col-lg-6 {\n    width: 50%;\n  }\n  .col-lg-5 {\n    width: 41.66666666666667%;\n  }\n  .col-lg-4 {\n    width: 33.33333333333333%;\n  }\n  .col-lg-3 {\n    width: 25%;\n  }\n  .col-lg-2 {\n    width: 16.666666666666664%;\n  }\n  .col-lg-1 {\n    width: 8.333333333333332%;\n  }\n  .col-lg-pull-12 {\n    right: 100%;\n  }\n  .col-lg-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-lg-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-lg-pull-9 {\n    right: 75%;\n  }\n  .col-lg-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-lg-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-lg-pull-6 {\n    right: 50%;\n  }\n  .col-lg-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-lg-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-lg-pull-3 {\n    right: 25%;\n  }\n  .col-lg-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-lg-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-lg-pull-0 {\n    right: auto;\n  }\n  .col-lg-push-12 {\n    left: 100%;\n  }\n  .col-lg-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-lg-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-lg-push-9 {\n    left: 75%;\n  }\n  .col-lg-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-lg-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-lg-push-6 {\n    left: 50%;\n  }\n  .col-lg-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-lg-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-lg-push-3 {\n    left: 25%;\n  }\n  .col-lg-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-lg-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-lg-push-0 {\n    left: auto;\n  }\n  .col-lg-offset-12 {\n    margin-left: 100%;\n  }\n  .col-lg-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-lg-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-lg-offset-9 {\n    margin-left: 75%;\n  }\n  .col-lg-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-lg-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-lg-offset-6 {\n    margin-left: 50%;\n  }\n  .col-lg-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-lg-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-lg-offset-3 {\n    margin-left: 25%;\n  }\n  .col-lg-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-lg-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-lg-offset-0 {\n    margin-left: 0%;\n  }\n}\ntable {\n  background-color: transparent;\n}\ncaption {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  color: #777777;\n  text-align: left;\n}\nth {\n  text-align: left;\n}\n.table {\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 20px;\n}\n.table > thead > tr > th,\n.table > tbody > tr > th,\n.table > tfoot > tr > th,\n.table > thead > tr > td,\n.table > tbody > tr > td,\n.table > tfoot > tr > td {\n  padding: 8px;\n  line-height: 1.428571429;\n  vertical-align: top;\n  border-top: 1px solid #dddddd;\n}\n.table > thead > tr > th {\n  vertical-align: bottom;\n  border-bottom: 2px solid #dddddd;\n}\n.table > caption + thead > tr:first-child > th,\n.table > colgroup + thead > tr:first-child > th,\n.table > thead:first-child > tr:first-child > th,\n.table > caption + thead > tr:first-child > td,\n.table > colgroup + thead > tr:first-child > td,\n.table > thead:first-child > tr:first-child > td {\n  border-top: 0;\n}\n.table > tbody + tbody {\n  border-top: 2px solid #dddddd;\n}\n.table .table {\n  background-color: #ffffff;\n}\n.table-condensed > thead > tr > th,\n.table-condensed > tbody > tr > th,\n.table-condensed > tfoot > tr > th,\n.table-condensed > thead > tr > td,\n.table-condensed > tbody > tr > td,\n.table-condensed > tfoot > tr > td {\n  padding: 5px;\n}\n.table-bordered {\n  border: 1px solid #dddddd;\n}\n.table-bordered > thead > tr > th,\n.table-bordered > tbody > tr > th,\n.table-bordered > tfoot > tr > th,\n.table-bordered > thead > tr > td,\n.table-bordered > tbody > tr > td,\n.table-bordered > tfoot > tr > td {\n  border: 1px solid #dddddd;\n}\n.table-bordered > thead > tr > th,\n.table-bordered > thead > tr > td {\n  border-bottom-width: 2px;\n}\n.table-striped > tbody > tr:nth-of-type(odd) {\n  background-color: #f9f9f9;\n}\n.table-hover > tbody > tr:hover {\n  background-color: #f5f5f5;\n}\ntable col[class*=\"col-\"] {\n  position: static;\n  float: none;\n  display: table-column;\n}\ntable td[class*=\"col-\"],\ntable th[class*=\"col-\"] {\n  position: static;\n  float: none;\n  display: table-cell;\n}\n.table > thead > tr > td.active,\n.table > tbody > tr > td.active,\n.table > tfoot > tr > td.active,\n.table > thead > tr > th.active,\n.table > tbody > tr > th.active,\n.table > tfoot > tr > th.active,\n.table > thead > tr.active > td,\n.table > tbody > tr.active > td,\n.table > tfoot > tr.active > td,\n.table > thead > tr.active > th,\n.table > tbody > tr.active > th,\n.table > tfoot > tr.active > th {\n  background-color: #f5f5f5;\n}\n.table-hover > tbody > tr > td.active:hover,\n.table-hover > tbody > tr > th.active:hover,\n.table-hover > tbody > tr.active:hover > td,\n.table-hover > tbody > tr:hover > .active,\n.table-hover > tbody > tr.active:hover > th {\n  background-color: #e8e8e8;\n}\n.table > thead > tr > td.success,\n.table > tbody > tr > td.success,\n.table > tfoot > tr > td.success,\n.table > thead > tr > th.success,\n.table > tbody > tr > th.success,\n.table > tfoot > tr > th.success,\n.table > thead > tr.success > td,\n.table > tbody > tr.success > td,\n.table > tfoot > tr.success > td,\n.table > thead > tr.success > th,\n.table > tbody > tr.success > th,\n.table > tfoot > tr.success > th {\n  background-color: #dff0d8;\n}\n.table-hover > tbody > tr > td.success:hover,\n.table-hover > tbody > tr > th.success:hover,\n.table-hover > tbody > tr.success:hover > td,\n.table-hover > tbody > tr:hover > .success,\n.table-hover > tbody > tr.success:hover > th {\n  background-color: #d0e9c6;\n}\n.table > thead > tr > td.info,\n.table > tbody > tr > td.info,\n.table > tfoot > tr > td.info,\n.table > thead > tr > th.info,\n.table > tbody > tr > th.info,\n.table > tfoot > tr > th.info,\n.table > thead > tr.info > td,\n.table > tbody > tr.info > td,\n.table > tfoot > tr.info > td,\n.table > thead > tr.info > th,\n.table > tbody > tr.info > th,\n.table > tfoot > tr.info > th {\n  background-color: #d9edf7;\n}\n.table-hover > tbody > tr > td.info:hover,\n.table-hover > tbody > tr > th.info:hover,\n.table-hover > tbody > tr.info:hover > td,\n.table-hover > tbody > tr:hover > .info,\n.table-hover > tbody > tr.info:hover > th {\n  background-color: #c4e3f3;\n}\n.table > thead > tr > td.warning,\n.table > tbody > tr > td.warning,\n.table > tfoot > tr > td.warning,\n.table > thead > tr > th.warning,\n.table > tbody > tr > th.warning,\n.table > tfoot > tr > th.warning,\n.table > thead > tr.warning > td,\n.table > tbody > tr.warning > td,\n.table > tfoot > tr.warning > td,\n.table > thead > tr.warning > th,\n.table > tbody > tr.warning > th,\n.table > tfoot > tr.warning > th {\n  background-color: #fcf8e3;\n}\n.table-hover > tbody > tr > td.warning:hover,\n.table-hover > tbody > tr > th.warning:hover,\n.table-hover > tbody > tr.warning:hover > td,\n.table-hover > tbody > tr:hover > .warning,\n.table-hover > tbody > tr.warning:hover > th {\n  background-color: #faf2cc;\n}\n.table > thead > tr > td.danger,\n.table > tbody > tr > td.danger,\n.table > tfoot > tr > td.danger,\n.table > thead > tr > th.danger,\n.table > tbody > tr > th.danger,\n.table > tfoot > tr > th.danger,\n.table > thead > tr.danger > td,\n.table > tbody > tr.danger > td,\n.table > tfoot > tr.danger > td,\n.table > thead > tr.danger > th,\n.table > tbody > tr.danger > th,\n.table > tfoot > tr.danger > th {\n  background-color: #f2dede;\n}\n.table-hover > tbody > tr > td.danger:hover,\n.table-hover > tbody > tr > th.danger:hover,\n.table-hover > tbody > tr.danger:hover > td,\n.table-hover > tbody > tr:hover > .danger,\n.table-hover > tbody > tr.danger:hover > th {\n  background-color: #ebcccc;\n}\n.table-responsive {\n  overflow-x: auto;\n  min-height: 0.01%;\n}\n@media screen and (max-width: 767px) {\n  .table-responsive {\n    width: 100%;\n    margin-bottom: 15px;\n    overflow-y: hidden;\n    -ms-overflow-style: -ms-autohiding-scrollbar;\n    border: 1px solid #dddddd;\n  }\n  .table-responsive > .table {\n    margin-bottom: 0;\n  }\n  .table-responsive > .table > thead > tr > th,\n  .table-responsive > .table > tbody > tr > th,\n  .table-responsive > .table > tfoot > tr > th,\n  .table-responsive > .table > thead > tr > td,\n  .table-responsive > .table > tbody > tr > td,\n  .table-responsive > .table > tfoot > tr > td {\n    white-space: nowrap;\n  }\n  .table-responsive > .table-bordered {\n    border: 0;\n  }\n  .table-responsive > .table-bordered > thead > tr > th:first-child,\n  .table-responsive > .table-bordered > tbody > tr > th:first-child,\n  .table-responsive > .table-bordered > tfoot > tr > th:first-child,\n  .table-responsive > .table-bordered > thead > tr > td:first-child,\n  .table-responsive > .table-bordered > tbody > tr > td:first-child,\n  .table-responsive > .table-bordered > tfoot > tr > td:first-child {\n    border-left: 0;\n  }\n  .table-responsive > .table-bordered > thead > tr > th:last-child,\n  .table-responsive > .table-bordered > tbody > tr > th:last-child,\n  .table-responsive > .table-bordered > tfoot > tr > th:last-child,\n  .table-responsive > .table-bordered > thead > tr > td:last-child,\n  .table-responsive > .table-bordered > tbody > tr > td:last-child,\n  .table-responsive > .table-bordered > tfoot > tr > td:last-child {\n    border-right: 0;\n  }\n  .table-responsive > .table-bordered > tbody > tr:last-child > th,\n  .table-responsive > .table-bordered > tfoot > tr:last-child > th,\n  .table-responsive > .table-bordered > tbody > tr:last-child > td,\n  .table-responsive > .table-bordered > tfoot > tr:last-child > td {\n    border-bottom: 0;\n  }\n}\n";
 
 /***/ },
-/* 25 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -34518,13 +34803,13 @@
 
 
 /***/ },
-/* 26 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
-	var dispose = __webpack_require__(25)
+	var dispose = __webpack_require__(29)
 		// The css code:
-		(__webpack_require__(24));
+		(__webpack_require__(28));
 	// Hot Module Replacement
 	if(true) {
 		module.hot.accept();
@@ -34532,25 +34817,31 @@
 	}
 
 /***/ },
-/* 27 */
+/* 31 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"app\">\n  <div ui-view></div>\n</div>\n"
 
 /***/ },
-/* 28 */
+/* 32 */
 /***/ function(module, exports) {
 
-	module.exports = "<div>\n  <!--  -->\n</div>\n"
+	module.exports = "<div class=\"footer\">\n\n  <div class=\"git\">\n    <a href=\"https://github.com/keske/Kanji-Ninja\">\n      Kanji-Ninja on GitHub\n    </a>\n  </div>\n\n</div>"
 
 /***/ },
-/* 29 */
+/* 33 */
 /***/ function(module, exports) {
 
-	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n      col-md-offset-2 col-lg-offset-2\">\n        <div class=\"サーチ\">\n          <input\n            ng-model=\"query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи\"\n          >\n        </div><!-- サーチ -->\n      </div><!-- col -->\n    </div><!-- row -->\n  </div><!-- container -->\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n      col-md-offset-2 col-lg-offset-2\">\n        <div class=\"タイプ\">\n          А-Я\n        </div><!-- タイプ -->\n      </div><!-- col -->\n    </div><!-- row -->\n  </div><!-- container -->\n\n  <div class=\"container\">\n    <div class=\"row アイテム\"\n      ng-repeat=\"word in vm.kanji | filter: query | orderBy: 'meaning'\">\n\n      <div class=\"col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col 漢字\">\n        {{ word.character }}\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            Онъёми\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            Кунъёми\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
+	module.exports = "<!--  -->"
 
 /***/ },
-/* 30 */
+/* 34 */
+/***/ function(module, exports) {
+
+	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n      col-md-offset-2 col-lg-offset-2\">\n        <div class=\"サーチ\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи\"\n          >\n        </div><!-- サーチ -->\n\n      </div><!-- col -->\n    </div><!-- row -->\n\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2 グループ\">\n        <ul>\n          <li class=\"li\"\n            ng-repeat=\"group in vm.groups | orderBy: -'group'\"\n            ng-click=\"vm.applyGroup(group)\">\n            {{ group }}\n          </li>\n        </ul>\n      </div><!-- グループ -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container\">\n    <div class=\"row アイテム\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit\">\n\n      <div class=\"col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            Онъёми\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            Кунъёми\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container モレ\">\n    <div class=\"row\">\n\n      <div class=\"ボタン 青い アウトライン\" ng-click=\"vm.showMore()\">\n        Показать еще\n      </div>\n\n    </div><!-- row -->\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
+
+/***/ },
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -34576,7 +34867,7 @@
 	}
 
 /***/ },
-/* 31 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -34602,7 +34893,7 @@
 	}
 
 /***/ },
-/* 32 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -34628,7 +34919,7 @@
 	}
 
 /***/ },
-/* 33 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -34652,6 +34943,1586 @@
 		// When the module is disposed, remove the <style> tags
 		module.hot.dispose(function() { update(); });
 	}
+
+/***/ },
+/* 39 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+	
+	// load the styles
+	var content = __webpack_require__(9);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(3)(content, {});
+	if(content.locals) module.exports = content.locals;
+	// Hot Module Replacement
+	if(true) {
+		// When the styles change, update the <style> tags
+		if(!content.locals) {
+			module.hot.accept(9, function() {
+				var newContent = __webpack_require__(9);
+				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+				update(newContent);
+			});
+		}
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 40 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
+	//     http://underscorejs.org
+	//     (c) 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+	//     Underscore may be freely distributed under the MIT license.
+	
+	(function() {
+	
+	  // Baseline setup
+	  // --------------
+	
+	  // Establish the root object, `window` in the browser, or `exports` on the server.
+	  var root = this;
+	
+	  // Save the previous value of the `_` variable.
+	  var previousUnderscore = root._;
+	
+	  // Save bytes in the minified (but not gzipped) version:
+	  var ArrayProto = Array.prototype, ObjProto = Object.prototype, FuncProto = Function.prototype;
+	
+	  // Create quick reference variables for speed access to core prototypes.
+	  var
+	    push             = ArrayProto.push,
+	    slice            = ArrayProto.slice,
+	    toString         = ObjProto.toString,
+	    hasOwnProperty   = ObjProto.hasOwnProperty;
+	
+	  // All **ECMAScript 5** native function implementations that we hope to use
+	  // are declared here.
+	  var
+	    nativeIsArray      = Array.isArray,
+	    nativeKeys         = Object.keys,
+	    nativeBind         = FuncProto.bind,
+	    nativeCreate       = Object.create;
+	
+	  // Naked function reference for surrogate-prototype-swapping.
+	  var Ctor = function(){};
+	
+	  // Create a safe reference to the Underscore object for use below.
+	  var _ = function(obj) {
+	    if (obj instanceof _) return obj;
+	    if (!(this instanceof _)) return new _(obj);
+	    this._wrapped = obj;
+	  };
+	
+	  // Export the Underscore object for **Node.js**, with
+	  // backwards-compatibility for the old `require()` API. If we're in
+	  // the browser, add `_` as a global object.
+	  if (true) {
+	    if (typeof module !== 'undefined' && module.exports) {
+	      exports = module.exports = _;
+	    }
+	    exports._ = _;
+	  } else {
+	    root._ = _;
+	  }
+	
+	  // Current version.
+	  _.VERSION = '1.8.3';
+	
+	  // Internal function that returns an efficient (for current engines) version
+	  // of the passed-in callback, to be repeatedly applied in other Underscore
+	  // functions.
+	  var optimizeCb = function(func, context, argCount) {
+	    if (context === void 0) return func;
+	    switch (argCount == null ? 3 : argCount) {
+	      case 1: return function(value) {
+	        return func.call(context, value);
+	      };
+	      case 2: return function(value, other) {
+	        return func.call(context, value, other);
+	      };
+	      case 3: return function(value, index, collection) {
+	        return func.call(context, value, index, collection);
+	      };
+	      case 4: return function(accumulator, value, index, collection) {
+	        return func.call(context, accumulator, value, index, collection);
+	      };
+	    }
+	    return function() {
+	      return func.apply(context, arguments);
+	    };
+	  };
+	
+	  // A mostly-internal function to generate callbacks that can be applied
+	  // to each element in a collection, returning the desired result — either
+	  // identity, an arbitrary callback, a property matcher, or a property accessor.
+	  var cb = function(value, context, argCount) {
+	    if (value == null) return _.identity;
+	    if (_.isFunction(value)) return optimizeCb(value, context, argCount);
+	    if (_.isObject(value)) return _.matcher(value);
+	    return _.property(value);
+	  };
+	  _.iteratee = function(value, context) {
+	    return cb(value, context, Infinity);
+	  };
+	
+	  // An internal function for creating assigner functions.
+	  var createAssigner = function(keysFunc, undefinedOnly) {
+	    return function(obj) {
+	      var length = arguments.length;
+	      if (length < 2 || obj == null) return obj;
+	      for (var index = 1; index < length; index++) {
+	        var source = arguments[index],
+	            keys = keysFunc(source),
+	            l = keys.length;
+	        for (var i = 0; i < l; i++) {
+	          var key = keys[i];
+	          if (!undefinedOnly || obj[key] === void 0) obj[key] = source[key];
+	        }
+	      }
+	      return obj;
+	    };
+	  };
+	
+	  // An internal function for creating a new object that inherits from another.
+	  var baseCreate = function(prototype) {
+	    if (!_.isObject(prototype)) return {};
+	    if (nativeCreate) return nativeCreate(prototype);
+	    Ctor.prototype = prototype;
+	    var result = new Ctor;
+	    Ctor.prototype = null;
+	    return result;
+	  };
+	
+	  var property = function(key) {
+	    return function(obj) {
+	      return obj == null ? void 0 : obj[key];
+	    };
+	  };
+	
+	  // Helper for collection methods to determine whether a collection
+	  // should be iterated as an array or as an object
+	  // Related: http://people.mozilla.org/~jorendorff/es6-draft.html#sec-tolength
+	  // Avoids a very nasty iOS 8 JIT bug on ARM-64. #2094
+	  var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;
+	  var getLength = property('length');
+	  var isArrayLike = function(collection) {
+	    var length = getLength(collection);
+	    return typeof length == 'number' && length >= 0 && length <= MAX_ARRAY_INDEX;
+	  };
+	
+	  // Collection Functions
+	  // --------------------
+	
+	  // The cornerstone, an `each` implementation, aka `forEach`.
+	  // Handles raw objects in addition to array-likes. Treats all
+	  // sparse array-likes as if they were dense.
+	  _.each = _.forEach = function(obj, iteratee, context) {
+	    iteratee = optimizeCb(iteratee, context);
+	    var i, length;
+	    if (isArrayLike(obj)) {
+	      for (i = 0, length = obj.length; i < length; i++) {
+	        iteratee(obj[i], i, obj);
+	      }
+	    } else {
+	      var keys = _.keys(obj);
+	      for (i = 0, length = keys.length; i < length; i++) {
+	        iteratee(obj[keys[i]], keys[i], obj);
+	      }
+	    }
+	    return obj;
+	  };
+	
+	  // Return the results of applying the iteratee to each element.
+	  _.map = _.collect = function(obj, iteratee, context) {
+	    iteratee = cb(iteratee, context);
+	    var keys = !isArrayLike(obj) && _.keys(obj),
+	        length = (keys || obj).length,
+	        results = Array(length);
+	    for (var index = 0; index < length; index++) {
+	      var currentKey = keys ? keys[index] : index;
+	      results[index] = iteratee(obj[currentKey], currentKey, obj);
+	    }
+	    return results;
+	  };
+	
+	  // Create a reducing function iterating left or right.
+	  function createReduce(dir) {
+	    // Optimized iterator function as using arguments.length
+	    // in the main function will deoptimize the, see #1991.
+	    function iterator(obj, iteratee, memo, keys, index, length) {
+	      for (; index >= 0 && index < length; index += dir) {
+	        var currentKey = keys ? keys[index] : index;
+	        memo = iteratee(memo, obj[currentKey], currentKey, obj);
+	      }
+	      return memo;
+	    }
+	
+	    return function(obj, iteratee, memo, context) {
+	      iteratee = optimizeCb(iteratee, context, 4);
+	      var keys = !isArrayLike(obj) && _.keys(obj),
+	          length = (keys || obj).length,
+	          index = dir > 0 ? 0 : length - 1;
+	      // Determine the initial value if none is provided.
+	      if (arguments.length < 3) {
+	        memo = obj[keys ? keys[index] : index];
+	        index += dir;
+	      }
+	      return iterator(obj, iteratee, memo, keys, index, length);
+	    };
+	  }
+	
+	  // **Reduce** builds up a single result from a list of values, aka `inject`,
+	  // or `foldl`.
+	  _.reduce = _.foldl = _.inject = createReduce(1);
+	
+	  // The right-associative version of reduce, also known as `foldr`.
+	  _.reduceRight = _.foldr = createReduce(-1);
+	
+	  // Return the first value which passes a truth test. Aliased as `detect`.
+	  _.find = _.detect = function(obj, predicate, context) {
+	    var key;
+	    if (isArrayLike(obj)) {
+	      key = _.findIndex(obj, predicate, context);
+	    } else {
+	      key = _.findKey(obj, predicate, context);
+	    }
+	    if (key !== void 0 && key !== -1) return obj[key];
+	  };
+	
+	  // Return all the elements that pass a truth test.
+	  // Aliased as `select`.
+	  _.filter = _.select = function(obj, predicate, context) {
+	    var results = [];
+	    predicate = cb(predicate, context);
+	    _.each(obj, function(value, index, list) {
+	      if (predicate(value, index, list)) results.push(value);
+	    });
+	    return results;
+	  };
+	
+	  // Return all the elements for which a truth test fails.
+	  _.reject = function(obj, predicate, context) {
+	    return _.filter(obj, _.negate(cb(predicate)), context);
+	  };
+	
+	  // Determine whether all of the elements match a truth test.
+	  // Aliased as `all`.
+	  _.every = _.all = function(obj, predicate, context) {
+	    predicate = cb(predicate, context);
+	    var keys = !isArrayLike(obj) && _.keys(obj),
+	        length = (keys || obj).length;
+	    for (var index = 0; index < length; index++) {
+	      var currentKey = keys ? keys[index] : index;
+	      if (!predicate(obj[currentKey], currentKey, obj)) return false;
+	    }
+	    return true;
+	  };
+	
+	  // Determine if at least one element in the object matches a truth test.
+	  // Aliased as `any`.
+	  _.some = _.any = function(obj, predicate, context) {
+	    predicate = cb(predicate, context);
+	    var keys = !isArrayLike(obj) && _.keys(obj),
+	        length = (keys || obj).length;
+	    for (var index = 0; index < length; index++) {
+	      var currentKey = keys ? keys[index] : index;
+	      if (predicate(obj[currentKey], currentKey, obj)) return true;
+	    }
+	    return false;
+	  };
+	
+	  // Determine if the array or object contains a given item (using `===`).
+	  // Aliased as `includes` and `include`.
+	  _.contains = _.includes = _.include = function(obj, item, fromIndex, guard) {
+	    if (!isArrayLike(obj)) obj = _.values(obj);
+	    if (typeof fromIndex != 'number' || guard) fromIndex = 0;
+	    return _.indexOf(obj, item, fromIndex) >= 0;
+	  };
+	
+	  // Invoke a method (with arguments) on every item in a collection.
+	  _.invoke = function(obj, method) {
+	    var args = slice.call(arguments, 2);
+	    var isFunc = _.isFunction(method);
+	    return _.map(obj, function(value) {
+	      var func = isFunc ? method : value[method];
+	      return func == null ? func : func.apply(value, args);
+	    });
+	  };
+	
+	  // Convenience version of a common use case of `map`: fetching a property.
+	  _.pluck = function(obj, key) {
+	    return _.map(obj, _.property(key));
+	  };
+	
+	  // Convenience version of a common use case of `filter`: selecting only objects
+	  // containing specific `key:value` pairs.
+	  _.where = function(obj, attrs) {
+	    return _.filter(obj, _.matcher(attrs));
+	  };
+	
+	  // Convenience version of a common use case of `find`: getting the first object
+	  // containing specific `key:value` pairs.
+	  _.findWhere = function(obj, attrs) {
+	    return _.find(obj, _.matcher(attrs));
+	  };
+	
+	  // Return the maximum element (or element-based computation).
+	  _.max = function(obj, iteratee, context) {
+	    var result = -Infinity, lastComputed = -Infinity,
+	        value, computed;
+	    if (iteratee == null && obj != null) {
+	      obj = isArrayLike(obj) ? obj : _.values(obj);
+	      for (var i = 0, length = obj.length; i < length; i++) {
+	        value = obj[i];
+	        if (value > result) {
+	          result = value;
+	        }
+	      }
+	    } else {
+	      iteratee = cb(iteratee, context);
+	      _.each(obj, function(value, index, list) {
+	        computed = iteratee(value, index, list);
+	        if (computed > lastComputed || computed === -Infinity && result === -Infinity) {
+	          result = value;
+	          lastComputed = computed;
+	        }
+	      });
+	    }
+	    return result;
+	  };
+	
+	  // Return the minimum element (or element-based computation).
+	  _.min = function(obj, iteratee, context) {
+	    var result = Infinity, lastComputed = Infinity,
+	        value, computed;
+	    if (iteratee == null && obj != null) {
+	      obj = isArrayLike(obj) ? obj : _.values(obj);
+	      for (var i = 0, length = obj.length; i < length; i++) {
+	        value = obj[i];
+	        if (value < result) {
+	          result = value;
+	        }
+	      }
+	    } else {
+	      iteratee = cb(iteratee, context);
+	      _.each(obj, function(value, index, list) {
+	        computed = iteratee(value, index, list);
+	        if (computed < lastComputed || computed === Infinity && result === Infinity) {
+	          result = value;
+	          lastComputed = computed;
+	        }
+	      });
+	    }
+	    return result;
+	  };
+	
+	  // Shuffle a collection, using the modern version of the
+	  // [Fisher-Yates shuffle](http://en.wikipedia.org/wiki/Fisher–Yates_shuffle).
+	  _.shuffle = function(obj) {
+	    var set = isArrayLike(obj) ? obj : _.values(obj);
+	    var length = set.length;
+	    var shuffled = Array(length);
+	    for (var index = 0, rand; index < length; index++) {
+	      rand = _.random(0, index);
+	      if (rand !== index) shuffled[index] = shuffled[rand];
+	      shuffled[rand] = set[index];
+	    }
+	    return shuffled;
+	  };
+	
+	  // Sample **n** random values from a collection.
+	  // If **n** is not specified, returns a single random element.
+	  // The internal `guard` argument allows it to work with `map`.
+	  _.sample = function(obj, n, guard) {
+	    if (n == null || guard) {
+	      if (!isArrayLike(obj)) obj = _.values(obj);
+	      return obj[_.random(obj.length - 1)];
+	    }
+	    return _.shuffle(obj).slice(0, Math.max(0, n));
+	  };
+	
+	  // Sort the object's values by a criterion produced by an iteratee.
+	  _.sortBy = function(obj, iteratee, context) {
+	    iteratee = cb(iteratee, context);
+	    return _.pluck(_.map(obj, function(value, index, list) {
+	      return {
+	        value: value,
+	        index: index,
+	        criteria: iteratee(value, index, list)
+	      };
+	    }).sort(function(left, right) {
+	      var a = left.criteria;
+	      var b = right.criteria;
+	      if (a !== b) {
+	        if (a > b || a === void 0) return 1;
+	        if (a < b || b === void 0) return -1;
+	      }
+	      return left.index - right.index;
+	    }), 'value');
+	  };
+	
+	  // An internal function used for aggregate "group by" operations.
+	  var group = function(behavior) {
+	    return function(obj, iteratee, context) {
+	      var result = {};
+	      iteratee = cb(iteratee, context);
+	      _.each(obj, function(value, index) {
+	        var key = iteratee(value, index, obj);
+	        behavior(result, value, key);
+	      });
+	      return result;
+	    };
+	  };
+	
+	  // Groups the object's values by a criterion. Pass either a string attribute
+	  // to group by, or a function that returns the criterion.
+	  _.groupBy = group(function(result, value, key) {
+	    if (_.has(result, key)) result[key].push(value); else result[key] = [value];
+	  });
+	
+	  // Indexes the object's values by a criterion, similar to `groupBy`, but for
+	  // when you know that your index values will be unique.
+	  _.indexBy = group(function(result, value, key) {
+	    result[key] = value;
+	  });
+	
+	  // Counts instances of an object that group by a certain criterion. Pass
+	  // either a string attribute to count by, or a function that returns the
+	  // criterion.
+	  _.countBy = group(function(result, value, key) {
+	    if (_.has(result, key)) result[key]++; else result[key] = 1;
+	  });
+	
+	  // Safely create a real, live array from anything iterable.
+	  _.toArray = function(obj) {
+	    if (!obj) return [];
+	    if (_.isArray(obj)) return slice.call(obj);
+	    if (isArrayLike(obj)) return _.map(obj, _.identity);
+	    return _.values(obj);
+	  };
+	
+	  // Return the number of elements in an object.
+	  _.size = function(obj) {
+	    if (obj == null) return 0;
+	    return isArrayLike(obj) ? obj.length : _.keys(obj).length;
+	  };
+	
+	  // Split a collection into two arrays: one whose elements all satisfy the given
+	  // predicate, and one whose elements all do not satisfy the predicate.
+	  _.partition = function(obj, predicate, context) {
+	    predicate = cb(predicate, context);
+	    var pass = [], fail = [];
+	    _.each(obj, function(value, key, obj) {
+	      (predicate(value, key, obj) ? pass : fail).push(value);
+	    });
+	    return [pass, fail];
+	  };
+	
+	  // Array Functions
+	  // ---------------
+	
+	  // Get the first element of an array. Passing **n** will return the first N
+	  // values in the array. Aliased as `head` and `take`. The **guard** check
+	  // allows it to work with `_.map`.
+	  _.first = _.head = _.take = function(array, n, guard) {
+	    if (array == null) return void 0;
+	    if (n == null || guard) return array[0];
+	    return _.initial(array, array.length - n);
+	  };
+	
+	  // Returns everything but the last entry of the array. Especially useful on
+	  // the arguments object. Passing **n** will return all the values in
+	  // the array, excluding the last N.
+	  _.initial = function(array, n, guard) {
+	    return slice.call(array, 0, Math.max(0, array.length - (n == null || guard ? 1 : n)));
+	  };
+	
+	  // Get the last element of an array. Passing **n** will return the last N
+	  // values in the array.
+	  _.last = function(array, n, guard) {
+	    if (array == null) return void 0;
+	    if (n == null || guard) return array[array.length - 1];
+	    return _.rest(array, Math.max(0, array.length - n));
+	  };
+	
+	  // Returns everything but the first entry of the array. Aliased as `tail` and `drop`.
+	  // Especially useful on the arguments object. Passing an **n** will return
+	  // the rest N values in the array.
+	  _.rest = _.tail = _.drop = function(array, n, guard) {
+	    return slice.call(array, n == null || guard ? 1 : n);
+	  };
+	
+	  // Trim out all falsy values from an array.
+	  _.compact = function(array) {
+	    return _.filter(array, _.identity);
+	  };
+	
+	  // Internal implementation of a recursive `flatten` function.
+	  var flatten = function(input, shallow, strict, startIndex) {
+	    var output = [], idx = 0;
+	    for (var i = startIndex || 0, length = getLength(input); i < length; i++) {
+	      var value = input[i];
+	      if (isArrayLike(value) && (_.isArray(value) || _.isArguments(value))) {
+	        //flatten current level of array or arguments object
+	        if (!shallow) value = flatten(value, shallow, strict);
+	        var j = 0, len = value.length;
+	        output.length += len;
+	        while (j < len) {
+	          output[idx++] = value[j++];
+	        }
+	      } else if (!strict) {
+	        output[idx++] = value;
+	      }
+	    }
+	    return output;
+	  };
+	
+	  // Flatten out an array, either recursively (by default), or just one level.
+	  _.flatten = function(array, shallow) {
+	    return flatten(array, shallow, false);
+	  };
+	
+	  // Return a version of the array that does not contain the specified value(s).
+	  _.without = function(array) {
+	    return _.difference(array, slice.call(arguments, 1));
+	  };
+	
+	  // Produce a duplicate-free version of the array. If the array has already
+	  // been sorted, you have the option of using a faster algorithm.
+	  // Aliased as `unique`.
+	  _.uniq = _.unique = function(array, isSorted, iteratee, context) {
+	    if (!_.isBoolean(isSorted)) {
+	      context = iteratee;
+	      iteratee = isSorted;
+	      isSorted = false;
+	    }
+	    if (iteratee != null) iteratee = cb(iteratee, context);
+	    var result = [];
+	    var seen = [];
+	    for (var i = 0, length = getLength(array); i < length; i++) {
+	      var value = array[i],
+	          computed = iteratee ? iteratee(value, i, array) : value;
+	      if (isSorted) {
+	        if (!i || seen !== computed) result.push(value);
+	        seen = computed;
+	      } else if (iteratee) {
+	        if (!_.contains(seen, computed)) {
+	          seen.push(computed);
+	          result.push(value);
+	        }
+	      } else if (!_.contains(result, value)) {
+	        result.push(value);
+	      }
+	    }
+	    return result;
+	  };
+	
+	  // Produce an array that contains the union: each distinct element from all of
+	  // the passed-in arrays.
+	  _.union = function() {
+	    return _.uniq(flatten(arguments, true, true));
+	  };
+	
+	  // Produce an array that contains every item shared between all the
+	  // passed-in arrays.
+	  _.intersection = function(array) {
+	    var result = [];
+	    var argsLength = arguments.length;
+	    for (var i = 0, length = getLength(array); i < length; i++) {
+	      var item = array[i];
+	      if (_.contains(result, item)) continue;
+	      for (var j = 1; j < argsLength; j++) {
+	        if (!_.contains(arguments[j], item)) break;
+	      }
+	      if (j === argsLength) result.push(item);
+	    }
+	    return result;
+	  };
+	
+	  // Take the difference between one array and a number of other arrays.
+	  // Only the elements present in just the first array will remain.
+	  _.difference = function(array) {
+	    var rest = flatten(arguments, true, true, 1);
+	    return _.filter(array, function(value){
+	      return !_.contains(rest, value);
+	    });
+	  };
+	
+	  // Zip together multiple lists into a single array -- elements that share
+	  // an index go together.
+	  _.zip = function() {
+	    return _.unzip(arguments);
+	  };
+	
+	  // Complement of _.zip. Unzip accepts an array of arrays and groups
+	  // each array's elements on shared indices
+	  _.unzip = function(array) {
+	    var length = array && _.max(array, getLength).length || 0;
+	    var result = Array(length);
+	
+	    for (var index = 0; index < length; index++) {
+	      result[index] = _.pluck(array, index);
+	    }
+	    return result;
+	  };
+	
+	  // Converts lists into objects. Pass either a single array of `[key, value]`
+	  // pairs, or two parallel arrays of the same length -- one of keys, and one of
+	  // the corresponding values.
+	  _.object = function(list, values) {
+	    var result = {};
+	    for (var i = 0, length = getLength(list); i < length; i++) {
+	      if (values) {
+	        result[list[i]] = values[i];
+	      } else {
+	        result[list[i][0]] = list[i][1];
+	      }
+	    }
+	    return result;
+	  };
+	
+	  // Generator function to create the findIndex and findLastIndex functions
+	  function createPredicateIndexFinder(dir) {
+	    return function(array, predicate, context) {
+	      predicate = cb(predicate, context);
+	      var length = getLength(array);
+	      var index = dir > 0 ? 0 : length - 1;
+	      for (; index >= 0 && index < length; index += dir) {
+	        if (predicate(array[index], index, array)) return index;
+	      }
+	      return -1;
+	    };
+	  }
+	
+	  // Returns the first index on an array-like that passes a predicate test
+	  _.findIndex = createPredicateIndexFinder(1);
+	  _.findLastIndex = createPredicateIndexFinder(-1);
+	
+	  // Use a comparator function to figure out the smallest index at which
+	  // an object should be inserted so as to maintain order. Uses binary search.
+	  _.sortedIndex = function(array, obj, iteratee, context) {
+	    iteratee = cb(iteratee, context, 1);
+	    var value = iteratee(obj);
+	    var low = 0, high = getLength(array);
+	    while (low < high) {
+	      var mid = Math.floor((low + high) / 2);
+	      if (iteratee(array[mid]) < value) low = mid + 1; else high = mid;
+	    }
+	    return low;
+	  };
+	
+	  // Generator function to create the indexOf and lastIndexOf functions
+	  function createIndexFinder(dir, predicateFind, sortedIndex) {
+	    return function(array, item, idx) {
+	      var i = 0, length = getLength(array);
+	      if (typeof idx == 'number') {
+	        if (dir > 0) {
+	            i = idx >= 0 ? idx : Math.max(idx + length, i);
+	        } else {
+	            length = idx >= 0 ? Math.min(idx + 1, length) : idx + length + 1;
+	        }
+	      } else if (sortedIndex && idx && length) {
+	        idx = sortedIndex(array, item);
+	        return array[idx] === item ? idx : -1;
+	      }
+	      if (item !== item) {
+	        idx = predicateFind(slice.call(array, i, length), _.isNaN);
+	        return idx >= 0 ? idx + i : -1;
+	      }
+	      for (idx = dir > 0 ? i : length - 1; idx >= 0 && idx < length; idx += dir) {
+	        if (array[idx] === item) return idx;
+	      }
+	      return -1;
+	    };
+	  }
+	
+	  // Return the position of the first occurrence of an item in an array,
+	  // or -1 if the item is not included in the array.
+	  // If the array is large and already in sort order, pass `true`
+	  // for **isSorted** to use binary search.
+	  _.indexOf = createIndexFinder(1, _.findIndex, _.sortedIndex);
+	  _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);
+	
+	  // Generate an integer Array containing an arithmetic progression. A port of
+	  // the native Python `range()` function. See
+	  // [the Python documentation](http://docs.python.org/library/functions.html#range).
+	  _.range = function(start, stop, step) {
+	    if (stop == null) {
+	      stop = start || 0;
+	      start = 0;
+	    }
+	    step = step || 1;
+	
+	    var length = Math.max(Math.ceil((stop - start) / step), 0);
+	    var range = Array(length);
+	
+	    for (var idx = 0; idx < length; idx++, start += step) {
+	      range[idx] = start;
+	    }
+	
+	    return range;
+	  };
+	
+	  // Function (ahem) Functions
+	  // ------------------
+	
+	  // Determines whether to execute a function as a constructor
+	  // or a normal function with the provided arguments
+	  var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {
+	    if (!(callingContext instanceof boundFunc)) return sourceFunc.apply(context, args);
+	    var self = baseCreate(sourceFunc.prototype);
+	    var result = sourceFunc.apply(self, args);
+	    if (_.isObject(result)) return result;
+	    return self;
+	  };
+	
+	  // Create a function bound to a given object (assigning `this`, and arguments,
+	  // optionally). Delegates to **ECMAScript 5**'s native `Function.bind` if
+	  // available.
+	  _.bind = function(func, context) {
+	    if (nativeBind && func.bind === nativeBind) return nativeBind.apply(func, slice.call(arguments, 1));
+	    if (!_.isFunction(func)) throw new TypeError('Bind must be called on a function');
+	    var args = slice.call(arguments, 2);
+	    var bound = function() {
+	      return executeBound(func, bound, context, this, args.concat(slice.call(arguments)));
+	    };
+	    return bound;
+	  };
+	
+	  // Partially apply a function by creating a version that has had some of its
+	  // arguments pre-filled, without changing its dynamic `this` context. _ acts
+	  // as a placeholder, allowing any combination of arguments to be pre-filled.
+	  _.partial = function(func) {
+	    var boundArgs = slice.call(arguments, 1);
+	    var bound = function() {
+	      var position = 0, length = boundArgs.length;
+	      var args = Array(length);
+	      for (var i = 0; i < length; i++) {
+	        args[i] = boundArgs[i] === _ ? arguments[position++] : boundArgs[i];
+	      }
+	      while (position < arguments.length) args.push(arguments[position++]);
+	      return executeBound(func, bound, this, this, args);
+	    };
+	    return bound;
+	  };
+	
+	  // Bind a number of an object's methods to that object. Remaining arguments
+	  // are the method names to be bound. Useful for ensuring that all callbacks
+	  // defined on an object belong to it.
+	  _.bindAll = function(obj) {
+	    var i, length = arguments.length, key;
+	    if (length <= 1) throw new Error('bindAll must be passed function names');
+	    for (i = 1; i < length; i++) {
+	      key = arguments[i];
+	      obj[key] = _.bind(obj[key], obj);
+	    }
+	    return obj;
+	  };
+	
+	  // Memoize an expensive function by storing its results.
+	  _.memoize = function(func, hasher) {
+	    var memoize = function(key) {
+	      var cache = memoize.cache;
+	      var address = '' + (hasher ? hasher.apply(this, arguments) : key);
+	      if (!_.has(cache, address)) cache[address] = func.apply(this, arguments);
+	      return cache[address];
+	    };
+	    memoize.cache = {};
+	    return memoize;
+	  };
+	
+	  // Delays a function for the given number of milliseconds, and then calls
+	  // it with the arguments supplied.
+	  _.delay = function(func, wait) {
+	    var args = slice.call(arguments, 2);
+	    return setTimeout(function(){
+	      return func.apply(null, args);
+	    }, wait);
+	  };
+	
+	  // Defers a function, scheduling it to run after the current call stack has
+	  // cleared.
+	  _.defer = _.partial(_.delay, _, 1);
+	
+	  // Returns a function, that, when invoked, will only be triggered at most once
+	  // during a given window of time. Normally, the throttled function will run
+	  // as much as it can, without ever going more than once per `wait` duration;
+	  // but if you'd like to disable the execution on the leading edge, pass
+	  // `{leading: false}`. To disable execution on the trailing edge, ditto.
+	  _.throttle = function(func, wait, options) {
+	    var context, args, result;
+	    var timeout = null;
+	    var previous = 0;
+	    if (!options) options = {};
+	    var later = function() {
+	      previous = options.leading === false ? 0 : _.now();
+	      timeout = null;
+	      result = func.apply(context, args);
+	      if (!timeout) context = args = null;
+	    };
+	    return function() {
+	      var now = _.now();
+	      if (!previous && options.leading === false) previous = now;
+	      var remaining = wait - (now - previous);
+	      context = this;
+	      args = arguments;
+	      if (remaining <= 0 || remaining > wait) {
+	        if (timeout) {
+	          clearTimeout(timeout);
+	          timeout = null;
+	        }
+	        previous = now;
+	        result = func.apply(context, args);
+	        if (!timeout) context = args = null;
+	      } else if (!timeout && options.trailing !== false) {
+	        timeout = setTimeout(later, remaining);
+	      }
+	      return result;
+	    };
+	  };
+	
+	  // Returns a function, that, as long as it continues to be invoked, will not
+	  // be triggered. The function will be called after it stops being called for
+	  // N milliseconds. If `immediate` is passed, trigger the function on the
+	  // leading edge, instead of the trailing.
+	  _.debounce = function(func, wait, immediate) {
+	    var timeout, args, context, timestamp, result;
+	
+	    var later = function() {
+	      var last = _.now() - timestamp;
+	
+	      if (last < wait && last >= 0) {
+	        timeout = setTimeout(later, wait - last);
+	      } else {
+	        timeout = null;
+	        if (!immediate) {
+	          result = func.apply(context, args);
+	          if (!timeout) context = args = null;
+	        }
+	      }
+	    };
+	
+	    return function() {
+	      context = this;
+	      args = arguments;
+	      timestamp = _.now();
+	      var callNow = immediate && !timeout;
+	      if (!timeout) timeout = setTimeout(later, wait);
+	      if (callNow) {
+	        result = func.apply(context, args);
+	        context = args = null;
+	      }
+	
+	      return result;
+	    };
+	  };
+	
+	  // Returns the first function passed as an argument to the second,
+	  // allowing you to adjust arguments, run code before and after, and
+	  // conditionally execute the original function.
+	  _.wrap = function(func, wrapper) {
+	    return _.partial(wrapper, func);
+	  };
+	
+	  // Returns a negated version of the passed-in predicate.
+	  _.negate = function(predicate) {
+	    return function() {
+	      return !predicate.apply(this, arguments);
+	    };
+	  };
+	
+	  // Returns a function that is the composition of a list of functions, each
+	  // consuming the return value of the function that follows.
+	  _.compose = function() {
+	    var args = arguments;
+	    var start = args.length - 1;
+	    return function() {
+	      var i = start;
+	      var result = args[start].apply(this, arguments);
+	      while (i--) result = args[i].call(this, result);
+	      return result;
+	    };
+	  };
+	
+	  // Returns a function that will only be executed on and after the Nth call.
+	  _.after = function(times, func) {
+	    return function() {
+	      if (--times < 1) {
+	        return func.apply(this, arguments);
+	      }
+	    };
+	  };
+	
+	  // Returns a function that will only be executed up to (but not including) the Nth call.
+	  _.before = function(times, func) {
+	    var memo;
+	    return function() {
+	      if (--times > 0) {
+	        memo = func.apply(this, arguments);
+	      }
+	      if (times <= 1) func = null;
+	      return memo;
+	    };
+	  };
+	
+	  // Returns a function that will be executed at most one time, no matter how
+	  // often you call it. Useful for lazy initialization.
+	  _.once = _.partial(_.before, 2);
+	
+	  // Object Functions
+	  // ----------------
+	
+	  // Keys in IE < 9 that won't be iterated by `for key in ...` and thus missed.
+	  var hasEnumBug = !{toString: null}.propertyIsEnumerable('toString');
+	  var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',
+	                      'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];
+	
+	  function collectNonEnumProps(obj, keys) {
+	    var nonEnumIdx = nonEnumerableProps.length;
+	    var constructor = obj.constructor;
+	    var proto = (_.isFunction(constructor) && constructor.prototype) || ObjProto;
+	
+	    // Constructor is a special case.
+	    var prop = 'constructor';
+	    if (_.has(obj, prop) && !_.contains(keys, prop)) keys.push(prop);
+	
+	    while (nonEnumIdx--) {
+	      prop = nonEnumerableProps[nonEnumIdx];
+	      if (prop in obj && obj[prop] !== proto[prop] && !_.contains(keys, prop)) {
+	        keys.push(prop);
+	      }
+	    }
+	  }
+	
+	  // Retrieve the names of an object's own properties.
+	  // Delegates to **ECMAScript 5**'s native `Object.keys`
+	  _.keys = function(obj) {
+	    if (!_.isObject(obj)) return [];
+	    if (nativeKeys) return nativeKeys(obj);
+	    var keys = [];
+	    for (var key in obj) if (_.has(obj, key)) keys.push(key);
+	    // Ahem, IE < 9.
+	    if (hasEnumBug) collectNonEnumProps(obj, keys);
+	    return keys;
+	  };
+	
+	  // Retrieve all the property names of an object.
+	  _.allKeys = function(obj) {
+	    if (!_.isObject(obj)) return [];
+	    var keys = [];
+	    for (var key in obj) keys.push(key);
+	    // Ahem, IE < 9.
+	    if (hasEnumBug) collectNonEnumProps(obj, keys);
+	    return keys;
+	  };
+	
+	  // Retrieve the values of an object's properties.
+	  _.values = function(obj) {
+	    var keys = _.keys(obj);
+	    var length = keys.length;
+	    var values = Array(length);
+	    for (var i = 0; i < length; i++) {
+	      values[i] = obj[keys[i]];
+	    }
+	    return values;
+	  };
+	
+	  // Returns the results of applying the iteratee to each element of the object
+	  // In contrast to _.map it returns an object
+	  _.mapObject = function(obj, iteratee, context) {
+	    iteratee = cb(iteratee, context);
+	    var keys =  _.keys(obj),
+	          length = keys.length,
+	          results = {},
+	          currentKey;
+	      for (var index = 0; index < length; index++) {
+	        currentKey = keys[index];
+	        results[currentKey] = iteratee(obj[currentKey], currentKey, obj);
+	      }
+	      return results;
+	  };
+	
+	  // Convert an object into a list of `[key, value]` pairs.
+	  _.pairs = function(obj) {
+	    var keys = _.keys(obj);
+	    var length = keys.length;
+	    var pairs = Array(length);
+	    for (var i = 0; i < length; i++) {
+	      pairs[i] = [keys[i], obj[keys[i]]];
+	    }
+	    return pairs;
+	  };
+	
+	  // Invert the keys and values of an object. The values must be serializable.
+	  _.invert = function(obj) {
+	    var result = {};
+	    var keys = _.keys(obj);
+	    for (var i = 0, length = keys.length; i < length; i++) {
+	      result[obj[keys[i]]] = keys[i];
+	    }
+	    return result;
+	  };
+	
+	  // Return a sorted list of the function names available on the object.
+	  // Aliased as `methods`
+	  _.functions = _.methods = function(obj) {
+	    var names = [];
+	    for (var key in obj) {
+	      if (_.isFunction(obj[key])) names.push(key);
+	    }
+	    return names.sort();
+	  };
+	
+	  // Extend a given object with all the properties in passed-in object(s).
+	  _.extend = createAssigner(_.allKeys);
+	
+	  // Assigns a given object with all the own properties in the passed-in object(s)
+	  // (https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
+	  _.extendOwn = _.assign = createAssigner(_.keys);
+	
+	  // Returns the first key on an object that passes a predicate test
+	  _.findKey = function(obj, predicate, context) {
+	    predicate = cb(predicate, context);
+	    var keys = _.keys(obj), key;
+	    for (var i = 0, length = keys.length; i < length; i++) {
+	      key = keys[i];
+	      if (predicate(obj[key], key, obj)) return key;
+	    }
+	  };
+	
+	  // Return a copy of the object only containing the whitelisted properties.
+	  _.pick = function(object, oiteratee, context) {
+	    var result = {}, obj = object, iteratee, keys;
+	    if (obj == null) return result;
+	    if (_.isFunction(oiteratee)) {
+	      keys = _.allKeys(obj);
+	      iteratee = optimizeCb(oiteratee, context);
+	    } else {
+	      keys = flatten(arguments, false, false, 1);
+	      iteratee = function(value, key, obj) { return key in obj; };
+	      obj = Object(obj);
+	    }
+	    for (var i = 0, length = keys.length; i < length; i++) {
+	      var key = keys[i];
+	      var value = obj[key];
+	      if (iteratee(value, key, obj)) result[key] = value;
+	    }
+	    return result;
+	  };
+	
+	   // Return a copy of the object without the blacklisted properties.
+	  _.omit = function(obj, iteratee, context) {
+	    if (_.isFunction(iteratee)) {
+	      iteratee = _.negate(iteratee);
+	    } else {
+	      var keys = _.map(flatten(arguments, false, false, 1), String);
+	      iteratee = function(value, key) {
+	        return !_.contains(keys, key);
+	      };
+	    }
+	    return _.pick(obj, iteratee, context);
+	  };
+	
+	  // Fill in a given object with default properties.
+	  _.defaults = createAssigner(_.allKeys, true);
+	
+	  // Creates an object that inherits from the given prototype object.
+	  // If additional properties are provided then they will be added to the
+	  // created object.
+	  _.create = function(prototype, props) {
+	    var result = baseCreate(prototype);
+	    if (props) _.extendOwn(result, props);
+	    return result;
+	  };
+	
+	  // Create a (shallow-cloned) duplicate of an object.
+	  _.clone = function(obj) {
+	    if (!_.isObject(obj)) return obj;
+	    return _.isArray(obj) ? obj.slice() : _.extend({}, obj);
+	  };
+	
+	  // Invokes interceptor with the obj, and then returns obj.
+	  // The primary purpose of this method is to "tap into" a method chain, in
+	  // order to perform operations on intermediate results within the chain.
+	  _.tap = function(obj, interceptor) {
+	    interceptor(obj);
+	    return obj;
+	  };
+	
+	  // Returns whether an object has a given set of `key:value` pairs.
+	  _.isMatch = function(object, attrs) {
+	    var keys = _.keys(attrs), length = keys.length;
+	    if (object == null) return !length;
+	    var obj = Object(object);
+	    for (var i = 0; i < length; i++) {
+	      var key = keys[i];
+	      if (attrs[key] !== obj[key] || !(key in obj)) return false;
+	    }
+	    return true;
+	  };
+	
+	
+	  // Internal recursive comparison function for `isEqual`.
+	  var eq = function(a, b, aStack, bStack) {
+	    // Identical objects are equal. `0 === -0`, but they aren't identical.
+	    // See the [Harmony `egal` proposal](http://wiki.ecmascript.org/doku.php?id=harmony:egal).
+	    if (a === b) return a !== 0 || 1 / a === 1 / b;
+	    // A strict comparison is necessary because `null == undefined`.
+	    if (a == null || b == null) return a === b;
+	    // Unwrap any wrapped objects.
+	    if (a instanceof _) a = a._wrapped;
+	    if (b instanceof _) b = b._wrapped;
+	    // Compare `[[Class]]` names.
+	    var className = toString.call(a);
+	    if (className !== toString.call(b)) return false;
+	    switch (className) {
+	      // Strings, numbers, regular expressions, dates, and booleans are compared by value.
+	      case '[object RegExp]':
+	      // RegExps are coerced to strings for comparison (Note: '' + /a/i === '/a/i')
+	      case '[object String]':
+	        // Primitives and their corresponding object wrappers are equivalent; thus, `"5"` is
+	        // equivalent to `new String("5")`.
+	        return '' + a === '' + b;
+	      case '[object Number]':
+	        // `NaN`s are equivalent, but non-reflexive.
+	        // Object(NaN) is equivalent to NaN
+	        if (+a !== +a) return +b !== +b;
+	        // An `egal` comparison is performed for other numeric values.
+	        return +a === 0 ? 1 / +a === 1 / b : +a === +b;
+	      case '[object Date]':
+	      case '[object Boolean]':
+	        // Coerce dates and booleans to numeric primitive values. Dates are compared by their
+	        // millisecond representations. Note that invalid dates with millisecond representations
+	        // of `NaN` are not equivalent.
+	        return +a === +b;
+	    }
+	
+	    var areArrays = className === '[object Array]';
+	    if (!areArrays) {
+	      if (typeof a != 'object' || typeof b != 'object') return false;
+	
+	      // Objects with different constructors are not equivalent, but `Object`s or `Array`s
+	      // from different frames are.
+	      var aCtor = a.constructor, bCtor = b.constructor;
+	      if (aCtor !== bCtor && !(_.isFunction(aCtor) && aCtor instanceof aCtor &&
+	                               _.isFunction(bCtor) && bCtor instanceof bCtor)
+	                          && ('constructor' in a && 'constructor' in b)) {
+	        return false;
+	      }
+	    }
+	    // Assume equality for cyclic structures. The algorithm for detecting cyclic
+	    // structures is adapted from ES 5.1 section 15.12.3, abstract operation `JO`.
+	
+	    // Initializing stack of traversed objects.
+	    // It's done here since we only need them for objects and arrays comparison.
+	    aStack = aStack || [];
+	    bStack = bStack || [];
+	    var length = aStack.length;
+	    while (length--) {
+	      // Linear search. Performance is inversely proportional to the number of
+	      // unique nested structures.
+	      if (aStack[length] === a) return bStack[length] === b;
+	    }
+	
+	    // Add the first object to the stack of traversed objects.
+	    aStack.push(a);
+	    bStack.push(b);
+	
+	    // Recursively compare objects and arrays.
+	    if (areArrays) {
+	      // Compare array lengths to determine if a deep comparison is necessary.
+	      length = a.length;
+	      if (length !== b.length) return false;
+	      // Deep compare the contents, ignoring non-numeric properties.
+	      while (length--) {
+	        if (!eq(a[length], b[length], aStack, bStack)) return false;
+	      }
+	    } else {
+	      // Deep compare objects.
+	      var keys = _.keys(a), key;
+	      length = keys.length;
+	      // Ensure that both objects contain the same number of properties before comparing deep equality.
+	      if (_.keys(b).length !== length) return false;
+	      while (length--) {
+	        // Deep compare each member
+	        key = keys[length];
+	        if (!(_.has(b, key) && eq(a[key], b[key], aStack, bStack))) return false;
+	      }
+	    }
+	    // Remove the first object from the stack of traversed objects.
+	    aStack.pop();
+	    bStack.pop();
+	    return true;
+	  };
+	
+	  // Perform a deep comparison to check if two objects are equal.
+	  _.isEqual = function(a, b) {
+	    return eq(a, b);
+	  };
+	
+	  // Is a given array, string, or object empty?
+	  // An "empty" object has no enumerable own-properties.
+	  _.isEmpty = function(obj) {
+	    if (obj == null) return true;
+	    if (isArrayLike(obj) && (_.isArray(obj) || _.isString(obj) || _.isArguments(obj))) return obj.length === 0;
+	    return _.keys(obj).length === 0;
+	  };
+	
+	  // Is a given value a DOM element?
+	  _.isElement = function(obj) {
+	    return !!(obj && obj.nodeType === 1);
+	  };
+	
+	  // Is a given value an array?
+	  // Delegates to ECMA5's native Array.isArray
+	  _.isArray = nativeIsArray || function(obj) {
+	    return toString.call(obj) === '[object Array]';
+	  };
+	
+	  // Is a given variable an object?
+	  _.isObject = function(obj) {
+	    var type = typeof obj;
+	    return type === 'function' || type === 'object' && !!obj;
+	  };
+	
+	  // Add some isType methods: isArguments, isFunction, isString, isNumber, isDate, isRegExp, isError.
+	  _.each(['Arguments', 'Function', 'String', 'Number', 'Date', 'RegExp', 'Error'], function(name) {
+	    _['is' + name] = function(obj) {
+	      return toString.call(obj) === '[object ' + name + ']';
+	    };
+	  });
+	
+	  // Define a fallback version of the method in browsers (ahem, IE < 9), where
+	  // there isn't any inspectable "Arguments" type.
+	  if (!_.isArguments(arguments)) {
+	    _.isArguments = function(obj) {
+	      return _.has(obj, 'callee');
+	    };
+	  }
+	
+	  // Optimize `isFunction` if appropriate. Work around some typeof bugs in old v8,
+	  // IE 11 (#1621), and in Safari 8 (#1929).
+	  if (typeof /./ != 'function' && typeof Int8Array != 'object') {
+	    _.isFunction = function(obj) {
+	      return typeof obj == 'function' || false;
+	    };
+	  }
+	
+	  // Is a given object a finite number?
+	  _.isFinite = function(obj) {
+	    return isFinite(obj) && !isNaN(parseFloat(obj));
+	  };
+	
+	  // Is the given value `NaN`? (NaN is the only number which does not equal itself).
+	  _.isNaN = function(obj) {
+	    return _.isNumber(obj) && obj !== +obj;
+	  };
+	
+	  // Is a given value a boolean?
+	  _.isBoolean = function(obj) {
+	    return obj === true || obj === false || toString.call(obj) === '[object Boolean]';
+	  };
+	
+	  // Is a given value equal to null?
+	  _.isNull = function(obj) {
+	    return obj === null;
+	  };
+	
+	  // Is a given variable undefined?
+	  _.isUndefined = function(obj) {
+	    return obj === void 0;
+	  };
+	
+	  // Shortcut function for checking if an object has a given property directly
+	  // on itself (in other words, not on a prototype).
+	  _.has = function(obj, key) {
+	    return obj != null && hasOwnProperty.call(obj, key);
+	  };
+	
+	  // Utility Functions
+	  // -----------------
+	
+	  // Run Underscore.js in *noConflict* mode, returning the `_` variable to its
+	  // previous owner. Returns a reference to the Underscore object.
+	  _.noConflict = function() {
+	    root._ = previousUnderscore;
+	    return this;
+	  };
+	
+	  // Keep the identity function around for default iteratees.
+	  _.identity = function(value) {
+	    return value;
+	  };
+	
+	  // Predicate-generating functions. Often useful outside of Underscore.
+	  _.constant = function(value) {
+	    return function() {
+	      return value;
+	    };
+	  };
+	
+	  _.noop = function(){};
+	
+	  _.property = property;
+	
+	  // Generates a function for a given object that returns a given property.
+	  _.propertyOf = function(obj) {
+	    return obj == null ? function(){} : function(key) {
+	      return obj[key];
+	    };
+	  };
+	
+	  // Returns a predicate for checking whether an object has a given set of
+	  // `key:value` pairs.
+	  _.matcher = _.matches = function(attrs) {
+	    attrs = _.extendOwn({}, attrs);
+	    return function(obj) {
+	      return _.isMatch(obj, attrs);
+	    };
+	  };
+	
+	  // Run a function **n** times.
+	  _.times = function(n, iteratee, context) {
+	    var accum = Array(Math.max(0, n));
+	    iteratee = optimizeCb(iteratee, context, 1);
+	    for (var i = 0; i < n; i++) accum[i] = iteratee(i);
+	    return accum;
+	  };
+	
+	  // Return a random integer between min and max (inclusive).
+	  _.random = function(min, max) {
+	    if (max == null) {
+	      max = min;
+	      min = 0;
+	    }
+	    return min + Math.floor(Math.random() * (max - min + 1));
+	  };
+	
+	  // A (possibly faster) way to get the current timestamp as an integer.
+	  _.now = Date.now || function() {
+	    return new Date().getTime();
+	  };
+	
+	   // List of HTML entities for escaping.
+	  var escapeMap = {
+	    '&': '&amp;',
+	    '<': '&lt;',
+	    '>': '&gt;',
+	    '"': '&quot;',
+	    "'": '&#x27;',
+	    '`': '&#x60;'
+	  };
+	  var unescapeMap = _.invert(escapeMap);
+	
+	  // Functions for escaping and unescaping strings to/from HTML interpolation.
+	  var createEscaper = function(map) {
+	    var escaper = function(match) {
+	      return map[match];
+	    };
+	    // Regexes for identifying a key that needs to be escaped
+	    var source = '(?:' + _.keys(map).join('|') + ')';
+	    var testRegexp = RegExp(source);
+	    var replaceRegexp = RegExp(source, 'g');
+	    return function(string) {
+	      string = string == null ? '' : '' + string;
+	      return testRegexp.test(string) ? string.replace(replaceRegexp, escaper) : string;
+	    };
+	  };
+	  _.escape = createEscaper(escapeMap);
+	  _.unescape = createEscaper(unescapeMap);
+	
+	  // If the value of the named `property` is a function then invoke it with the
+	  // `object` as context; otherwise, return it.
+	  _.result = function(object, property, fallback) {
+	    var value = object == null ? void 0 : object[property];
+	    if (value === void 0) {
+	      value = fallback;
+	    }
+	    return _.isFunction(value) ? value.call(object) : value;
+	  };
+	
+	  // Generate a unique integer id (unique within the entire client session).
+	  // Useful for temporary DOM ids.
+	  var idCounter = 0;
+	  _.uniqueId = function(prefix) {
+	    var id = ++idCounter + '';
+	    return prefix ? prefix + id : id;
+	  };
+	
+	  // By default, Underscore uses ERB-style template delimiters, change the
+	  // following template settings to use alternative delimiters.
+	  _.templateSettings = {
+	    evaluate    : /<%([\s\S]+?)%>/g,
+	    interpolate : /<%=([\s\S]+?)%>/g,
+	    escape      : /<%-([\s\S]+?)%>/g
+	  };
+	
+	  // When customizing `templateSettings`, if you don't want to define an
+	  // interpolation, evaluation or escaping regex, we need one that is
+	  // guaranteed not to match.
+	  var noMatch = /(.)^/;
+	
+	  // Certain characters need to be escaped so that they can be put into a
+	  // string literal.
+	  var escapes = {
+	    "'":      "'",
+	    '\\':     '\\',
+	    '\r':     'r',
+	    '\n':     'n',
+	    '\u2028': 'u2028',
+	    '\u2029': 'u2029'
+	  };
+	
+	  var escaper = /\\|'|\r|\n|\u2028|\u2029/g;
+	
+	  var escapeChar = function(match) {
+	    return '\\' + escapes[match];
+	  };
+	
+	  // JavaScript micro-templating, similar to John Resig's implementation.
+	  // Underscore templating handles arbitrary delimiters, preserves whitespace,
+	  // and correctly escapes quotes within interpolated code.
+	  // NB: `oldSettings` only exists for backwards compatibility.
+	  _.template = function(text, settings, oldSettings) {
+	    if (!settings && oldSettings) settings = oldSettings;
+	    settings = _.defaults({}, settings, _.templateSettings);
+	
+	    // Combine delimiters into one regular expression via alternation.
+	    var matcher = RegExp([
+	      (settings.escape || noMatch).source,
+	      (settings.interpolate || noMatch).source,
+	      (settings.evaluate || noMatch).source
+	    ].join('|') + '|$', 'g');
+	
+	    // Compile the template source, escaping string literals appropriately.
+	    var index = 0;
+	    var source = "__p+='";
+	    text.replace(matcher, function(match, escape, interpolate, evaluate, offset) {
+	      source += text.slice(index, offset).replace(escaper, escapeChar);
+	      index = offset + match.length;
+	
+	      if (escape) {
+	        source += "'+\n((__t=(" + escape + "))==null?'':_.escape(__t))+\n'";
+	      } else if (interpolate) {
+	        source += "'+\n((__t=(" + interpolate + "))==null?'':__t)+\n'";
+	      } else if (evaluate) {
+	        source += "';\n" + evaluate + "\n__p+='";
+	      }
+	
+	      // Adobe VMs need the match returned to produce the correct offest.
+	      return match;
+	    });
+	    source += "';\n";
+	
+	    // If a variable is not specified, place data values in local scope.
+	    if (!settings.variable) source = 'with(obj||{}){\n' + source + '}\n';
+	
+	    source = "var __t,__p='',__j=Array.prototype.join," +
+	      "print=function(){__p+=__j.call(arguments,'');};\n" +
+	      source + 'return __p;\n';
+	
+	    try {
+	      var render = new Function(settings.variable || 'obj', '_', source);
+	    } catch (e) {
+	      e.source = source;
+	      throw e;
+	    }
+	
+	    var template = function(data) {
+	      return render.call(this, data, _);
+	    };
+	
+	    // Provide the compiled source as a convenience for precompilation.
+	    var argument = settings.variable || 'obj';
+	    template.source = 'function(' + argument + '){\n' + source + '}';
+	
+	    return template;
+	  };
+	
+	  // Add a "chain" function. Start chaining a wrapped Underscore object.
+	  _.chain = function(obj) {
+	    var instance = _(obj);
+	    instance._chain = true;
+	    return instance;
+	  };
+	
+	  // OOP
+	  // ---------------
+	  // If Underscore is called as a function, it returns a wrapped object that
+	  // can be used OO-style. This wrapper holds altered versions of all the
+	  // underscore functions. Wrapped objects may be chained.
+	
+	  // Helper function to continue chaining intermediate results.
+	  var result = function(instance, obj) {
+	    return instance._chain ? _(obj).chain() : obj;
+	  };
+	
+	  // Add your own custom functions to the Underscore object.
+	  _.mixin = function(obj) {
+	    _.each(_.functions(obj), function(name) {
+	      var func = _[name] = obj[name];
+	      _.prototype[name] = function() {
+	        var args = [this._wrapped];
+	        push.apply(args, arguments);
+	        return result(this, func.apply(_, args));
+	      };
+	    });
+	  };
+	
+	  // Add all of the Underscore functions to the wrapper object.
+	  _.mixin(_);
+	
+	  // Add all mutator Array functions to the wrapper.
+	  _.each(['pop', 'push', 'reverse', 'shift', 'sort', 'splice', 'unshift'], function(name) {
+	    var method = ArrayProto[name];
+	    _.prototype[name] = function() {
+	      var obj = this._wrapped;
+	      method.apply(obj, arguments);
+	      if ((name === 'shift' || name === 'splice') && obj.length === 0) delete obj[0];
+	      return result(this, obj);
+	    };
+	  });
+	
+	  // Add all accessor Array functions to the wrapper.
+	  _.each(['concat', 'join', 'slice'], function(name) {
+	    var method = ArrayProto[name];
+	    _.prototype[name] = function() {
+	      return result(this, method.apply(this._wrapped, arguments));
+	    };
+	  });
+	
+	  // Extracts the result from a wrapped and chained object.
+	  _.prototype.value = function() {
+	    return this._wrapped;
+	  };
+	
+	  // Provide unwrapping proxy for some methods used in engine operations
+	  // such as arithmetic and JSON stringification.
+	  _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;
+	
+	  _.prototype.toString = function() {
+	    return '' + this._wrapped;
+	  };
+	
+	  // AMD registration happens at the end for compatibility with AMD loaders
+	  // that may not enforce next-turn semantics on modules. Even though general
+	  // practice for AMD registration is to be anonymous, underscore registers
+	  // as a named module because, like jQuery, it is a base library that is
+	  // popular enough to be bundled in a third party lib, but not be part of
+	  // an AMD load request. Those cases could generate an error when an
+	  // anonymous define() is called outside of a loader request.
+	  if (true) {
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function() {
+	      return _;
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  }
+	}.call(this));
+
 
 /***/ }
 /******/ ]);

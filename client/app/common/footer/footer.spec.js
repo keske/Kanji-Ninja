@@ -1,17 +1,17 @@
-import Header Module from './header'
-import Header Controller from './header.controller';
-import Header Component from './header.component';
-import Header Template from './header.html';
+import Footer Module from './footer'
+import Footer Controller from './footer.controller';
+import Footer Component from './footer.component';
+import Footer Template from './footer.html';
 
-describe('Header', () => {
+describe('Footer', () => {
   let $rootScope,
     makeController;
 
-  beforeEach(window.module( Header Module.name));
+  beforeEach(window.module( Footer Module.name));
   beforeEach(inject((_$rootScope_) => {
     $rootScope = _$rootScope_;
     makeController = () => {
-      return new Header Controller();
+      return new Footer Controller();
     };
   }));
 
@@ -37,17 +37,17 @@ describe('Header', () => {
     // use Regexes to test that you are using the right bindings {{  }}
 
     it('should have name in template [REMOVE]', () => {
-      expect( Header Template).to.match(/{{\s?vm\.name\s?}}/g);
+      expect( Footer Template).to.match(/{{\s?vm\.name\s?}}/g);
     });
   });
 
 
   describe('Component', () => {
     // test the component/directive itself
-    let component = Header Component();
+    let component = Footer Component();
 
     it('should use the right template', () => {
-      expect(component.template).to.equal( Header Template);
+      expect(component.template).to.equal( Footer Template);
     });
 
     it('should use controllerAs', () => {
@@ -55,7 +55,7 @@ describe('Header', () => {
     });
 
     it('should use the right controller', () => {
-      expect(component.controller).to.equal( Header Controller);
+      expect(component.controller).to.equal( Footer Controller);
     });
   });
 });

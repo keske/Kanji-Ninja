@@ -1,10 +1,10 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import headerComponent from './header.component';
+import headerコンポ from './header.コンポ';
 
 let headerModule = angular.module('header', [
     uiRouter
   ])
-  .directive('header', headerComponent);
+  .directive('header', headerコンポ);
 
 export default headerModule;
