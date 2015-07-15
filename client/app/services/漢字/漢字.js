@@ -1,477 +1,635 @@
 var データ = [{
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "日",
   "onyomi": "ニチ ジツ -",
   "kunyomi": "ひ -び",
-  "meaning": "День, солнце"
+  "meaning": "День, солнце",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "一",
   "onyomi": "イチ イツ ヒト.",
   "kunyomi": "ひと-",
-  "meaning": "Один"
+  "meaning": "Один",
+  "group": "Цифры",
+  "hidden": "1"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "国",
   "onyomi": "コク ク",
   "kunyomi": "",
-  "meaning": "Страна"
+  "meaning": "Страна",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "人",
   "onyomi": "ジン ニン -",
   "kunyomi": "ひと -り",
-  "meaning": "Человек"
+  "meaning": "Человек",
+  "group": "Люди",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "年",
   "onyomi": "ネン ト",
   "kunyomi": "",
-  "meaning": "Год"
+  "meaning": "Год",
+  "group": "Даты",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "大",
   "onyomi": "ダイ タイ -オオ.イ",
   "kunyomi": "おお- おお.きい",
-  "meaning": "Большой"
+  "meaning": "Большой",
+  "group": "Прилагательные",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "十",
   "onyomi": "ジュウ ジッ ジュッ",
   "kunyomi": "とお",
-  "meaning": "Десять"
+  "meaning": "Десять",
+  "group": "Цифры",
+  "hidden": "10"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "二",
   "onyomi": "ニ ジ フタタ.",
   "kunyomi": "ふた ふた.つ",
-  "meaning": "Два"
+  "meaning": "Два",
+  "group": "Цифры",
+  "hidden": "2"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "本",
   "onyomi": "ホン モ",
   "kunyomi": "",
-  "meaning": "книга" // resent, main, true, real, counter for long things
+  "meaning": "книга", // resent, main, true, real, counter for long things
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "中",
   "onyomi": "チュウ アタ.",
   "kunyomi": "なか うち",
-  "meaning": "в, внутри, середина, значить, центр"
+  "meaning": "В, внутри, середина, значить, центр",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "長",
   "onyomi": "チョウ オ",
   "kunyomi": "なが.い",
-  "meaning": "длинный, лидер"
+  "meaning": "Длинный, лидер",
+  "group": "Прилагательные",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "出",
   "onyomi": "シュツ スイ イ.ダ",
   "kunyomi": "で.る -で だ.す -だ.す い.でる",
-  "meaning": "выход, покинуть"
+  "meaning": "Выход, покинуть",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "三",
   "onyomi": "サン ゾウ ミッ.",
   "kunyomi": "み み.つ",
-  "meaning": "Три"
+  "meaning": "Три",
+  "group": "Цифры",
+  "hidden": "3"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "時",
   "onyomi": "ジ -ド",
   "kunyomi": "とき",
-  "meaning": "Время, час"
+  "meaning": "Время, час",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "行",
   "onyomi": "コウ ギョウ アン オコ.ナ",
   "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
-  "meaning": "Идти" // journey
+  "meaning": "Идти",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "見",
   "onyomi": "ケン",
   "kunyomi": "み.る み.える み.せる",
-  "meaning": "видеть" // hopes, chances, idea, opinion, look at, visible
+  "meaning": "Видеть",
+  "group": "Глаголы",
+  "hidden": "Смотреть"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "月",
   "onyomi": "ゲツ ガツ ツ",
   "kunyomi": "",
-  "meaning": "Месяц, луна"
+  "meaning": "Месяц, луна",
+  "group": "Даты",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "後",
   "onyomi": "ゴ コウ オク.レ",
   "kunyomi": "のち うし.ろ うしろ あと",
-  "meaning": "Позади, сзади, позже"
+  "meaning": "Позади, сзади, позже",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "前",
   "onyomi": "ゼン -マ",
   "kunyomi": "まえ",
-  "meaning": "Впереди, спереди"
+  "meaning": "Впереди, спереди",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "生",
   "onyomi": "セイ ショウ -",
   "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
-  "meaning": "Жизнь"
+  "meaning": "Жизнь",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "五",
   "onyomi": "ゴ イツ.",
   "kunyomi": "いつ",
-  "meaning": "Пять"
+  "meaning": "Пять",
+  "group": "Цифры",
+  "hidden": "5"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "間",
   "onyomi": "カン ケン",
   "kunyomi": "あいだ ま あい",
-  "meaning": "Интервал"
+  "meaning": "Интервал",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "上",
   "onyomi": "ジョウ ショウ シャン ヨ.",
   "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
-  "meaning": "наверху, вверху, наверх"
+  "meaning": "наверху, вверху, наверх",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "東",
   "onyomi": "トウ ヒガ",
   "kunyomi": "",
-  "meaning": "Восток"
+  "meaning": "Восток",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "四",
   "onyomi": "シ ヨ",
   "kunyomi": "よ よ.つ よっ.つ",
-  "meaning": "Четыре"
+  "meaning": "Четыре",
+  "group": "Цифры",
+  "hidden": "4"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "今",
   "onyomi": "コン キン イ",
   "kunyomi": "",
-  "meaning": "Сейчас"
+  "meaning": "Сейчас",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "金",
   "onyomi": "キン コン ゴン -ガ",
   "kunyomi": "かね かな-",
-  "meaning": "Золото, деньги"
+  "meaning": "Золото, деньги",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "九",
   "onyomi": "キュウ ク ココノ.",
   "kunyomi": "ここの",
-  "meaning": "Девять"
+  "meaning": "Девять",
+  "group": "Цифры",
+  "hidden": "9"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "入",
   "onyomi": "ニュウ ジュ ハイ.",
   "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
-  "meaning": "Войти, ввести, вставить"
+  "meaning": "Войти, ввести, вставить",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "学",
   "onyomi": "ガク マナ.",
   "kunyomi": "",
-  "meaning": "Исследование, изучение, обучение, учеба, наука" // study, learning, science
+  "meaning": "Исследование, изучение, обучение, учеба, наука",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "高",
   "onyomi": "コウ タカ.メ",
   "kunyomi": "たか.い たか -だか たか.まる",
-  "meaning": "Высокий, дорогой"
+  "meaning": "Высокий, дорогой",
+  "group": "Прилагательные",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "円",
   "onyomi": "エン マロ.ヤ",
   "kunyomi": "まる.い まる まど まど.か",
-  "meaning": "Круг, иена, круглый"
+  "meaning": "Круг, иена, круглый",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "子",
   "onyomi": "シ ス ツ",
   "kunyomi": "こ -こ",
-  "meaning": "Ребенок" // child, sign of the rat, 11PM-1AM, first sign of Chinese zodiac
+  "meaning": "Ребенок",
+  "group": "Люди",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "外",
   "onyomi": "ガイ ゲ",
   "kunyomi": "そと ほか はず.す はず.れる と",
-  "meaning": "Снаружи"
+  "meaning": "Снаружи",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "八",
   "onyomi": "ハチ ヨ",
   "kunyomi": "や や.つ やっ.つ",
-  "meaning": "Восемь"
+  "meaning": "Восемь",
+  "group": "Цифры",
+  "hidden": "8"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "六",
   "onyomi": "ロク リク ム",
   "kunyomi": "む む.つ むっ.つ",
-  "meaning": "Шесть"
+  "meaning": "Шесть",
+  "group": "Цифры",
+  "hidden": "6"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "下",
   "onyomi": "カ ゲ オ.リ",
   "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
-  "meaning": "Ниже, вниз, спуститься"
+  "meaning": "Ниже, вниз, спуститься",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "来",
   "onyomi": "ライ タイ",
   "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
-  "meaning": "Придти, причина, стать"
+  "meaning": "Придти, причина, стать",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "気",
   "onyomi": "キ ケ",
   "kunyomi": "いき",
-  "meaning": "Дух, разум"
+  "meaning": "Дух, разум",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "小",
   "onyomi": "ショウ",
   "kunyomi": "ちい.さい こ- お- さ",
-  "meaning": "Маленький"
+  "meaning": "Маленький",
+  "group": "Прилагательные",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "七",
   "onyomi": "シチ ナ",
   "kunyomi": "なな なな.つ",
-  "meaning": "Семь"
+  "meaning": "Семь",
+  "group": "Цифры",
+  "hidden": "7"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "山",
   "onyomi": "サン セン ヤ",
   "kunyomi": "",
-  "meaning": "Гора"
+  "meaning": "Гора",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "話",
   "onyomi": "ワ",
   "kunyomi": "はな.す はなし",
-  "meaning": "Разговор, сказка"
+  "meaning": "Разговор, сказка",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "女",
   "onyomi": "ジョ ニョ ニョウ",
   "kunyomi": "おんな",
-  "meaning": "Женщина"
+  "meaning": "Женщина",
+  "group": "Люди",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "北",
   "onyomi": "ホク キ",
   "kunyomi": "",
-  "meaning": "Север"
+  "meaning": "Север",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "午",
   "onyomi": "ゴ",
   "kunyomi": "うま",
-  "meaning": "Полдень"
+  "meaning": "Полдень",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "百",
   "onyomi": "ヒャク ビャク モ",
   "kunyomi": "",
-  "meaning": "Сто"
+  "meaning": "Сто",
+  "group": "Цифры",
+  "hidden": "100"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "書",
   "onyomi": "ショ -ガ",
   "kunyomi": "か.く -が.き",
-  "meaning": "Писать"
+  "meaning": "Писать",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "先",
   "onyomi": "セン マ.",
   "kunyomi": "さき",
-  "meaning": "Перед, вперед, предыдущий, будущее"
+  "meaning": "Перед, вперед, предыдущий, будущее",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "名",
   "onyomi": "メイ ミョウ -",
   "kunyomi": "な",
-  "meaning": "Имя"
+  "meaning": "Имя",
+  "group": "",
+  "hidden": "Люди"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "川",
   "onyomi": "セン カ",
   "kunyomi": "",
-  "meaning": "Река"
+  "meaning": "Река",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "千",
   "onyomi": "セン",
   "kunyomi": "",
-  "meaning": "Тысяча"
+  "meaning": "Тысяча",
+  "group": "Цифры",
+  "hidden": "1000"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "水",
   "onyomi": "スイ",
   "kunyomi": "みず みず",
-  "meaning": "Вода"
+  "meaning": "Вода",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "半",
   "onyomi": "ハン ナカ.",
   "kunyomi": "",
-  "meaning": "Половина, середина, нечетное число"
+  "meaning": "Половина, середина, нечетное число",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "男",
   "onyomi": "ダン ナン",
   "kunyomi": "おとこ",
-  "meaning": "Мужчина"
+  "meaning": "Мужчина",
+  "group": "Люди",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "西",
   "onyomi": "セイ サイ ス ニ",
   "kunyomi": "",
-  "meaning": "Запад, Испания"
+  "meaning": "Запад, Испания",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "電",
   "onyomi": "デン",
   "kunyomi": "",
-  "meaning": "Электричество"
+  "meaning": "Электричество",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "校",
   "onyomi": "コウ キョ",
   "kunyomi": "",
-  "meaning": "Экзамен, школа, печать"
+  "meaning": "Экзамен, школа, печать",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "語",
   "onyomi": "ゴ",
   "kunyomi": "かた.る かた.らう",
-  "meaning": "Слово, речь, язык"
+  "meaning": "Слово, речь, язык",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "土",
   "onyomi": "ド ト ツ",
   "kunyomi": "",
-  "meaning": "Почва, земля, грунт, Турция"
+  "meaning": "Почва, земля, грунт, Турция",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "木",
   "onyomi": "ボク モク",
   "kunyomi": "き こ",
-  "meaning": "Дерево, древесина"
+  "meaning": "Дерево, древесина",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "聞",
   "onyomi": "ブン モン",
   "kunyomi": "き.く き.こえる",
-  "meaning": "Слышать, спрашивать, слушать"
+  "meaning": "Слышать, спрашивать, слушать",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "食",
   "onyomi": "ショク ジキ ハ.",
   "kunyomi": "く.う く.らう た.べる",
-  "meaning": "Еда"
+  "meaning": "Еда",
+  "group": "Глаголы",
+  "hidden": "Есть"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "車",
   "onyomi": "シャ クル",
   "kunyomi": "",
-  "meaning": "Машина"
+  "meaning": "Машина",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "何",
   "onyomi": "カ",
   "kunyomi": "なに なん なに- なん",
-  "meaning": "Что?"
+  "meaning": "Что?",
+  "group": "Вопросы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "南",
   "onyomi": "ナン ナ ミナ",
   "kunyomi": "",
-  "meaning": "Юг"
+  "meaning": "Юг",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "万",
   "onyomi": "マン バン ヨロ",
   "kunyomi": "",
-  "meaning": "Десять тысяч"
+  "meaning": "Десять тысяч",
+  "group": "Цифры",
+  "hidden": "10 000"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "毎",
   "onyomi": "マイ -ゴト.",
   "kunyomi": "ごと",
-  "meaning": "Каждый"
+  "meaning": "Каждый",
+  "group": "Прилагательные",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "白",
   "onyomi": "ハク ビャク シロ.",
   "kunyomi": "しろ しら-",
-  "meaning": "Белый"
+  "meaning": "Белый",
+  "group": "Цвета",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "天",
   "onyomi": "テン",
   "kunyomi": "あまつ あめ あま",
-  "meaning": "Небеса, небо, императорский"
+  "meaning": "Небеса, небо, императорский",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "母",
   "onyomi": "ボ",
   "kunyomi": "はは も",
-  "meaning": "Мама"
+  "meaning": "Мама",
+  "group": "Семья",
+  "hidden": "Мать"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "火",
   "onyomi": "カ",
   "kunyomi": "ひ -び ほ-",
-  "meaning": "Огонь"
+  "meaning": "Огонь",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "右",
   "onyomi": "ウ ユウ ミ",
   "kunyomi": "",
-  "meaning": "Право"
+  "meaning": "Право",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "読",
   "onyomi": "ドク トク トウ -ヨ.",
   "kunyomi": "よ.む",
-  "meaning": "Читать"
+  "meaning": "Читать",
+  "group": "Глаголы",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "友",
   "onyomi": "ユウ ト",
   "kunyomi": "",
-  "meaning": "Друг"
+  "meaning": "Друг",
+  "group": "Люди",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "左",
   "onyomi": "サ シャ ヒダ",
   "kunyomi": "",
-  "meaning": "Лево"
+  "meaning": "Лево",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "休",
   "onyomi": "キュウ",
   "kunyomi": "やす.む やす.まる やす.める",
-  "meaning": "Отдых, выходной, покой, сон"
+  "meaning": "Отдых, выходной, покой, сон",
+  "group": "",
+  "hidden": ""
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "父",
   "onyomi": "フ",
   "kunyomi": "ちち",
-  "meaning": "Отец"
+  "meaning": "Отец",
+  "group": "Семья",
+  "hidden": "Папа"
 }, {
-  "category": "jlptn5",
+  "jlpt": "jlptn5",
   "character": "雨",
   "onyomi": "ウ",
   "kunyomi": "あめ あま- -さめ",
-  "meaning": "Дождь"
+  "meaning": "Дождь",
+  "group": "",
+  "hidden": ""
 }];
 
 module.exports = データ;
