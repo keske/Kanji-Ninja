@@ -3,7 +3,8 @@ import _ from 'underscore';
 class ホームコントローラー {
   constructor(漢字サービス) {
     this.name = 'home';
-    this.limit = 7;
+    this.defaultLimit = 7;
+    this.limit = this.defaultLimit;
 
     this.kanji = 漢字サービス.getAll();
 
@@ -23,10 +24,11 @@ class ホームコントローラー {
 
     this.applyGroup = (group) => {
       this.query = group;
+      this.limit = this.defaultLimit;
     }
 
     this.showMore = () => {
-      this.limit += 7;
+      this.limit += this.defaultLimit;
     }
   }
 }

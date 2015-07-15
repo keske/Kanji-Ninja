@@ -11,7 +11,7 @@
             ng-model="vm.query"
             type="text"
             size="99"
-            placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи"
+            placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи"
           >
         </div><!-- サーチ -->
 
@@ -49,13 +49,15 @@
       <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
         <p class="音読み">
           <span class="題" ng-if="vm.getOnyomi(word.onyomi)">
-            Онъёми
+            <!-- Онъёми -->
+            Он
           </span>
           {{ vm.getOnyomi(word.onyomi) }}
         </p>
         <p class="訓読み">
           <span class="題" ng-if="vm.getKunyomi(word.kunyomi)">
-            Кунъёми
+            <!-- Кунъёми -->
+            Кун
           </span>
           {{ vm.getKunyomi(word.kunyomi) }}
         </p>
@@ -73,7 +75,10 @@
   <div class="container モレ">
     <div class="row">
 
-      <div class="ボタン 青い アウトライン" ng-click="vm.showMore()">
+      <div class="ボタン 青い アウトライン"
+        ng-click="vm.showMore()"
+        ng-show="(vm.kanji | filter: vm.query).length > vm.defaultLimit && vm.limit < (vm.kanji | filter: vm.query).length"
+      >
         Показать еще
       </div>
 
