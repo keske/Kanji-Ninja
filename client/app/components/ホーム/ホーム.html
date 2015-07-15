@@ -26,8 +26,8 @@
     </div><!-- container -->
   </div><!-- サーチ -->
 
-  <div class="container">
-    <div class="row アイテム"
+  <div class="container アイテム">
+    <div class="row"
       ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit">
 
       <div class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col">
