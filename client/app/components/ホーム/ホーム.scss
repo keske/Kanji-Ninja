@@ -12,7 +12,7 @@
     padding: 5px 10px;
 
     width: 100%;
-    display: inline-block;
+    display: block;
 
     border: 2px solid rgba(0, 0, 0, .1);
     border-radius: 3px;
@@ -26,21 +26,16 @@
 }
 
 .グループ {
-  margin-top: 30px;
+  padding: 3px 0;
 
-  ul {
-    list-style-type: none;
-    padding: 0;
+  span {
+    display: inline-block;
+    cursor: pointer;
 
-    li {
-      display: inline-block;
-      cursor: pointer;
+    font-size: 12px;
+    color: $青い;
 
-      font-size: 12px;
-      color: $青い;
-
-      margin-right: 10px;
-    }
+    padding-right: 10px;
   }
 }
 
