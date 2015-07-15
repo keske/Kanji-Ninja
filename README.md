@@ -15,3 +15,6 @@ Small helper for learning Japanese language.
 6. [ ] JLPT2
 7. [ ] JLPT1
 8. [ ] Rules page
+
+## Thanks
+[Jensen Kuras](http://keske.github.io/Kanji-Ninja/client/#/) for [Kanji JSON](http://keske.github.io/Kanji-Ninja/client/#/)
