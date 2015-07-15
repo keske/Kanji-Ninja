@@ -1,10 +1,10 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
-import <%= name %> Component from './<%= name %>.component';
+import <%= name %> コンポ from './<%= name %>.コンポ';
 
 let <%= name %> Module = angular.module('<%= name %>', [
     uiRouter
   ])
-  .directive('<%= name %>', <%= name %> Component);
+  .directive('<%= name %>', <%= name %> コンポ);
 
 export default <%= name %> Module;
