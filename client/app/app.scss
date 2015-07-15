@@ -1,3 +1,5 @@
+@import 'colors';
+
 body {
   margin: 30px;
 }
@@ -6,4 +8,36 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+.ボタン {
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .87;
+  }
+
+  display: inline-block;
+
+  &.青い {
+    background: $青い;
+    color: #FFF;
+
+    &.アウトライン {
+      background: #FFF;
+      border: 1px solid $青い;
+      color: $青い;
+
+      &:hover {
+        background: $青い;
+        color: #FFF;
+      }
+    }
+  }
+
+  &.block {
+    display: block;
+  }
 }

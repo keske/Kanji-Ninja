@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "6e6f5f05937b6ea4770a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "46f45cb8665fd2e74023"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5256,7 +5256,7 @@
 	
 	
 	// module
-	exports.push([module.id, "body {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n\n.ボタン {\n  border-radius: 10px;\n  padding: 10px 20px;\n  cursor: pointer;\n  display: inline-block; }\n  .ボタン:hover {\n    opacity: .87; }\n  .ボタン.青い {\n    background: #4A90E2;\n    color: #FFF; }\n    .ボタン.青い.アウトライン {\n      background: #FFF;\n      border: 1px solid #4A90E2;\n      color: #4A90E2; }\n      .ボタン.青い.アウトライン:hover {\n        background: #4A90E2;\n        color: #FFF; }\n  .ボタン.block {\n    display: block; }\n", ""]);
 	
 	// exports
 
@@ -5284,7 +5284,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: inline-block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #4A90E2; }\n\n.グループ {\n  margin-top: 30px; }\n  .グループ ul {\n    list-style-type: none;\n    padding: 0; }\n    .グループ ul li {\n      display: inline-block;\n      cursor: pointer;\n      font-size: 12px;\n      color: #4A90E2;\n      margin-right: 10px; }\n\n.アイテム {\n  padding: 30px 0; }\n  .アイテム:nth-child(1) {\n    margin-top: 50px; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #850515;\n    font-family: Serif;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #999;\n    border-radius: 3px;\n    border: 1px solid #CCC;\n    padding: 2px 4px;\n    position: absolute; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #CCC;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    padding-left: 20px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: inline-block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #4A90E2; }\n\n.グループ {\n  margin-top: 30px; }\n  .グループ ul {\n    list-style-type: none;\n    padding: 0; }\n    .グループ ul li {\n      display: inline-block;\n      cursor: pointer;\n      font-size: 12px;\n      color: #4A90E2;\n      margin-right: 10px; }\n\n.アイテム {\n  padding: 30px 0; }\n  .アイテム:nth-child(1) {\n    margin-top: 50px; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #850515;\n    font-family: Serif;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #999;\n    border-radius: 3px;\n    border: 1px solid #CCC;\n    padding: 2px 4px;\n    position: absolute; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #CCC;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    padding-left: 20px; }\n\n.モレ {\n  text-align: center;\n  margin-bottom: 100px; }\n", ""]);
 	
 	// exports
 
@@ -33815,11 +33815,11 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _homeHome = __webpack_require__(18);
+	var _ = __webpack_require__(16);
 	
-	var _homeHome2 = _interopRequireDefault(_homeHome);
+	var _2 = _interopRequireDefault(_);
 	
-	var componentModule = _angular2['default'].module('app.components', [_homeHome2['default'].name]);
+	var componentModule = _angular2['default'].module('app.components', [_2['default'].name]);
 	
 	exports['default'] = componentModule;
 	module.exports = exports['default'];
@@ -33836,30 +33836,28 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _homeHtml = __webpack_require__(29);
+	var _angular = __webpack_require__(1);
 	
-	var _homeHtml2 = _interopRequireDefault(_homeHtml);
+	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _homeController = __webpack_require__(17);
+	var _angularUiRouter = __webpack_require__(4);
 	
-	var _homeController2 = _interopRequireDefault(_homeController);
+	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	__webpack_require__(23);
+	var _ = __webpack_require__(18);
 	
-	__webpack_require__(33);
+	var _2 = _interopRequireDefault(_);
 	
-	var homeComponent = function homeComponent() {
-	  return {
-	    template: _homeHtml2['default'],
-	    controller: _homeController2['default'],
-	    restrict: 'E',
-	    controllerAs: 'vm',
-	    scope: {},
-	    bindToController: true
-	  };
-	};
+	var homeModule = _angular2['default'].module('ホーム', [_angularUiRouter2['default']]).config(function ($stateProvider, $urlRouterProvider) {
+	  $urlRouterProvider.otherwise('/');
 	
-	exports['default'] = homeComponent;
+	  $stateProvider.state('home', {
+	    url: '/',
+	    template: '<home></home>'
+	  });
+	}).directive('home', _2['default']);
+	
+	exports['default'] = homeModule;
 	module.exports = exports['default'];
 
 /***/ },
@@ -33880,12 +33878,13 @@
 	
 	var _underscore2 = _interopRequireDefault(_underscore);
 	
-	var HomeController = function HomeController(漢字サービス) {
+	var ホームコントローラー = function ホームコントローラー(漢字サービス) {
 	  var _this = this;
 	
-	  _classCallCheck(this, HomeController);
+	  _classCallCheck(this, ホームコントローラー);
 	
 	  this.name = 'home';
+	  this.limit = 7;
 	
 	  this.kanji = 漢字サービス.getAll();
 	
@@ -33905,12 +33904,15 @@
 	
 	  this.applyGroup = function (group) {
 	    _this.query = group;
-	    console.log(group);
+	  };
+	
+	  this.showMore = function () {
+	    _this.limit += 7;
 	  };
 	};
 	
-	HomeController.$inject = ['漢字サービス'];
-	exports['default'] = HomeController;
+	ホームコントローラー.$inject = ['漢字サービス'];
+	exports['default'] = ホームコントローラー;
 	module.exports = exports['default'];
 
 /***/ },
@@ -33925,28 +33927,30 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _angular = __webpack_require__(1);
+	var _html = __webpack_require__(29);
 	
-	var _angular2 = _interopRequireDefault(_angular);
+	var _html2 = _interopRequireDefault(_html);
 	
-	var _angularUiRouter = __webpack_require__(4);
+	var _ = __webpack_require__(17);
 	
-	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
+	var _2 = _interopRequireDefault(_);
 	
-	var _homeComponent = __webpack_require__(16);
+	__webpack_require__(23);
 	
-	var _homeComponent2 = _interopRequireDefault(_homeComponent);
+	__webpack_require__(33);
 	
-	var homeModule = _angular2['default'].module('home', [_angularUiRouter2['default']]).config(function ($stateProvider, $urlRouterProvider) {
-	  $urlRouterProvider.otherwise('/');
+	var ホームコンポ = function ホームコンポ() {
+	  return {
+	    template: _html2['default'],
+	    controller: _2['default'],
+	    restrict: 'E',
+	    controllerAs: 'vm',
+	    scope: {},
+	    bindToController: true
+	  };
+	};
 	
-	  $stateProvider.state('home', {
-	    url: '/',
-	    template: '<home></home>'
-	  });
-	}).directive('home', _homeComponent2['default']);
-	
-	exports['default'] = homeModule;
+	exports['default'] = ホームコンポ;
 	module.exports = exports['default'];
 
 /***/ },
@@ -34724,7 +34728,7 @@
 /* 29 */
 /***/ function(module, exports) {
 
-	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n      col-md-offset-2 col-lg-offset-2\">\n        <div class=\"サーチ\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи\"\n          >\n        </div><!-- サーチ -->\n\n      </div><!-- col -->\n    </div><!-- row -->\n\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2 グループ\">\n        <ul>\n          <li class=\"li\"\n            ng-repeat=\"group in vm.groups\"\n            ng-click=\"vm.applyGroup(group)\">\n            {{ group }}\n          </li>\n        </ul>\n      </div><!-- グループ -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container\">\n    <div class=\"row アイテム\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning'\">\n\n      <div class=\"col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            Онъёми\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            Кунъёми\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
+	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n      col-md-offset-2 col-lg-offset-2\">\n        <div class=\"サーチ\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пишите на русском, хираганой, катаканой и кандзи\"\n          >\n        </div><!-- サーチ -->\n\n      </div><!-- col -->\n    </div><!-- row -->\n\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2 グループ\">\n        <ul>\n          <li class=\"li\"\n            ng-repeat=\"group in vm.groups | orderBy: -'group'\"\n            ng-click=\"vm.applyGroup(group)\">\n            {{ group }}\n          </li>\n        </ul>\n      </div><!-- グループ -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container\">\n    <div class=\"row アイテム\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit\">\n\n      <div class=\"col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            Онъёми\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            Кунъёми\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-12 col-sm-12 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container モレ\">\n    <div class=\"row\">\n\n      <div class=\"ボタン 青い アウトライン\" ng-click=\"vm.showMore()\">\n        Показать еще\n      </div>\n\n    </div><!-- row -->\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
 
 /***/ },
 /* 30 */

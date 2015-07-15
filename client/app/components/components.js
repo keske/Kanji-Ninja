@@ -1,8 +1,8 @@
 import angular from 'angular';
-import Home from './home/home';
+import ホーム from './ホーム/ホーム';
 
 let componentModule = angular.module('app.components', [
-	Home.name,
+	ホーム.name,
 ]);
 
 export default componentModule;

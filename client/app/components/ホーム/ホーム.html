@@ -23,7 +23,7 @@
         col-md-offset-2 col-lg-offset-2 グループ">
         <ul>
           <li class="li"
-            ng-repeat="group in vm.groups"
+            ng-repeat="group in vm.groups | orderBy: -'group'"
             ng-click="vm.applyGroup(group)">
             {{ group }}
           </li>
@@ -35,7 +35,7 @@
 
   <div class="container">
     <div class="row アイテム"
-      ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning'">
+      ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit">
 
       <div class="col-xs-12 col-sm-12 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col">
         <span class="漢字">
@@ -68,6 +68,16 @@
       </div><!-- col -->
     </div><!-- row -->
 
+  </div><!-- container -->
+
+  <div class="container モレ">
+    <div class="row">
+
+      <div class="ボタン 青い アウトライン" ng-click="vm.showMore()">
+        Показать еще
+      </div>
+
+    </div><!-- row -->
   </div><!-- container -->
 
 </main>

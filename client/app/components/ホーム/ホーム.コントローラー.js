@@ -1,8 +1,9 @@
 import _ from 'underscore';
 
-class HomeController {
+class ホームコントローラー {
   constructor(漢字サービス) {
     this.name = 'home';
+    this.limit = 7;
 
     this.kanji = 漢字サービス.getAll();
 
@@ -22,10 +23,13 @@ class HomeController {
 
     this.applyGroup = (group) => {
       this.query = group;
-      console.log(group);
+    }
+
+    this.showMore = () => {
+      this.limit += 7;
     }
   }
 }
 
-HomeController.$inject = ['漢字サービス'];
-export default HomeController;
+ホームコントローラー.$inject = ['漢字サービス'];
+export default ホームコントローラー;
