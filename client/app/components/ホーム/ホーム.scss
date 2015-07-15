@@ -47,13 +47,9 @@
 .アイテム {
   padding: 30px 0;
 
-  &:nth-child(1) {
-    margin-top: 50px;
-  }
-
   .漢字 {
     font-size: 84px;
-    color: $赤い;
+    color: $金;
     font-family: Serif;
 
     text-align: center;
@@ -67,10 +63,10 @@
 
   .jlpt {
     font-size: 8px;
-    color: #999;
+    color: #99C5F7;
 
     border-radius: 3px;
-    border: 1px solid #CCC;
+    border: 1px solid #B3D3F8;
 
     padding: 2px 4px;
 
@@ -91,6 +87,8 @@
   .意味 {
     font-family: Serif;
     font-size: 16px;
+
+    margin-top: 26px;
 
     padding-left: 20px;
   }
