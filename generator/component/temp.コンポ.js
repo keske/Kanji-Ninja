@@ -2,7 +2,7 @@ import template from './<%= name %>.html';
 import controller from './<%= name %>.コントローラー';
 import './<%= name %>.scss';
 
-let <%= name %> コンポ = function() {
+let <%= name %>コンポ = function() {
   return {
     template,
     controller,
@@ -13,4 +13,4 @@ let <%= name %> コンポ = function() {
   };
 };
 
-export default <%= name %> コンポ;
+export default <%= name %>コンポ;

@@ -1,8 +1,8 @@
-class <%= upCaseName %> コントローラー {
+class <%= upCaseName %>コントローラー {
   constructor() {
     this.name = '<%= name %>';
   }
 }
 
 
-export default <%= upCaseName %> コントローラー;
+export default <%= upCaseName %>コントローラー;

@@ -1,8 +1,8 @@
 import template from './header.html';
-import controller from './header.controller';
+import controller from './header.コントローラー';
 import './header.scss';
 
-let headerComponent = function() {
+let headerコンポ = function() {
   return {
     template,
     controller,
@@ -13,4 +13,4 @@ let headerComponent = function() {
   };
 };
 
-export default headerComponent;
+export default headerコンポ;
