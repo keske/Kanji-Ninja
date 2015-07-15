@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "69336d598810912efe9e"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "0f08151f243283aee745"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5284,7 +5284,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".header {\n  color: red; }\n", ""]);
+	exports.push([module.id, "", ""]);
 	
 	// exports
 
@@ -5298,7 +5298,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #2d72d9; }\n\n.グループ {\n  padding: 3px 0; }\n  .グループ span {\n    display: inline-block;\n    cursor: pointer;\n    font-size: 12px;\n    color: #2d72d9;\n    padding-right: 10px; }\n\n.アイテム {\n  padding: 30px 0; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #b88b58;\n    font-family: Serif;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #99C5F7;\n    border-radius: 3px;\n    border: 1px solid #B3D3F8;\n    padding: 2px 4px;\n    position: absolute; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #CCC;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    margin-top: 26px;\n    padding-left: 20px; }\n\n.モレ {\n  text-align: center;\n  margin-bottom: 100px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  top: 0;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: block;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #2d72d9; }\n\n.グループ {\n  padding: 3px 0; }\n  .グループ span {\n    display: inline-block;\n    cursor: pointer;\n    font-size: 12px;\n    color: #2d72d9;\n    padding-right: 10px; }\n\n.アイテム {\n  margin-top: 70px; }\n  .アイテム .row {\n    padding: 30px; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #b88b58;\n    font-family: Serif;\n    text-align: center;\n    cursor: default; }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #99C5F7;\n    border-radius: 3px;\n    border: 1px solid #B3D3F8;\n    padding: 2px 4px;\n    position: absolute; }\n  .アイテム .音読み, .アイテム .訓読み {\n    padding-left: 40px; }\n    .アイテム .音読み .題, .アイテム .訓読み .題 {\n      font-size: 10px;\n      color: #CCC;\n      display: block; }\n  .アイテム .意味 {\n    font-family: Serif;\n    font-size: 16px;\n    margin-top: 26px;\n    padding-left: 20px; }\n\n.モレ {\n  text-align: center;\n  margin-bottom: 100px; }\n", ""]);
 	
 	// exports
 
