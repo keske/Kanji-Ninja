@@ -17,4 +17,4 @@ Small helper for learning Japanese language.
 8. [ ] Rules page
 
 ## Thanks
-[Jensen Kuras](http://keske.github.io/Kanji-Ninja/client/#/) for [Kanji JSON](http://keske.github.io/Kanji-Ninja/client/#/)
+[Jensen Kuras](https://github.com/jensechu) for [Kanji JSON](https://raw.githubusercontent.com/jensechu/kanji/master/data/kanji.json)
