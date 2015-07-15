@@ -1,5 +1,3 @@
-import _ from 'underscore';
-
 class ホームコントローラー {
   constructor(漢字サービス) {
     this.name = 'home';
@@ -20,7 +18,7 @@ class ホームコントローラー {
     for (var i in this.kanji) {
       this.groups.push(this.kanji[i].group);
     }
-    this.groups = _.uniq(this.groups);
+    this.groups = angular.copy(this.groups);
 
     this.applyGroup = (group) => {
       this.query = group;
