@@ -29,12 +29,21 @@
 
 .グループ {
   padding: 3px 0;
+  transition: .333s;
+
+  &.scrolled {
+    opacity: .21;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 
   span {
     display: inline-block;
     cursor: pointer;
 
-    font-size: 12px;
+    font-size: 10px;
     color: $青い;
 
     padding-right: 10px;
@@ -99,5 +108,6 @@
 .モレ {
   text-align: center;
 
+  margin-top: 50px;
   margin-bottom: 100px;
 }

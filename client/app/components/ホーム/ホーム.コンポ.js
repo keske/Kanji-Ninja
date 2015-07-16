@@ -10,7 +10,7 @@ let ホームコンポ = function() {
     restrict: 'E',
       controllerAs: 'vm',
       scope: {},
-      bindToController: true
+      bindToController: true,
   };
 };
 

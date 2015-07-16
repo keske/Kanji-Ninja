@@ -1,4 +1,5 @@
 import _ from 'underscore';
+import homeUI from './ホーム.ui';
 
 class ホームコントローラー {
   constructor(漢字サービス) {
@@ -30,6 +31,8 @@ class ホームコントローラー {
     this.showMore = () => {
       this.limit += this.defaultLimit;
     }
+
+    homeUI.init();
   }
 }
 
