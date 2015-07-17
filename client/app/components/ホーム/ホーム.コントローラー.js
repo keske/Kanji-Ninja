@@ -12,8 +12,15 @@ class ホームコントローラー {
 
     // Get Onyomi and Kunyomi
     this.getKunyomiAndOnyomi = (word) => {
-      return word.split(' ').filter(function(n) {
-        return n != ''
+      return word.split(' ').filter((n) => {
+        return n !== '';
+      });
+    };
+
+    // Get translate
+    this.getTranslate = (word) => {
+      return word.replace(/[,]/g, '').split(' ').filter((n) => {
+        return n !== '';
       });
     };
 

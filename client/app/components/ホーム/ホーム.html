@@ -13,7 +13,7 @@
             size="99"
             placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи">
 
-          <div class="グループ">
+          <div class="グループ hidden-xs675">
             <span
               ng-repeat="group in vm.groups | orderBy: -'group'"
               ng-click="vm.applyGroup(group)">
@@ -30,7 +30,7 @@
     <div class="row"
       ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit">
 
-      <div class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col">
+      <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-md-offset-3 col-lg-offset-3">
         <span class="漢字">
           {{ word.character }}
         </span>
@@ -62,7 +62,12 @@
 
       <div class="col-xs-4 col-sm-3 col-md-3 col-lg-3">
         <p class="意味">
-          {{ word.meaning }}
+          <!-- {{ word.meaning }} -->
+          <span ng-repeat="ru in vm.getTranslate(word.meaning) track by $index">
+            <span>
+              {{ ru }}
+            </span>
+          </span>
         </p>
       </div><!-- col -->
     </div><!-- row -->

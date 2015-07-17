@@ -1,0 +1,4 @@
+$phone: "max-width: 768px"; // Use: @media (#{$phone}) { ... }
+$tablet: "min-width: 768px"; // Use: @media (#{$tablet}) { ... }
+$desktop: "min-width: 992px"; // Use: @media (#{$desktop}) { ... }
+$large-desktop: "min-width: 1200px"; // Use:  @media (#{$large-desktop}) { ... }
