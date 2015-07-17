@@ -1,12 +1,13 @@
 import $ from 'jquery';
 
-let homeUI = {
-  init() {
+let header = {
+  scroll() {
     let scroll = 0;
     let min = 50;
 
     $(window).scroll(() => {
       scroll = $(window).scrollTop();
+
       if (scroll > min) {
         $('.グループ').addClass('scrolled');
       } else {
@@ -16,4 +17,4 @@ let homeUI = {
   }
 }
 
-export default homeUI;
+export default header;

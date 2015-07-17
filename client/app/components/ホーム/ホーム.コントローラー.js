@@ -1,5 +1,5 @@
 import _ from 'underscore';
-import homeUI from './ホーム.ui';
+import header from './ホーム.ui';
 
 class ホームコントローラー {
   constructor(漢字サービス) {
@@ -32,7 +32,7 @@ class ホームコントローラー {
       this.limit += this.defaultLimit;
     }
 
-    homeUI.init();
+    header.scroll();
   }
 }
 

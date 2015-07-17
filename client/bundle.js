@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "84347219cc23717062a2"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "72ddbf0f4d2faa6e594a"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -33980,13 +33980,14 @@
 	
 	var _jquery2 = _interopRequireDefault(_jquery);
 	
-	var homeUI = {
-	  init: function init() {
+	var header = {
+	  scroll: function scroll() {
 	    var scroll = 0;
 	    var min = 50;
 	
 	    (0, _jquery2['default'])(window).scroll(function () {
 	      scroll = (0, _jquery2['default'])(window).scrollTop();
+	
 	      if (scroll > min) {
 	        (0, _jquery2['default'])('.グループ').addClass('scrolled');
 	      } else {
@@ -33996,7 +33997,7 @@
 	  }
 	};
 	
-	exports['default'] = homeUI;
+	exports['default'] = header;
 	module.exports = exports['default'];
 
 /***/ },
@@ -34055,7 +34056,7 @@
 	    _this.limit += _this.defaultLimit;
 	  };
 	
-	  _ui2['default'].init();
+	  _ui2['default'].scroll();
 	};
 	
 	ホームコントローラー.$inject = ['漢字サービス'];
