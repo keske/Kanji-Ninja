@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "72ddbf0f4d2faa6e594a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "99a801bb56384ab62a1e"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -34028,34 +34028,38 @@
 	  _classCallCheck(this, ホームコントローラー);
 	
 	  this.name = 'home';
+	
 	  this.defaultLimit = 7;
 	  this.limit = this.defaultLimit;
 	
 	  this.kanji = 漢字サービス.getAll();
 	
-	  this.getOnyomi = function (onyomi) {
-	    return onyomi.replace(' ', '、 ');
+	  // Get Onyomi and Kunyomi
+	  this.getKunyomiAndOnyomi = function (word) {
+	    return word.split(' ').filter(function (n) {
+	      return n != '';
+	    });
 	  };
 	
-	  this.getKunyomi = function (kunyomi) {
-	    return kunyomi.replace(' ', '、 ');
-	  };
-	
+	  // Groups
 	  this.groups = [];
 	  for (var i in this.kanji) {
 	    this.groups.push(this.kanji[i].group);
 	  }
+	  // Get uniq
 	  this.groups = _underscore2['default'].uniq(this.groups);
-	
+	  // Apply group
 	  this.applyGroup = function (group) {
 	    _this.query = group;
 	    _this.limit = _this.defaultLimit;
 	  };
 	
+	  // Show more btn
 	  this.showMore = function () {
 	    _this.limit += _this.defaultLimit;
 	  };
 	
+	  // Header scroll
 	  _ui2['default'].scroll();
 	};
 	
@@ -44098,7 +44102,7 @@
 /* 36 */
 /***/ function(module, exports) {
 
-	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"サーチ\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n          col-md-offset-2 col-lg-offset-2\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи\">\n\n          <div class=\"グループ\">\n            <span\n              ng-repeat=\"group in vm.groups | orderBy: -'group'\"\n              ng-click=\"vm.applyGroup(group)\">\n              {{ group }}\n            </span>\n          </div>\n\n        </div><!-- col -->\n      </div><!-- row -->\n    </div><!-- container -->\n  </div><!-- サーチ -->\n\n  <div class=\"container アイテム\">\n    <div class=\"row\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit\">\n\n      <div class=\"col-xs-3 col-sm-2 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-4 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            <!-- Онъёми -->\n            Он\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            <!-- Кунъёми -->\n            Кун\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-3 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container モレ\">\n    <div class=\"row\">\n\n      <div class=\"ボタン 青い アウトライン\"\n        ng-click=\"vm.showMore()\"\n        ng-show=\"(vm.kanji | filter: vm.query).length > vm.defaultLimit && vm.limit < (vm.kanji | filter: vm.query).length\"\n      >\n        Показать еще\n      </div>\n\n    </div><!-- row -->\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
+	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"サーチ\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n          col-md-offset-2 col-lg-offset-2\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи\">\n\n          <div class=\"グループ\">\n            <span\n              ng-repeat=\"group in vm.groups | orderBy: -'group'\"\n              ng-click=\"vm.applyGroup(group)\">\n              {{ group }}\n            </span>\n          </div>\n\n        </div><!-- col -->\n      </div><!-- row -->\n    </div><!-- container -->\n  </div><!-- サーチ -->\n\n  <div class=\"container アイテム\">\n    <div class=\"row\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit\">\n\n      <div class=\"col-xs-3 col-sm-2 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-4 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomiAndOnyomi(word.onyomi).length\">\n            Он\n          </span>\n          <span ng-repeat=\"on in vm.getKunyomiAndOnyomi(word.onyomi) track by $index\">\n            {{ on }}\n            <br>\n          </span>\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomiAndOnyomi(word.kunyomi).length\">\n            Кун\n          </span>\n          <span ng-repeat=\"kun in vm.getKunyomiAndOnyomi(word.kunyomi) track by $index\">\n            {{ kun }}\n            <br>\n          </span>\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-3 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container モレ\">\n    <div class=\"row\">\n\n      <div class=\"ボタン 青い アウトライン\"\n        ng-click=\"vm.showMore()\"\n        ng-show=\"(vm.kanji | filter: vm.query).length > vm.defaultLimit && vm.limit < (vm.kanji | filter: vm.query).length\"\n      >\n        Показать еще\n      </div>\n\n    </div><!-- row -->\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
 
 /***/ },
 /* 37 */
