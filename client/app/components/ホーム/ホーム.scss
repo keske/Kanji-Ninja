@@ -17,10 +17,15 @@
     width: 100%;
     display: block;
 
+    box-shadow: none;
     border: 2px solid rgba(0, 0, 0, .1);
     border-radius: 3px;
 
     background: rgba(255, 255, 255, .75);
+
+    @media (#{$phone}) {
+      padding: 10px 15px;
+    }
 
     &:focus {
       border: 2px solid $青い;

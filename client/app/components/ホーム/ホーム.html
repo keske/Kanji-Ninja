@@ -9,6 +9,7 @@
           col-md-offset-2 col-lg-offset-2">
           <input
             ng-model="vm.query"
+            onclick="this.select()"
             type="text"
             size="99"
             placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи">
@@ -16,7 +17,7 @@
           <div class="グループ hidden-xs">
             <span
               ng-repeat="group in vm.groups | orderBy: -'group'"
-              ng-click="vm.applyGroup(group)">
+              ng-click="vm.applyGroup(group);">
               {{ group }}
             </span>
           </div>
