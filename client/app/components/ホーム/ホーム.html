@@ -41,18 +41,22 @@
 
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
         <p class="音読み">
-          <span class="題" ng-if="vm.getOnyomi(word.onyomi)">
-            <!-- Онъёми -->
+          <span class="題" ng-if="vm.getKunyomiAndOnyomi(word.onyomi).length">
             Он
           </span>
-          {{ vm.getOnyomi(word.onyomi) }}
+          <span ng-repeat="on in vm.getKunyomiAndOnyomi(word.onyomi) track by $index">
+            {{ on }}
+            <br>
+          </span>
         </p>
         <p class="訓読み">
-          <span class="題" ng-if="vm.getKunyomi(word.kunyomi)">
-            <!-- Кунъёми -->
+          <span class="題" ng-if="vm.getKunyomiAndOnyomi(word.kunyomi).length">
             Кун
           </span>
-          {{ vm.getKunyomi(word.kunyomi) }}
+          <span ng-repeat="kun in vm.getKunyomiAndOnyomi(word.kunyomi) track by $index">
+            {{ kun }}
+            <br>
+          </span>
         </p>
       </div><!-- col -->
 
