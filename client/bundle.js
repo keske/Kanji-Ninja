@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "3277e3770538a134fbb3"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "a03ab272cd6d67347a5c"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -565,7 +565,7 @@
 	
 	var _appComponent2 = _interopRequireDefault(_appComponent);
 	
-	__webpack_require__(35);
+	__webpack_require__(38);
 	
 	_angular2['default'].module('app', [_angularUiRouter2['default'], _servicesServices2['default'].name, _commonCommon2['default'].name, _componentsComponents2['default'].name]).directive('app', _appComponent2['default']);
 
@@ -33686,11 +33686,11 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _appHtml = __webpack_require__(31);
+	var _appHtml = __webpack_require__(34);
 	
 	var _appHtml2 = _interopRequireDefault(_appHtml);
 	
-	__webpack_require__(36);
+	__webpack_require__(39);
 	
 	var appComponent = function appComponent() {
 	  return {
@@ -33793,7 +33793,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _footerHtml = __webpack_require__(32);
+	var _footerHtml = __webpack_require__(35);
 	
 	var _footerHtml2 = _interopRequireDefault(_footerHtml);
 	
@@ -33801,7 +33801,7 @@
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
-	__webpack_require__(37);
+	__webpack_require__(40);
 	
 	var footerコンポ = function footerコンポ() {
 	  return {
@@ -33879,7 +33879,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _headerHtml = __webpack_require__(33);
+	var _headerHtml = __webpack_require__(36);
 	
 	var _headerHtml2 = _interopRequireDefault(_headerHtml);
 	
@@ -33887,7 +33887,7 @@
 	
 	var _header2 = _interopRequireDefault(_header);
 	
-	__webpack_require__(38);
+	__webpack_require__(41);
 	
 	var headerコンポ = function headerコンポ() {
 	  return {
@@ -33978,7 +33978,7 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	var _underscore = __webpack_require__(40);
+	var _underscore = __webpack_require__(43);
 	
 	var _underscore2 = _interopRequireDefault(_underscore);
 	
@@ -34033,7 +34033,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _html = __webpack_require__(34);
+	var _html = __webpack_require__(37);
 	
 	var _html2 = _interopRequireDefault(_html);
 	
@@ -34041,9 +34041,9 @@
 	
 	var _2 = _interopRequireDefault(_);
 	
-	__webpack_require__(27);
+	__webpack_require__(30);
 	
-	__webpack_require__(39);
+	__webpack_require__(42);
 	
 	var ホームコンポ = function ホームコンポ() {
 	  return {
@@ -34075,7 +34075,7 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _ = __webpack_require__(25);
+	var _ = __webpack_require__(27);
 	
 	var _2 = _interopRequireDefault(_);
 	
@@ -34090,641 +34090,7 @@
 
 	"use strict";
 	
-	var データ = [{
-	  "jlpt": "jlptn5",
-	  "character": "日",
-	  "onyomi": "ニチ ジツ -",
-	  "kunyomi": "ひ -び",
-	  "meaning": "День, солнце",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "一",
-	  "onyomi": "イチ イツ ヒト.",
-	  "kunyomi": "ひと-",
-	  "meaning": "Один",
-	  "group": "Цифры",
-	  "hidden": "1"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "国",
-	  "onyomi": "コク ク",
-	  "kunyomi": "",
-	  "meaning": "Страна",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "人",
-	  "onyomi": "ジン ニン -",
-	  "kunyomi": "ひと -り",
-	  "meaning": "Человек",
-	  "group": "Люди",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "年",
-	  "onyomi": "ネン ト",
-	  "kunyomi": "",
-	  "meaning": "Год",
-	  "group": "Даты",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "大",
-	  "onyomi": "ダイ タイ -オオ.イ",
-	  "kunyomi": "おお- おお.きい",
-	  "meaning": "Большой",
-	  "group": "Прилагательные",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "十",
-	  "onyomi": "ジュウ ジッ ジュッ",
-	  "kunyomi": "とお",
-	  "meaning": "Десять",
-	  "group": "Цифры",
-	  "hidden": "10"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "二",
-	  "onyomi": "ニ ジ フタタ.",
-	  "kunyomi": "ふた ふた.つ",
-	  "meaning": "Два",
-	  "group": "Цифры",
-	  "hidden": "2"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "本",
-	  "onyomi": "ホン モ",
-	  "kunyomi": "",
-	  "meaning": "книга", // resent, main, true, real, counter for long things
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "中",
-	  "onyomi": "チュウ アタ.",
-	  "kunyomi": "なか うち",
-	  "meaning": "В, внутри, середина, значить, центр",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "長",
-	  "onyomi": "チョウ オ",
-	  "kunyomi": "なが.い",
-	  "meaning": "Длинный, лидер",
-	  "group": "Прилагательные",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "出",
-	  "onyomi": "シュツ スイ イ.ダ",
-	  "kunyomi": "で.る -で だ.す -だ.す い.でる",
-	  "meaning": "Выход, покинуть",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "三",
-	  "onyomi": "サン ゾウ ミッ.",
-	  "kunyomi": "み み.つ",
-	  "meaning": "Три",
-	  "group": "Цифры",
-	  "hidden": "3"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "時",
-	  "onyomi": "ジ -ド",
-	  "kunyomi": "とき",
-	  "meaning": "Время, час",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "行",
-	  "onyomi": "コウ ギョウ アン オコ.ナ",
-	  "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
-	  "meaning": "Идти",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "見",
-	  "onyomi": "ケン",
-	  "kunyomi": "み.る み.える み.せる",
-	  "meaning": "Видеть",
-	  "group": "Глаголы",
-	  "hidden": "Смотреть"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "月",
-	  "onyomi": "ゲツ ガツ ツ",
-	  "kunyomi": "",
-	  "meaning": "Месяц, луна",
-	  "group": "Даты",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "後",
-	  "onyomi": "ゴ コウ オク.レ",
-	  "kunyomi": "のち うし.ろ うしろ あと",
-	  "meaning": "Позади, сзади, позже",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "前",
-	  "onyomi": "ゼン -マ",
-	  "kunyomi": "まえ",
-	  "meaning": "Впереди, спереди",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "生",
-	  "onyomi": "セイ ショウ -",
-	  "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
-	  "meaning": "Жизнь",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "五",
-	  "onyomi": "ゴ イツ.",
-	  "kunyomi": "いつ",
-	  "meaning": "Пять",
-	  "group": "Цифры",
-	  "hidden": "5"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "間",
-	  "onyomi": "カン ケン",
-	  "kunyomi": "あいだ ま あい",
-	  "meaning": "Интервал",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "上",
-	  "onyomi": "ジョウ ショウ シャン ヨ.",
-	  "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
-	  "meaning": "наверху, вверху, наверх",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "東",
-	  "onyomi": "トウ ヒガ",
-	  "kunyomi": "",
-	  "meaning": "Восток",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "四",
-	  "onyomi": "シ ヨ",
-	  "kunyomi": "よ よ.つ よっ.つ",
-	  "meaning": "Четыре",
-	  "group": "Цифры",
-	  "hidden": "4"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "今",
-	  "onyomi": "コン キン イ",
-	  "kunyomi": "",
-	  "meaning": "Сейчас",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "金",
-	  "onyomi": "キン コン ゴン -ガ",
-	  "kunyomi": "かね かな-",
-	  "meaning": "Золото, деньги",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "九",
-	  "onyomi": "キュウ ク ココノ.",
-	  "kunyomi": "ここの",
-	  "meaning": "Девять",
-	  "group": "Цифры",
-	  "hidden": "9"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "入",
-	  "onyomi": "ニュウ ジュ ハイ.",
-	  "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
-	  "meaning": "Войти, ввести, вставить",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "学",
-	  "onyomi": "ガク マナ.",
-	  "kunyomi": "",
-	  "meaning": "Исследование, изучение, обучение, учеба, наука",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "高",
-	  "onyomi": "コウ タカ.メ",
-	  "kunyomi": "たか.い たか -だか たか.まる",
-	  "meaning": "Высокий, дорогой",
-	  "group": "Прилагательные",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "円",
-	  "onyomi": "エン マロ.ヤ",
-	  "kunyomi": "まる.い まる まど まど.か",
-	  "meaning": "Круг, иена, круглый",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "子",
-	  "onyomi": "シ ス ツ",
-	  "kunyomi": "こ -こ",
-	  "meaning": "Ребенок",
-	  "group": "Люди",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "外",
-	  "onyomi": "ガイ ゲ",
-	  "kunyomi": "そと ほか はず.す はず.れる と",
-	  "meaning": "Снаружи",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "八",
-	  "onyomi": "ハチ ヨ",
-	  "kunyomi": "や や.つ やっ.つ",
-	  "meaning": "Восемь",
-	  "group": "Цифры",
-	  "hidden": "8"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "六",
-	  "onyomi": "ロク リク ム",
-	  "kunyomi": "む む.つ むっ.つ",
-	  "meaning": "Шесть",
-	  "group": "Цифры",
-	  "hidden": "6"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "下",
-	  "onyomi": "カ ゲ オ.リ",
-	  "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
-	  "meaning": "Ниже, вниз, спуститься",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "来",
-	  "onyomi": "ライ タイ",
-	  "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
-	  "meaning": "Придти, причина, стать",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "気",
-	  "onyomi": "キ ケ",
-	  "kunyomi": "いき",
-	  "meaning": "Дух, разум",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "小",
-	  "onyomi": "ショウ",
-	  "kunyomi": "ちい.さい こ- お- さ",
-	  "meaning": "Маленький",
-	  "group": "Прилагательные",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "七",
-	  "onyomi": "シチ ナ",
-	  "kunyomi": "なな なな.つ",
-	  "meaning": "Семь",
-	  "group": "Цифры",
-	  "hidden": "7"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "山",
-	  "onyomi": "サン セン ヤ",
-	  "kunyomi": "",
-	  "meaning": "Гора",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "話",
-	  "onyomi": "ワ",
-	  "kunyomi": "はな.す はなし",
-	  "meaning": "Разговор, сказка",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "女",
-	  "onyomi": "ジョ ニョ ニョウ",
-	  "kunyomi": "おんな",
-	  "meaning": "Женщина",
-	  "group": "Люди",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "北",
-	  "onyomi": "ホク キ",
-	  "kunyomi": "",
-	  "meaning": "Север",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "午",
-	  "onyomi": "ゴ",
-	  "kunyomi": "うま",
-	  "meaning": "Полдень",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "百",
-	  "onyomi": "ヒャク ビャク モ",
-	  "kunyomi": "",
-	  "meaning": "Сто",
-	  "group": "Цифры",
-	  "hidden": "100"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "書",
-	  "onyomi": "ショ -ガ",
-	  "kunyomi": "か.く -が.き",
-	  "meaning": "Писать",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "先",
-	  "onyomi": "セン マ.",
-	  "kunyomi": "さき",
-	  "meaning": "Перед, вперед, предыдущий, будущее",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "名",
-	  "onyomi": "メイ ミョウ -",
-	  "kunyomi": "な",
-	  "meaning": "Имя",
-	  "group": "",
-	  "hidden": "Люди"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "川",
-	  "onyomi": "セン カ",
-	  "kunyomi": "",
-	  "meaning": "Река",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "千",
-	  "onyomi": "セン",
-	  "kunyomi": "",
-	  "meaning": "Тысяча",
-	  "group": "Цифры",
-	  "hidden": "1000"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "水",
-	  "onyomi": "スイ",
-	  "kunyomi": "みず みず",
-	  "meaning": "Вода",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "半",
-	  "onyomi": "ハン ナカ.",
-	  "kunyomi": "",
-	  "meaning": "Половина, середина, нечетное число",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "男",
-	  "onyomi": "ダン ナン",
-	  "kunyomi": "おとこ",
-	  "meaning": "Мужчина",
-	  "group": "Люди",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "西",
-	  "onyomi": "セイ サイ ス ニ",
-	  "kunyomi": "",
-	  "meaning": "Запад, Испания",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "電",
-	  "onyomi": "デン",
-	  "kunyomi": "",
-	  "meaning": "Электричество",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "校",
-	  "onyomi": "コウ キョ",
-	  "kunyomi": "",
-	  "meaning": "Экзамен, школа, печать",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "語",
-	  "onyomi": "ゴ",
-	  "kunyomi": "かた.る かた.らう",
-	  "meaning": "Слово, речь, язык",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "土",
-	  "onyomi": "ド ト ツ",
-	  "kunyomi": "",
-	  "meaning": "Почва, земля, грунт, Турция",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "木",
-	  "onyomi": "ボク モク",
-	  "kunyomi": "き こ",
-	  "meaning": "Дерево, древесина",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "聞",
-	  "onyomi": "ブン モン",
-	  "kunyomi": "き.く き.こえる",
-	  "meaning": "Слышать, спрашивать, слушать",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "食",
-	  "onyomi": "ショク ジキ ハ.",
-	  "kunyomi": "く.う く.らう た.べる",
-	  "meaning": "Еда",
-	  "group": "Глаголы",
-	  "hidden": "Есть"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "車",
-	  "onyomi": "シャ クル",
-	  "kunyomi": "",
-	  "meaning": "Машина",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "何",
-	  "onyomi": "カ",
-	  "kunyomi": "なに なん なに- なん",
-	  "meaning": "Что?",
-	  "group": "Вопросы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "南",
-	  "onyomi": "ナン ナ ミナ",
-	  "kunyomi": "",
-	  "meaning": "Юг",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "万",
-	  "onyomi": "マン バン ヨロ",
-	  "kunyomi": "",
-	  "meaning": "Десять тысяч",
-	  "group": "Цифры",
-	  "hidden": "10 000"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "毎",
-	  "onyomi": "マイ -ゴト.",
-	  "kunyomi": "ごと",
-	  "meaning": "Каждый",
-	  "group": "Прилагательные",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "白",
-	  "onyomi": "ハク ビャク シロ.",
-	  "kunyomi": "しろ しら-",
-	  "meaning": "Белый",
-	  "group": "Цвета",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "天",
-	  "onyomi": "テン",
-	  "kunyomi": "あまつ あめ あま",
-	  "meaning": "Небеса, небо, императорский",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "母",
-	  "onyomi": "ボ",
-	  "kunyomi": "はは も",
-	  "meaning": "Мама",
-	  "group": "Семья",
-	  "hidden": "Мать"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "火",
-	  "onyomi": "カ",
-	  "kunyomi": "ひ -び ほ-",
-	  "meaning": "Огонь",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "右",
-	  "onyomi": "ウ ユウ ミ",
-	  "kunyomi": "",
-	  "meaning": "Право",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "読",
-	  "onyomi": "ドク トク トウ -ヨ.",
-	  "kunyomi": "よ.む",
-	  "meaning": "Читать",
-	  "group": "Глаголы",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "友",
-	  "onyomi": "ユウ ト",
-	  "kunyomi": "",
-	  "meaning": "Друг",
-	  "group": "Люди",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "左",
-	  "onyomi": "サ シャ ヒダ",
-	  "kunyomi": "",
-	  "meaning": "Лево",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "休",
-	  "onyomi": "キュウ",
-	  "kunyomi": "やす.む やす.まる やす.める",
-	  "meaning": "Отдых, выходной, покой, сон",
-	  "group": "",
-	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "父",
-	  "onyomi": "フ",
-	  "kunyomi": "ちち",
-	  "meaning": "Отец",
-	  "group": "Семья",
-	  "hidden": "Папа"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "雨",
-	  "onyomi": "ウ",
-	  "kunyomi": "あめ あま- -さめ",
-	  "meaning": "Дождь",
-	  "group": "",
-	  "hidden": ""
-	},
-	/// JLPTN4
-	{
+	var jlptn4 = [{
 	  "jlpt": "jlptn4",
 	  "character": "会",
 	  "onyomi": "カイ エ アツ.マ",
@@ -36052,10 +35418,676 @@
 	  "hidden": ""
 	}];
 	
-	module.exports = データ;
+	module.exports = jlptn4;
 
 /***/ },
 /* 25 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	var jlptn5 = [{
+	  "jlpt": "jlptn5",
+	  "character": "日",
+	  "onyomi": "ニチ ジツ -",
+	  "kunyomi": "ひ -び",
+	  "meaning": "День, солнце",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "一",
+	  "onyomi": "イチ イツ ヒト.",
+	  "kunyomi": "ひと-",
+	  "meaning": "Один",
+	  "group": "Цифры",
+	  "hidden": "1"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "国",
+	  "onyomi": "コク ク",
+	  "kunyomi": "",
+	  "meaning": "Страна",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "人",
+	  "onyomi": "ジン ニン -",
+	  "kunyomi": "ひと -り",
+	  "meaning": "Человек",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "年",
+	  "onyomi": "ネン ト",
+	  "kunyomi": "",
+	  "meaning": "Год",
+	  "group": "Даты",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "大",
+	  "onyomi": "ダイ タイ -オオ.イ",
+	  "kunyomi": "おお- おお.きい",
+	  "meaning": "Большой",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "十",
+	  "onyomi": "ジュウ ジッ ジュッ",
+	  "kunyomi": "とお",
+	  "meaning": "Десять",
+	  "group": "Цифры",
+	  "hidden": "10"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "二",
+	  "onyomi": "ニ ジ フタタ.",
+	  "kunyomi": "ふた ふた.つ",
+	  "meaning": "Два",
+	  "group": "Цифры",
+	  "hidden": "2"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "本",
+	  "onyomi": "ホン モ",
+	  "kunyomi": "",
+	  "meaning": "книга", // resent, main, true, real, counter for long things
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "中",
+	  "onyomi": "チュウ アタ.",
+	  "kunyomi": "なか うち",
+	  "meaning": "В, внутри, середина, значить, центр",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "長",
+	  "onyomi": "チョウ オ",
+	  "kunyomi": "なが.い",
+	  "meaning": "Длинный, лидер",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "出",
+	  "onyomi": "シュツ スイ イ.ダ",
+	  "kunyomi": "で.る -で だ.す -だ.す い.でる",
+	  "meaning": "Выход, покинуть",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "三",
+	  "onyomi": "サン ゾウ ミッ.",
+	  "kunyomi": "み み.つ",
+	  "meaning": "Три",
+	  "group": "Цифры",
+	  "hidden": "3"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "時",
+	  "onyomi": "ジ -ド",
+	  "kunyomi": "とき",
+	  "meaning": "Время, час",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "行",
+	  "onyomi": "コウ ギョウ アン オコ.ナ",
+	  "kunyomi": "い.く ゆ.く -ゆ.き -ゆき -い.き -いき おこな.う",
+	  "meaning": "Идти",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "見",
+	  "onyomi": "ケン",
+	  "kunyomi": "み.る み.える み.せる",
+	  "meaning": "Видеть",
+	  "group": "Глаголы",
+	  "hidden": "Смотреть"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "月",
+	  "onyomi": "ゲツ ガツ ツ",
+	  "kunyomi": "",
+	  "meaning": "Месяц, луна",
+	  "group": "Даты",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "後",
+	  "onyomi": "ゴ コウ オク.レ",
+	  "kunyomi": "のち うし.ろ うしろ あと",
+	  "meaning": "Позади, сзади, позже",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "前",
+	  "onyomi": "ゼン -マ",
+	  "kunyomi": "まえ",
+	  "meaning": "Впереди, спереди",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "生",
+	  "onyomi": "セイ ショウ -",
+	  "kunyomi": "い.きる い.かす い.ける う.まれる う.まれ うまれ う.む お.う は.える は.やす き なま なま- な.る",
+	  "meaning": "Жизнь",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "五",
+	  "onyomi": "ゴ イツ.",
+	  "kunyomi": "いつ",
+	  "meaning": "Пять",
+	  "group": "Цифры",
+	  "hidden": "5"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "間",
+	  "onyomi": "カン ケン",
+	  "kunyomi": "あいだ ま あい",
+	  "meaning": "Интервал",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "上",
+	  "onyomi": "ジョウ ショウ シャン ヨ.",
+	  "kunyomi": "うえ -うえ うわ- かみ あ.げる -あ.げる あ.がる -あ.がる あ.がり -あ.がり のぼ.る のぼ.り のぼ.",
+	  "meaning": "наверху, вверху, наверх",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "東",
+	  "onyomi": "トウ ヒガ",
+	  "kunyomi": "",
+	  "meaning": "Восток",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "四",
+	  "onyomi": "シ ヨ",
+	  "kunyomi": "よ よ.つ よっ.つ",
+	  "meaning": "Четыре",
+	  "group": "Цифры",
+	  "hidden": "4"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "今",
+	  "onyomi": "コン キン イ",
+	  "kunyomi": "",
+	  "meaning": "Сейчас",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "金",
+	  "onyomi": "キン コン ゴン -ガ",
+	  "kunyomi": "かね かな-",
+	  "meaning": "Золото, деньги",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "九",
+	  "onyomi": "キュウ ク ココノ.",
+	  "kunyomi": "ここの",
+	  "meaning": "Девять",
+	  "group": "Цифры",
+	  "hidden": "9"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "入",
+	  "onyomi": "ニュウ ジュ ハイ.",
+	  "kunyomi": "い.る -い.る -い.り い.れる -い.れ",
+	  "meaning": "Войти, ввести, вставить",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "学",
+	  "onyomi": "ガク マナ.",
+	  "kunyomi": "",
+	  "meaning": "Исследование, изучение, обучение, учеба, наука",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "高",
+	  "onyomi": "コウ タカ.メ",
+	  "kunyomi": "たか.い たか -だか たか.まる",
+	  "meaning": "Высокий, дорогой",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "円",
+	  "onyomi": "エン マロ.ヤ",
+	  "kunyomi": "まる.い まる まど まど.か",
+	  "meaning": "Круг, иена, круглый",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "子",
+	  "onyomi": "シ ス ツ",
+	  "kunyomi": "こ -こ",
+	  "meaning": "Ребенок",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "外",
+	  "onyomi": "ガイ ゲ",
+	  "kunyomi": "そと ほか はず.す はず.れる と",
+	  "meaning": "Снаружи",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "八",
+	  "onyomi": "ハチ ヨ",
+	  "kunyomi": "や や.つ やっ.つ",
+	  "meaning": "Восемь",
+	  "group": "Цифры",
+	  "hidden": "8"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "六",
+	  "onyomi": "ロク リク ム",
+	  "kunyomi": "む む.つ むっ.つ",
+	  "meaning": "Шесть",
+	  "group": "Цифры",
+	  "hidden": "6"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "下",
+	  "onyomi": "カ ゲ オ.リ",
+	  "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
+	  "meaning": "Ниже, вниз, спуститься",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "来",
+	  "onyomi": "ライ タイ",
+	  "kunyomi": "く.る きた.る きた.す き.たす き.たる き",
+	  "meaning": "Придти, причина, стать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "気",
+	  "onyomi": "キ ケ",
+	  "kunyomi": "いき",
+	  "meaning": "Дух, разум",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "小",
+	  "onyomi": "ショウ",
+	  "kunyomi": "ちい.さい こ- お- さ",
+	  "meaning": "Маленький",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "七",
+	  "onyomi": "シチ ナ",
+	  "kunyomi": "なな なな.つ",
+	  "meaning": "Семь",
+	  "group": "Цифры",
+	  "hidden": "7"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "山",
+	  "onyomi": "サン セン ヤ",
+	  "kunyomi": "",
+	  "meaning": "Гора",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "話",
+	  "onyomi": "ワ",
+	  "kunyomi": "はな.す はなし",
+	  "meaning": "Разговор, сказка",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "女",
+	  "onyomi": "ジョ ニョ ニョウ",
+	  "kunyomi": "おんな",
+	  "meaning": "Женщина",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "北",
+	  "onyomi": "ホク キ",
+	  "kunyomi": "",
+	  "meaning": "Север",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "午",
+	  "onyomi": "ゴ",
+	  "kunyomi": "うま",
+	  "meaning": "Полдень",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "百",
+	  "onyomi": "ヒャク ビャク モ",
+	  "kunyomi": "",
+	  "meaning": "Сто",
+	  "group": "Цифры",
+	  "hidden": "100"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "書",
+	  "onyomi": "ショ -ガ",
+	  "kunyomi": "か.く -が.き",
+	  "meaning": "Писать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "先",
+	  "onyomi": "セン マ.",
+	  "kunyomi": "さき",
+	  "meaning": "Перед, вперед, предыдущий, будущее",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "名",
+	  "onyomi": "メイ ミョウ -",
+	  "kunyomi": "な",
+	  "meaning": "Имя",
+	  "group": "",
+	  "hidden": "Люди"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "川",
+	  "onyomi": "セン カ",
+	  "kunyomi": "",
+	  "meaning": "Река",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "千",
+	  "onyomi": "セン",
+	  "kunyomi": "",
+	  "meaning": "Тысяча",
+	  "group": "Цифры",
+	  "hidden": "1000"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "水",
+	  "onyomi": "スイ",
+	  "kunyomi": "みず みず",
+	  "meaning": "Вода",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "半",
+	  "onyomi": "ハン ナカ.",
+	  "kunyomi": "",
+	  "meaning": "Половина, середина, нечетное число",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "男",
+	  "onyomi": "ダン ナン",
+	  "kunyomi": "おとこ",
+	  "meaning": "Мужчина",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "西",
+	  "onyomi": "セイ サイ ス ニ",
+	  "kunyomi": "",
+	  "meaning": "Запад, Испания",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "電",
+	  "onyomi": "デン",
+	  "kunyomi": "",
+	  "meaning": "Электричество",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "校",
+	  "onyomi": "コウ キョ",
+	  "kunyomi": "",
+	  "meaning": "Экзамен, школа, печать",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "語",
+	  "onyomi": "ゴ",
+	  "kunyomi": "かた.る かた.らう",
+	  "meaning": "Слово, речь, язык",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "土",
+	  "onyomi": "ド ト ツ",
+	  "kunyomi": "",
+	  "meaning": "Почва, земля, грунт, Турция",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "木",
+	  "onyomi": "ボク モク",
+	  "kunyomi": "き こ",
+	  "meaning": "Дерево, древесина",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "聞",
+	  "onyomi": "ブン モン",
+	  "kunyomi": "き.く き.こえる",
+	  "meaning": "Слышать, спрашивать, слушать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "食",
+	  "onyomi": "ショク ジキ ハ.",
+	  "kunyomi": "く.う く.らう た.べる",
+	  "meaning": "Еда",
+	  "group": "Глаголы",
+	  "hidden": "Есть"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "車",
+	  "onyomi": "シャ クル",
+	  "kunyomi": "",
+	  "meaning": "Машина",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "何",
+	  "onyomi": "カ",
+	  "kunyomi": "なに なん なに- なん",
+	  "meaning": "Что?",
+	  "group": "Вопросы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "南",
+	  "onyomi": "ナン ナ ミナ",
+	  "kunyomi": "",
+	  "meaning": "Юг",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "万",
+	  "onyomi": "マン バン ヨロ",
+	  "kunyomi": "",
+	  "meaning": "Десять тысяч",
+	  "group": "Цифры",
+	  "hidden": "10 000"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "毎",
+	  "onyomi": "マイ -ゴト.",
+	  "kunyomi": "ごと",
+	  "meaning": "Каждый",
+	  "group": "Прилагательные",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "白",
+	  "onyomi": "ハク ビャク シロ.",
+	  "kunyomi": "しろ しら-",
+	  "meaning": "Белый",
+	  "group": "Цвета",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "天",
+	  "onyomi": "テン",
+	  "kunyomi": "あまつ あめ あま",
+	  "meaning": "Небеса, небо, императорский",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "母",
+	  "onyomi": "ボ",
+	  "kunyomi": "はは も",
+	  "meaning": "Мама",
+	  "group": "Семья",
+	  "hidden": "Мать"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "火",
+	  "onyomi": "カ",
+	  "kunyomi": "ひ -び ほ-",
+	  "meaning": "Огонь",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "右",
+	  "onyomi": "ウ ユウ ミ",
+	  "kunyomi": "",
+	  "meaning": "Право",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "読",
+	  "onyomi": "ドク トク トウ -ヨ.",
+	  "kunyomi": "よ.む",
+	  "meaning": "Читать",
+	  "group": "Глаголы",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "友",
+	  "onyomi": "ユウ ト",
+	  "kunyomi": "",
+	  "meaning": "Друг",
+	  "group": "Люди",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "左",
+	  "onyomi": "サ シャ ヒダ",
+	  "kunyomi": "",
+	  "meaning": "Лево",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "休",
+	  "onyomi": "キュウ",
+	  "kunyomi": "やす.む やす.まる やす.める",
+	  "meaning": "Отдых, выходной, покой, сон",
+	  "group": "",
+	  "hidden": ""
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "父",
+	  "onyomi": "フ",
+	  "kunyomi": "ちち",
+	  "meaning": "Отец",
+	  "group": "Семья",
+	  "hidden": "Папа"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "雨",
+	  "onyomi": "ウ",
+	  "kunyomi": "あめ あま- -さめ",
+	  "meaning": "Дождь",
+	  "group": "",
+	  "hidden": ""
+	}];
+	
+	module.exports = jlptn5;
+
+/***/ },
+/* 26 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _utilsMergeJs = __webpack_require__(28);
+	
+	var _utilsMergeJs2 = _interopRequireDefault(_utilsMergeJs);
+	
+	var _jlptn5Js = __webpack_require__(25);
+	
+	var _jlptn5Js2 = _interopRequireDefault(_jlptn5Js);
+	
+	var _jlptn4Js = __webpack_require__(24);
+	
+	var _jlptn4Js2 = _interopRequireDefault(_jlptn4Js);
+	
+	var データ = (0, _utilsMergeJs2['default'])(_jlptn4Js2['default'], _jlptn5Js2['default']);
+	
+	module.exports = データ;
+
+/***/ },
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36070,7 +36102,7 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _js = __webpack_require__(24);
+	var _js = __webpack_require__(26);
 	
 	var _js2 = _interopRequireDefault(_js);
 	
@@ -36085,28 +36117,67 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 26 */
+/* 28 */
+/***/ function(module, exports) {
+
+	'use strict';
+	
+	function merge(target, source) {
+	
+	  /* Merges two (or more) objects,
+	     giving the last one precedence */
+	
+	  if (typeof target !== 'object') {
+	    target = {};
+	  }
+	
+	  for (var property in source) {
+	
+	    if (source.hasOwnProperty(property)) {
+	
+	      var sourceProperty = source[property];
+	
+	      if (typeof sourceProperty === 'object') {
+	        target[property] = merge(target[property], sourceProperty);
+	        continue;
+	      }
+	
+	      target[property] = sourceProperty;
+	    }
+	  }
+	
+	  for (var a = 2, l = arguments.length; a < l; a++) {
+	    merge(target, arguments[a]);
+	  }
+	
+	  return target;
+	};
+	
+	module.exports = merge;
+
+/***/ },
+/* 29 */
 /***/ function(module, exports) {
 
 
 
 /***/ },
-/* 27 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(30);
-	__webpack_require__(26);
+	__webpack_require__(33);
+	__webpack_require__(29);
 
 
 /***/ },
-/* 28 */
+/* 31 */
 /***/ function(module, exports) {
 
 	module.exports =
 		"/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */\nhtml {\n  font-family: sans-serif;\n  -ms-text-size-adjust: 100%;\n  -webkit-text-size-adjust: 100%;\n}\nbody {\n  margin: 0;\n}\narticle,\naside,\ndetails,\nfigcaption,\nfigure,\nfooter,\nheader,\nhgroup,\nmain,\nmenu,\nnav,\nsection,\nsummary {\n  display: block;\n}\naudio,\ncanvas,\nprogress,\nvideo {\n  display: inline-block;\n  vertical-align: baseline;\n}\naudio:not([controls]) {\n  display: none;\n  height: 0;\n}\n[hidden],\ntemplate {\n  display: none;\n}\na {\n  background-color: transparent;\n}\na:active,\na:hover {\n  outline: 0;\n}\nabbr[title] {\n  border-bottom: 1px dotted;\n}\nb,\nstrong {\n  font-weight: bold;\n}\ndfn {\n  font-style: italic;\n}\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\nmark {\n  background: #ff0;\n  color: #000;\n}\nsmall {\n  font-size: 80%;\n}\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\nsup {\n  top: -0.5em;\n}\nsub {\n  bottom: -0.25em;\n}\nimg {\n  border: 0;\n}\nsvg:not(:root) {\n  overflow: hidden;\n}\nfigure {\n  margin: 1em 40px;\n}\nhr {\n  box-sizing: content-box;\n  height: 0;\n}\npre {\n  overflow: auto;\n}\ncode,\nkbd,\npre,\nsamp {\n  font-family: monospace, monospace;\n  font-size: 1em;\n}\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  color: inherit;\n  font: inherit;\n  margin: 0;\n}\nbutton {\n  overflow: visible;\n}\nbutton,\nselect {\n  text-transform: none;\n}\nbutton,\nhtml input[type=\"button\"],\ninput[type=\"reset\"],\ninput[type=\"submit\"] {\n  -webkit-appearance: button;\n  cursor: pointer;\n}\nbutton[disabled],\nhtml input[disabled] {\n  cursor: default;\n}\nbutton::-moz-focus-inner,\ninput::-moz-focus-inner {\n  border: 0;\n  padding: 0;\n}\ninput {\n  line-height: normal;\n}\ninput[type=\"checkbox\"],\ninput[type=\"radio\"] {\n  box-sizing: border-box;\n  padding: 0;\n}\ninput[type=\"number\"]::-webkit-inner-spin-button,\ninput[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\ninput[type=\"search\"] {\n  -webkit-appearance: textfield;\n  box-sizing: content-box;\n}\ninput[type=\"search\"]::-webkit-search-cancel-button,\ninput[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\nfieldset {\n  border: 1px solid #c0c0c0;\n  margin: 0 2px;\n  padding: 0.35em 0.625em 0.75em;\n}\nlegend {\n  border: 0;\n  padding: 0;\n}\ntextarea {\n  overflow: auto;\n}\noptgroup {\n  font-weight: bold;\n}\ntable {\n  border-collapse: collapse;\n  border-spacing: 0;\n}\ntd,\nth {\n  padding: 0;\n}\n* {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n*:before,\n*:after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\nhtml {\n  font-size: 10px;\n  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);\n}\nbody {\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  line-height: 1.428571429;\n  color: #333333;\n  background-color: #ffffff;\n}\ninput,\nbutton,\nselect,\ntextarea {\n  font-family: inherit;\n  font-size: inherit;\n  line-height: inherit;\n}\na {\n  color: #337ab7;\n  text-decoration: none;\n}\na:hover,\na:focus {\n  color: #23527c;\n  text-decoration: underline;\n}\na:focus {\n  outline: thin dotted;\n  outline: 5px auto -webkit-focus-ring-color;\n  outline-offset: -2px;\n}\nfigure {\n  margin: 0;\n}\nimg {\n  vertical-align: middle;\n}\n.img-responsive {\n  display: block;\n  max-width: 100%;\n  height: auto;\n}\n.img-rounded {\n  border-radius: 6px;\n}\n.img-thumbnail {\n  padding: 4px;\n  line-height: 1.428571429;\n  background-color: #ffffff;\n  border: 1px solid #dddddd;\n  border-radius: 4px;\n  -webkit-transition: all 0.2s ease-in-out;\n  -o-transition: all 0.2s ease-in-out;\n  transition: all 0.2s ease-in-out;\n  display: inline-block;\n  max-width: 100%;\n  height: auto;\n}\n.img-circle {\n  border-radius: 50%;\n}\nhr {\n  margin-top: 20px;\n  margin-bottom: 20px;\n  border: 0;\n  border-top: 1px solid #eeeeee;\n}\n.sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  margin: -1px;\n  padding: 0;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  border: 0;\n}\n.sr-only-focusable:active,\n.sr-only-focusable:focus {\n  position: static;\n  width: auto;\n  height: auto;\n  margin: 0;\n  overflow: visible;\n  clip: auto;\n}\n[role=\"button\"] {\n  cursor: pointer;\n}\n.container {\n  margin-right: auto;\n  margin-left: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n@media (min-width: 768px) {\n  .container {\n    width: 750px;\n  }\n}\n@media (min-width: 992px) {\n  .container {\n    width: 970px;\n  }\n}\n@media (min-width: 1200px) {\n  .container {\n    width: 1170px;\n  }\n}\n.container-fluid {\n  margin-right: auto;\n  margin-left: auto;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.row {\n  margin-left: -15px;\n  margin-right: -15px;\n}\n.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {\n  position: relative;\n  min-height: 1px;\n  padding-left: 15px;\n  padding-right: 15px;\n}\n.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {\n  float: left;\n}\n.col-xs-12 {\n  width: 100%;\n}\n.col-xs-11 {\n  width: 91.66666666666666%;\n}\n.col-xs-10 {\n  width: 83.33333333333334%;\n}\n.col-xs-9 {\n  width: 75%;\n}\n.col-xs-8 {\n  width: 66.66666666666666%;\n}\n.col-xs-7 {\n  width: 58.333333333333336%;\n}\n.col-xs-6 {\n  width: 50%;\n}\n.col-xs-5 {\n  width: 41.66666666666667%;\n}\n.col-xs-4 {\n  width: 33.33333333333333%;\n}\n.col-xs-3 {\n  width: 25%;\n}\n.col-xs-2 {\n  width: 16.666666666666664%;\n}\n.col-xs-1 {\n  width: 8.333333333333332%;\n}\n.col-xs-pull-12 {\n  right: 100%;\n}\n.col-xs-pull-11 {\n  right: 91.66666666666666%;\n}\n.col-xs-pull-10 {\n  right: 83.33333333333334%;\n}\n.col-xs-pull-9 {\n  right: 75%;\n}\n.col-xs-pull-8 {\n  right: 66.66666666666666%;\n}\n.col-xs-pull-7 {\n  right: 58.333333333333336%;\n}\n.col-xs-pull-6 {\n  right: 50%;\n}\n.col-xs-pull-5 {\n  right: 41.66666666666667%;\n}\n.col-xs-pull-4 {\n  right: 33.33333333333333%;\n}\n.col-xs-pull-3 {\n  right: 25%;\n}\n.col-xs-pull-2 {\n  right: 16.666666666666664%;\n}\n.col-xs-pull-1 {\n  right: 8.333333333333332%;\n}\n.col-xs-pull-0 {\n  right: auto;\n}\n.col-xs-push-12 {\n  left: 100%;\n}\n.col-xs-push-11 {\n  left: 91.66666666666666%;\n}\n.col-xs-push-10 {\n  left: 83.33333333333334%;\n}\n.col-xs-push-9 {\n  left: 75%;\n}\n.col-xs-push-8 {\n  left: 66.66666666666666%;\n}\n.col-xs-push-7 {\n  left: 58.333333333333336%;\n}\n.col-xs-push-6 {\n  left: 50%;\n}\n.col-xs-push-5 {\n  left: 41.66666666666667%;\n}\n.col-xs-push-4 {\n  left: 33.33333333333333%;\n}\n.col-xs-push-3 {\n  left: 25%;\n}\n.col-xs-push-2 {\n  left: 16.666666666666664%;\n}\n.col-xs-push-1 {\n  left: 8.333333333333332%;\n}\n.col-xs-push-0 {\n  left: auto;\n}\n.col-xs-offset-12 {\n  margin-left: 100%;\n}\n.col-xs-offset-11 {\n  margin-left: 91.66666666666666%;\n}\n.col-xs-offset-10 {\n  margin-left: 83.33333333333334%;\n}\n.col-xs-offset-9 {\n  margin-left: 75%;\n}\n.col-xs-offset-8 {\n  margin-left: 66.66666666666666%;\n}\n.col-xs-offset-7 {\n  margin-left: 58.333333333333336%;\n}\n.col-xs-offset-6 {\n  margin-left: 50%;\n}\n.col-xs-offset-5 {\n  margin-left: 41.66666666666667%;\n}\n.col-xs-offset-4 {\n  margin-left: 33.33333333333333%;\n}\n.col-xs-offset-3 {\n  margin-left: 25%;\n}\n.col-xs-offset-2 {\n  margin-left: 16.666666666666664%;\n}\n.col-xs-offset-1 {\n  margin-left: 8.333333333333332%;\n}\n.col-xs-offset-0 {\n  margin-left: 0%;\n}\n@media (min-width: 768px) {\n  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {\n    float: left;\n  }\n  .col-sm-12 {\n    width: 100%;\n  }\n  .col-sm-11 {\n    width: 91.66666666666666%;\n  }\n  .col-sm-10 {\n    width: 83.33333333333334%;\n  }\n  .col-sm-9 {\n    width: 75%;\n  }\n  .col-sm-8 {\n    width: 66.66666666666666%;\n  }\n  .col-sm-7 {\n    width: 58.333333333333336%;\n  }\n  .col-sm-6 {\n    width: 50%;\n  }\n  .col-sm-5 {\n    width: 41.66666666666667%;\n  }\n  .col-sm-4 {\n    width: 33.33333333333333%;\n  }\n  .col-sm-3 {\n    width: 25%;\n  }\n  .col-sm-2 {\n    width: 16.666666666666664%;\n  }\n  .col-sm-1 {\n    width: 8.333333333333332%;\n  }\n  .col-sm-pull-12 {\n    right: 100%;\n  }\n  .col-sm-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-sm-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-sm-pull-9 {\n    right: 75%;\n  }\n  .col-sm-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-sm-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-sm-pull-6 {\n    right: 50%;\n  }\n  .col-sm-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-sm-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-sm-pull-3 {\n    right: 25%;\n  }\n  .col-sm-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-sm-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-sm-pull-0 {\n    right: auto;\n  }\n  .col-sm-push-12 {\n    left: 100%;\n  }\n  .col-sm-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-sm-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-sm-push-9 {\n    left: 75%;\n  }\n  .col-sm-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-sm-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-sm-push-6 {\n    left: 50%;\n  }\n  .col-sm-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-sm-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-sm-push-3 {\n    left: 25%;\n  }\n  .col-sm-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-sm-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-sm-push-0 {\n    left: auto;\n  }\n  .col-sm-offset-12 {\n    margin-left: 100%;\n  }\n  .col-sm-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-sm-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-sm-offset-9 {\n    margin-left: 75%;\n  }\n  .col-sm-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-sm-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-sm-offset-6 {\n    margin-left: 50%;\n  }\n  .col-sm-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-sm-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-sm-offset-3 {\n    margin-left: 25%;\n  }\n  .col-sm-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-sm-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-sm-offset-0 {\n    margin-left: 0%;\n  }\n}\n@media (min-width: 992px) {\n  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {\n    float: left;\n  }\n  .col-md-12 {\n    width: 100%;\n  }\n  .col-md-11 {\n    width: 91.66666666666666%;\n  }\n  .col-md-10 {\n    width: 83.33333333333334%;\n  }\n  .col-md-9 {\n    width: 75%;\n  }\n  .col-md-8 {\n    width: 66.66666666666666%;\n  }\n  .col-md-7 {\n    width: 58.333333333333336%;\n  }\n  .col-md-6 {\n    width: 50%;\n  }\n  .col-md-5 {\n    width: 41.66666666666667%;\n  }\n  .col-md-4 {\n    width: 33.33333333333333%;\n  }\n  .col-md-3 {\n    width: 25%;\n  }\n  .col-md-2 {\n    width: 16.666666666666664%;\n  }\n  .col-md-1 {\n    width: 8.333333333333332%;\n  }\n  .col-md-pull-12 {\n    right: 100%;\n  }\n  .col-md-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-md-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-md-pull-9 {\n    right: 75%;\n  }\n  .col-md-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-md-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-md-pull-6 {\n    right: 50%;\n  }\n  .col-md-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-md-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-md-pull-3 {\n    right: 25%;\n  }\n  .col-md-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-md-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-md-pull-0 {\n    right: auto;\n  }\n  .col-md-push-12 {\n    left: 100%;\n  }\n  .col-md-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-md-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-md-push-9 {\n    left: 75%;\n  }\n  .col-md-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-md-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-md-push-6 {\n    left: 50%;\n  }\n  .col-md-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-md-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-md-push-3 {\n    left: 25%;\n  }\n  .col-md-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-md-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-md-push-0 {\n    left: auto;\n  }\n  .col-md-offset-12 {\n    margin-left: 100%;\n  }\n  .col-md-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-md-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-md-offset-9 {\n    margin-left: 75%;\n  }\n  .col-md-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-md-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-md-offset-6 {\n    margin-left: 50%;\n  }\n  .col-md-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-md-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-md-offset-3 {\n    margin-left: 25%;\n  }\n  .col-md-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-md-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-md-offset-0 {\n    margin-left: 0%;\n  }\n}\n@media (min-width: 1200px) {\n  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {\n    float: left;\n  }\n  .col-lg-12 {\n    width: 100%;\n  }\n  .col-lg-11 {\n    width: 91.66666666666666%;\n  }\n  .col-lg-10 {\n    width: 83.33333333333334%;\n  }\n  .col-lg-9 {\n    width: 75%;\n  }\n  .col-lg-8 {\n    width: 66.66666666666666%;\n  }\n  .col-lg-7 {\n    width: 58.333333333333336%;\n  }\n  .col-lg-6 {\n    width: 50%;\n  }\n  .col-lg-5 {\n    width: 41.66666666666667%;\n  }\n  .col-lg-4 {\n    width: 33.33333333333333%;\n  }\n  .col-lg-3 {\n    width: 25%;\n  }\n  .col-lg-2 {\n    width: 16.666666666666664%;\n  }\n  .col-lg-1 {\n    width: 8.333333333333332%;\n  }\n  .col-lg-pull-12 {\n    right: 100%;\n  }\n  .col-lg-pull-11 {\n    right: 91.66666666666666%;\n  }\n  .col-lg-pull-10 {\n    right: 83.33333333333334%;\n  }\n  .col-lg-pull-9 {\n    right: 75%;\n  }\n  .col-lg-pull-8 {\n    right: 66.66666666666666%;\n  }\n  .col-lg-pull-7 {\n    right: 58.333333333333336%;\n  }\n  .col-lg-pull-6 {\n    right: 50%;\n  }\n  .col-lg-pull-5 {\n    right: 41.66666666666667%;\n  }\n  .col-lg-pull-4 {\n    right: 33.33333333333333%;\n  }\n  .col-lg-pull-3 {\n    right: 25%;\n  }\n  .col-lg-pull-2 {\n    right: 16.666666666666664%;\n  }\n  .col-lg-pull-1 {\n    right: 8.333333333333332%;\n  }\n  .col-lg-pull-0 {\n    right: auto;\n  }\n  .col-lg-push-12 {\n    left: 100%;\n  }\n  .col-lg-push-11 {\n    left: 91.66666666666666%;\n  }\n  .col-lg-push-10 {\n    left: 83.33333333333334%;\n  }\n  .col-lg-push-9 {\n    left: 75%;\n  }\n  .col-lg-push-8 {\n    left: 66.66666666666666%;\n  }\n  .col-lg-push-7 {\n    left: 58.333333333333336%;\n  }\n  .col-lg-push-6 {\n    left: 50%;\n  }\n  .col-lg-push-5 {\n    left: 41.66666666666667%;\n  }\n  .col-lg-push-4 {\n    left: 33.33333333333333%;\n  }\n  .col-lg-push-3 {\n    left: 25%;\n  }\n  .col-lg-push-2 {\n    left: 16.666666666666664%;\n  }\n  .col-lg-push-1 {\n    left: 8.333333333333332%;\n  }\n  .col-lg-push-0 {\n    left: auto;\n  }\n  .col-lg-offset-12 {\n    margin-left: 100%;\n  }\n  .col-lg-offset-11 {\n    margin-left: 91.66666666666666%;\n  }\n  .col-lg-offset-10 {\n    margin-left: 83.33333333333334%;\n  }\n  .col-lg-offset-9 {\n    margin-left: 75%;\n  }\n  .col-lg-offset-8 {\n    margin-left: 66.66666666666666%;\n  }\n  .col-lg-offset-7 {\n    margin-left: 58.333333333333336%;\n  }\n  .col-lg-offset-6 {\n    margin-left: 50%;\n  }\n  .col-lg-offset-5 {\n    margin-left: 41.66666666666667%;\n  }\n  .col-lg-offset-4 {\n    margin-left: 33.33333333333333%;\n  }\n  .col-lg-offset-3 {\n    margin-left: 25%;\n  }\n  .col-lg-offset-2 {\n    margin-left: 16.666666666666664%;\n  }\n  .col-lg-offset-1 {\n    margin-left: 8.333333333333332%;\n  }\n  .col-lg-offset-0 {\n    margin-left: 0%;\n  }\n}\ntable {\n  background-color: transparent;\n}\ncaption {\n  padding-top: 8px;\n  padding-bottom: 8px;\n  color: #777777;\n  text-align: left;\n}\nth {\n  text-align: left;\n}\n.table {\n  width: 100%;\n  max-width: 100%;\n  margin-bottom: 20px;\n}\n.table > thead > tr > th,\n.table > tbody > tr > th,\n.table > tfoot > tr > th,\n.table > thead > tr > td,\n.table > tbody > tr > td,\n.table > tfoot > tr > td {\n  padding: 8px;\n  line-height: 1.428571429;\n  vertical-align: top;\n  border-top: 1px solid #dddddd;\n}\n.table > thead > tr > th {\n  vertical-align: bottom;\n  border-bottom: 2px solid #dddddd;\n}\n.table > caption + thead > tr:first-child > th,\n.table > colgroup + thead > tr:first-child > th,\n.table > thead:first-child > tr:first-child > th,\n.table > caption + thead > tr:first-child > td,\n.table > colgroup + thead > tr:first-child > td,\n.table > thead:first-child > tr:first-child > td {\n  border-top: 0;\n}\n.table > tbody + tbody {\n  border-top: 2px solid #dddddd;\n}\n.table .table {\n  background-color: #ffffff;\n}\n.table-condensed > thead > tr > th,\n.table-condensed > tbody > tr > th,\n.table-condensed > tfoot > tr > th,\n.table-condensed > thead > tr > td,\n.table-condensed > tbody > tr > td,\n.table-condensed > tfoot > tr > td {\n  padding: 5px;\n}\n.table-bordered {\n  border: 1px solid #dddddd;\n}\n.table-bordered > thead > tr > th,\n.table-bordered > tbody > tr > th,\n.table-bordered > tfoot > tr > th,\n.table-bordered > thead > tr > td,\n.table-bordered > tbody > tr > td,\n.table-bordered > tfoot > tr > td {\n  border: 1px solid #dddddd;\n}\n.table-bordered > thead > tr > th,\n.table-bordered > thead > tr > td {\n  border-bottom-width: 2px;\n}\n.table-striped > tbody > tr:nth-of-type(odd) {\n  background-color: #f9f9f9;\n}\n.table-hover > tbody > tr:hover {\n  background-color: #f5f5f5;\n}\ntable col[class*=\"col-\"] {\n  position: static;\n  float: none;\n  display: table-column;\n}\ntable td[class*=\"col-\"],\ntable th[class*=\"col-\"] {\n  position: static;\n  float: none;\n  display: table-cell;\n}\n.table > thead > tr > td.active,\n.table > tbody > tr > td.active,\n.table > tfoot > tr > td.active,\n.table > thead > tr > th.active,\n.table > tbody > tr > th.active,\n.table > tfoot > tr > th.active,\n.table > thead > tr.active > td,\n.table > tbody > tr.active > td,\n.table > tfoot > tr.active > td,\n.table > thead > tr.active > th,\n.table > tbody > tr.active > th,\n.table > tfoot > tr.active > th {\n  background-color: #f5f5f5;\n}\n.table-hover > tbody > tr > td.active:hover,\n.table-hover > tbody > tr > th.active:hover,\n.table-hover > tbody > tr.active:hover > td,\n.table-hover > tbody > tr:hover > .active,\n.table-hover > tbody > tr.active:hover > th {\n  background-color: #e8e8e8;\n}\n.table > thead > tr > td.success,\n.table > tbody > tr > td.success,\n.table > tfoot > tr > td.success,\n.table > thead > tr > th.success,\n.table > tbody > tr > th.success,\n.table > tfoot > tr > th.success,\n.table > thead > tr.success > td,\n.table > tbody > tr.success > td,\n.table > tfoot > tr.success > td,\n.table > thead > tr.success > th,\n.table > tbody > tr.success > th,\n.table > tfoot > tr.success > th {\n  background-color: #dff0d8;\n}\n.table-hover > tbody > tr > td.success:hover,\n.table-hover > tbody > tr > th.success:hover,\n.table-hover > tbody > tr.success:hover > td,\n.table-hover > tbody > tr:hover > .success,\n.table-hover > tbody > tr.success:hover > th {\n  background-color: #d0e9c6;\n}\n.table > thead > tr > td.info,\n.table > tbody > tr > td.info,\n.table > tfoot > tr > td.info,\n.table > thead > tr > th.info,\n.table > tbody > tr > th.info,\n.table > tfoot > tr > th.info,\n.table > thead > tr.info > td,\n.table > tbody > tr.info > td,\n.table > tfoot > tr.info > td,\n.table > thead > tr.info > th,\n.table > tbody > tr.info > th,\n.table > tfoot > tr.info > th {\n  background-color: #d9edf7;\n}\n.table-hover > tbody > tr > td.info:hover,\n.table-hover > tbody > tr > th.info:hover,\n.table-hover > tbody > tr.info:hover > td,\n.table-hover > tbody > tr:hover > .info,\n.table-hover > tbody > tr.info:hover > th {\n  background-color: #c4e3f3;\n}\n.table > thead > tr > td.warning,\n.table > tbody > tr > td.warning,\n.table > tfoot > tr > td.warning,\n.table > thead > tr > th.warning,\n.table > tbody > tr > th.warning,\n.table > tfoot > tr > th.warning,\n.table > thead > tr.warning > td,\n.table > tbody > tr.warning > td,\n.table > tfoot > tr.warning > td,\n.table > thead > tr.warning > th,\n.table > tbody > tr.warning > th,\n.table > tfoot > tr.warning > th {\n  background-color: #fcf8e3;\n}\n.table-hover > tbody > tr > td.warning:hover,\n.table-hover > tbody > tr > th.warning:hover,\n.table-hover > tbody > tr.warning:hover > td,\n.table-hover > tbody > tr:hover > .warning,\n.table-hover > tbody > tr.warning:hover > th {\n  background-color: #faf2cc;\n}\n.table > thead > tr > td.danger,\n.table > tbody > tr > td.danger,\n.table > tfoot > tr > td.danger,\n.table > thead > tr > th.danger,\n.table > tbody > tr > th.danger,\n.table > tfoot > tr > th.danger,\n.table > thead > tr.danger > td,\n.table > tbody > tr.danger > td,\n.table > tfoot > tr.danger > td,\n.table > thead > tr.danger > th,\n.table > tbody > tr.danger > th,\n.table > tfoot > tr.danger > th {\n  background-color: #f2dede;\n}\n.table-hover > tbody > tr > td.danger:hover,\n.table-hover > tbody > tr > th.danger:hover,\n.table-hover > tbody > tr.danger:hover > td,\n.table-hover > tbody > tr:hover > .danger,\n.table-hover > tbody > tr.danger:hover > th {\n  background-color: #ebcccc;\n}\n.table-responsive {\n  overflow-x: auto;\n  min-height: 0.01%;\n}\n@media screen and (max-width: 767px) {\n  .table-responsive {\n    width: 100%;\n    margin-bottom: 15px;\n    overflow-y: hidden;\n    -ms-overflow-style: -ms-autohiding-scrollbar;\n    border: 1px solid #dddddd;\n  }\n  .table-responsive > .table {\n    margin-bottom: 0;\n  }\n  .table-responsive > .table > thead > tr > th,\n  .table-responsive > .table > tbody > tr > th,\n  .table-responsive > .table > tfoot > tr > th,\n  .table-responsive > .table > thead > tr > td,\n  .table-responsive > .table > tbody > tr > td,\n  .table-responsive > .table > tfoot > tr > td {\n    white-space: nowrap;\n  }\n  .table-responsive > .table-bordered {\n    border: 0;\n  }\n  .table-responsive > .table-bordered > thead > tr > th:first-child,\n  .table-responsive > .table-bordered > tbody > tr > th:first-child,\n  .table-responsive > .table-bordered > tfoot > tr > th:first-child,\n  .table-responsive > .table-bordered > thead > tr > td:first-child,\n  .table-responsive > .table-bordered > tbody > tr > td:first-child,\n  .table-responsive > .table-bordered > tfoot > tr > td:first-child {\n    border-left: 0;\n  }\n  .table-responsive > .table-bordered > thead > tr > th:last-child,\n  .table-responsive > .table-bordered > tbody > tr > th:last-child,\n  .table-responsive > .table-bordered > tfoot > tr > th:last-child,\n  .table-responsive > .table-bordered > thead > tr > td:last-child,\n  .table-responsive > .table-bordered > tbody > tr > td:last-child,\n  .table-responsive > .table-bordered > tfoot > tr > td:last-child {\n    border-right: 0;\n  }\n  .table-responsive > .table-bordered > tbody > tr:last-child > th,\n  .table-responsive > .table-bordered > tfoot > tr:last-child > th,\n  .table-responsive > .table-bordered > tbody > tr:last-child > td,\n  .table-responsive > .table-bordered > tfoot > tr:last-child > td {\n    border-bottom: 0;\n  }\n}\n";
 
 /***/ },
-/* 29 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -36133,13 +36204,13 @@
 
 
 /***/ },
-/* 30 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
-	var dispose = __webpack_require__(29)
+	var dispose = __webpack_require__(32)
 		// The css code:
-		(__webpack_require__(28));
+		(__webpack_require__(31));
 	// Hot Module Replacement
 	if(true) {
 		module.hot.accept();
@@ -36147,31 +36218,31 @@
 	}
 
 /***/ },
-/* 31 */
+/* 34 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"app\">\n  <div ui-view></div>\n</div>\n"
 
 /***/ },
-/* 32 */
+/* 35 */
 /***/ function(module, exports) {
 
 	module.exports = "<div class=\"footer\">\n\n  <div class=\"git\">\n    <a href=\"https://github.com/keske/Kanji-Ninja\">\n      Kanji-Ninja on GitHub\n    </a>\n  </div>\n\n</div>"
 
 /***/ },
-/* 33 */
+/* 36 */
 /***/ function(module, exports) {
 
 	module.exports = "<!--  -->"
 
 /***/ },
-/* 34 */
+/* 37 */
 /***/ function(module, exports) {
 
 	module.exports = "<header></header>\n\n<main>\n\n  <div class=\"サーチ\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n          col-md-offset-2 col-lg-offset-2\">\n          <input\n            ng-model=\"vm.query\"\n            type=\"text\"\n            size=\"99\"\n            placeholder=\"Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи\">\n\n          <div class=\"グループ\">\n            <span\n              ng-repeat=\"group in vm.groups | orderBy: -'group'\"\n              ng-click=\"vm.applyGroup(group)\">\n              {{ group }}\n            </span>\n          </div>\n\n        </div><!-- col -->\n      </div><!-- row -->\n    </div><!-- container -->\n  </div><!-- サーチ -->\n\n  <div class=\"container アイテム\">\n    <div class=\"row\"\n      ng-repeat=\"word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit\">\n\n      <div class=\"col-xs-3 col-sm-2 col-md-1 col-lg-1 col-md-offset-3 col-lg-offset-3 col\">\n        <span class=\"漢字\">\n          {{ word.character }}\n        </span>\n        <span class=\"jlpt\">\n          {{ word.jlpt }}\n        </span>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-4 col-md-2 col-lg-2\">\n        <p class=\"音読み\">\n          <span class=\"題\" ng-if=\"vm.getOnyomi(word.onyomi)\">\n            <!-- Онъёми -->\n            Он\n          </span>\n          {{ vm.getOnyomi(word.onyomi) }}\n        </p>\n        <p class=\"訓読み\">\n          <span class=\"題\" ng-if=\"vm.getKunyomi(word.kunyomi)\">\n            <!-- Кунъёми -->\n            Кун\n          </span>\n          {{ vm.getKunyomi(word.kunyomi) }}\n        </p>\n      </div><!-- col -->\n\n      <div class=\"col-xs-4 col-sm-3 col-md-3 col-lg-3\">\n        <p class=\"意味\">\n          {{ word.meaning }}\n        </p>\n      </div><!-- col -->\n    </div><!-- row -->\n\n  </div><!-- container -->\n\n  <div class=\"container モレ\">\n    <div class=\"row\">\n\n      <div class=\"ボタン 青い アウトライン\"\n        ng-click=\"vm.showMore()\"\n        ng-show=\"(vm.kanji | filter: vm.query).length > vm.defaultLimit && vm.limit < (vm.kanji | filter: vm.query).length\"\n      >\n        Показать еще\n      </div>\n\n    </div><!-- row -->\n  </div><!-- container -->\n\n</main>\n\n<footer></footer>\n"
 
 /***/ },
-/* 35 */
+/* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -36197,7 +36268,7 @@
 	}
 
 /***/ },
-/* 36 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -36223,7 +36294,7 @@
 	}
 
 /***/ },
-/* 37 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -36249,7 +36320,7 @@
 	}
 
 /***/ },
-/* 38 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -36275,7 +36346,7 @@
 	}
 
 /***/ },
-/* 39 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
@@ -36301,7 +36372,7 @@
 	}
 
 /***/ },
-/* 40 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3

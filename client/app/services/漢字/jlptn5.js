@@ -1,4 +1,4 @@
-module.exports = {
+let jlptn5 = [{
   "jlpt": "jlptn5",
   "character": "日",
   "onyomi": "ニチ ジツ -",
@@ -630,4 +630,6 @@ module.exports = {
   "meaning": "Дождь",
   "group": "",
   "hidden": ""
-};
+}];
+
+module.exports = jlptn5;
