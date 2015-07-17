@@ -13,7 +13,7 @@ class ホームコントローラー {
     // Get Onyomi and Kunyomi
     this.getKunyomiAndOnyomi = (word) => {
       return word.split(' ').filter(function(n) {
-        return n != ''
+        return n !== ''
       });
     };
 
