@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "a03ab272cd6d67347a5c"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "1969475bdbc52f96f1a9"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -34075,7 +34075,7 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _ = __webpack_require__(27);
+	var _ = __webpack_require__(28);
 	
 	var _2 = _interopRequireDefault(_);
 	
@@ -34086,6 +34086,120 @@
 
 /***/ },
 /* 24 */
+/***/ function(module, exports) {
+
+	"use strict";
+	
+	var digits = [{
+	  "jlpt": "jlptn5",
+	  "character": "一",
+	  "onyomi": "イチ イツ ヒト.",
+	  "kunyomi": "ひと-",
+	  "meaning": "Один",
+	  "group": "Цифры",
+	  "hidden": "1"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "二",
+	  "onyomi": "ニ ジ フタタ.",
+	  "kunyomi": "ふた ふた.つ",
+	  "meaning": "Два",
+	  "group": "Цифры",
+	  "hidden": "2"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "三",
+	  "onyomi": "サン ゾウ ミッ.",
+	  "kunyomi": "み み.つ",
+	  "meaning": "Три",
+	  "group": "Цифры",
+	  "hidden": "3"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "四",
+	  "onyomi": "シ ヨ",
+	  "kunyomi": "よ よ.つ よっ.つ",
+	  "meaning": "Четыре",
+	  "group": "Цифры",
+	  "hidden": "4"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "五",
+	  "onyomi": "ゴ イツ.",
+	  "kunyomi": "いつ",
+	  "meaning": "Пять",
+	  "group": "Цифры",
+	  "hidden": "5"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "六",
+	  "onyomi": "ロク リク ム",
+	  "kunyomi": "む む.つ むっ.つ",
+	  "meaning": "Шесть",
+	  "group": "Цифры",
+	  "hidden": "6"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "七",
+	  "onyomi": "シチ ナ",
+	  "kunyomi": "なな なな.つ",
+	  "meaning": "Семь",
+	  "group": "Цифры",
+	  "hidden": "7"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "八",
+	  "onyomi": "ハチ ヨ",
+	  "kunyomi": "や や.つ やっ.つ",
+	  "meaning": "Восемь",
+	  "group": "Цифры",
+	  "hidden": "8"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "九",
+	  "onyomi": "キュウ ク ココノ.",
+	  "kunyomi": "ここの",
+	  "meaning": "Девять",
+	  "group": "Цифры",
+	  "hidden": "9"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "十",
+	  "onyomi": "ジュウ ジッ ジュッ",
+	  "kunyomi": "とお",
+	  "meaning": "Десять",
+	  "group": "Цифры",
+	  "hidden": "10"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "百",
+	  "onyomi": "ヒャク ビャク モ",
+	  "kunyomi": "",
+	  "meaning": "Сто",
+	  "group": "Цифры",
+	  "hidden": "100"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "千",
+	  "onyomi": "セン",
+	  "kunyomi": "",
+	  "meaning": "Тысяча",
+	  "group": "Цифры",
+	  "hidden": "1000"
+	}, {
+	  "jlpt": "jlptn5",
+	  "character": "万",
+	  "onyomi": "マン バン ヨロ",
+	  "kunyomi": "",
+	  "meaning": "Десять тысяч",
+	  "group": "Цифры",
+	  "hidden": "10 000"
+	}];
+	
+	module.exports = digits;
+
+/***/ },
+/* 25 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -35421,7 +35535,7 @@
 	module.exports = jlptn4;
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -35434,14 +35548,6 @@
 	  "meaning": "День, солнце",
 	  "group": "",
 	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "一",
-	  "onyomi": "イチ イツ ヒト.",
-	  "kunyomi": "ひと-",
-	  "meaning": "Один",
-	  "group": "Цифры",
-	  "hidden": "1"
 	}, {
 	  "jlpt": "jlptn5",
 	  "character": "国",
@@ -35476,22 +35582,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "十",
-	  "onyomi": "ジュウ ジッ ジュッ",
-	  "kunyomi": "とお",
-	  "meaning": "Десять",
-	  "group": "Цифры",
-	  "hidden": "10"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "二",
-	  "onyomi": "ニ ジ フタタ.",
-	  "kunyomi": "ふた ふた.つ",
-	  "meaning": "Два",
-	  "group": "Цифры",
-	  "hidden": "2"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "本",
 	  "onyomi": "ホン モ",
 	  "kunyomi": "",
@@ -35522,14 +35612,6 @@
 	  "meaning": "Выход, покинуть",
 	  "group": "Глаголы",
 	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "三",
-	  "onyomi": "サン ゾウ ミッ.",
-	  "kunyomi": "み み.つ",
-	  "meaning": "Три",
-	  "group": "Цифры",
-	  "hidden": "3"
 	}, {
 	  "jlpt": "jlptn5",
 	  "character": "時",
@@ -35588,14 +35670,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "五",
-	  "onyomi": "ゴ イツ.",
-	  "kunyomi": "いつ",
-	  "meaning": "Пять",
-	  "group": "Цифры",
-	  "hidden": "5"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "間",
 	  "onyomi": "カン ケン",
 	  "kunyomi": "あいだ ま あい",
@@ -35620,14 +35694,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "四",
-	  "onyomi": "シ ヨ",
-	  "kunyomi": "よ よ.つ よっ.つ",
-	  "meaning": "Четыре",
-	  "group": "Цифры",
-	  "hidden": "4"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "今",
 	  "onyomi": "コン キン イ",
 	  "kunyomi": "",
@@ -35642,14 +35708,6 @@
 	  "meaning": "Золото, деньги",
 	  "group": "",
 	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "九",
-	  "onyomi": "キュウ ク ココノ.",
-	  "kunyomi": "ここの",
-	  "meaning": "Девять",
-	  "group": "Цифры",
-	  "hidden": "9"
 	}, {
 	  "jlpt": "jlptn5",
 	  "character": "入",
@@ -35700,22 +35758,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "八",
-	  "onyomi": "ハチ ヨ",
-	  "kunyomi": "や や.つ やっ.つ",
-	  "meaning": "Восемь",
-	  "group": "Цифры",
-	  "hidden": "8"
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "六",
-	  "onyomi": "ロク リク ム",
-	  "kunyomi": "む む.つ むっ.つ",
-	  "meaning": "Шесть",
-	  "group": "Цифры",
-	  "hidden": "6"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "下",
 	  "onyomi": "カ ゲ オ.リ",
 	  "kunyomi": "した しも もと さ.げる さ.がる くだ.る くだ.り くだ.す -くだ.す くだ.さる お.ろす",
@@ -35746,14 +35788,6 @@
 	  "meaning": "Маленький",
 	  "group": "Прилагательные",
 	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "七",
-	  "onyomi": "シチ ナ",
-	  "kunyomi": "なな なな.つ",
-	  "meaning": "Семь",
-	  "group": "Цифры",
-	  "hidden": "7"
 	}, {
 	  "jlpt": "jlptn5",
 	  "character": "山",
@@ -35796,14 +35830,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "百",
-	  "onyomi": "ヒャク ビャク モ",
-	  "kunyomi": "",
-	  "meaning": "Сто",
-	  "group": "Цифры",
-	  "hidden": "100"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "書",
 	  "onyomi": "ショ -ガ",
 	  "kunyomi": "か.く -が.き",
@@ -35834,14 +35860,6 @@
 	  "meaning": "Река",
 	  "group": "",
 	  "hidden": ""
-	}, {
-	  "jlpt": "jlptn5",
-	  "character": "千",
-	  "onyomi": "セン",
-	  "kunyomi": "",
-	  "meaning": "Тысяча",
-	  "group": "Цифры",
-	  "hidden": "1000"
 	}, {
 	  "jlpt": "jlptn5",
 	  "character": "水",
@@ -35956,14 +35974,6 @@
 	  "hidden": ""
 	}, {
 	  "jlpt": "jlptn5",
-	  "character": "万",
-	  "onyomi": "マン バン ヨロ",
-	  "kunyomi": "",
-	  "meaning": "Десять тысяч",
-	  "group": "Цифры",
-	  "hidden": "10 000"
-	}, {
-	  "jlpt": "jlptn5",
 	  "character": "毎",
 	  "onyomi": "マイ -ゴト.",
 	  "kunyomi": "ごと",
@@ -36063,31 +36073,46 @@
 	module.exports = jlptn5;
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
-	var _utilsMergeJs = __webpack_require__(28);
+	var _dataJlptn5Js = __webpack_require__(26);
 	
-	var _utilsMergeJs2 = _interopRequireDefault(_utilsMergeJs);
+	var _dataJlptn5Js2 = _interopRequireDefault(_dataJlptn5Js);
 	
-	var _jlptn5Js = __webpack_require__(25);
+	var _dataJlptn4Js = __webpack_require__(25);
 	
-	var _jlptn5Js2 = _interopRequireDefault(_jlptn5Js);
+	var _dataJlptn4Js2 = _interopRequireDefault(_dataJlptn4Js);
 	
-	var _jlptn4Js = __webpack_require__(24);
+	var _dataDigitsJs = __webpack_require__(24);
 	
-	var _jlptn4Js2 = _interopRequireDefault(_jlptn4Js);
+	var _dataDigitsJs2 = _interopRequireDefault(_dataDigitsJs);
 	
-	var データ = (0, _utilsMergeJs2['default'])(_jlptn4Js2['default'], _jlptn5Js2['default']);
+	var データ = [];
+	
+	// JLPT5
+	for (var a in _dataJlptn5Js2['default']) {
+	  データ.push(_dataJlptn5Js2['default'][a]);
+	}
+	
+	// JLPT4
+	for (var b in _dataJlptn4Js2['default']) {
+	  データ.push(_dataJlptn4Js2['default'][a]);
+	}
+	
+	// Digits
+	for (var c in _dataDigitsJs2['default']) {
+	  データ.push(_dataDigitsJs2['default'][c]);
+	}
 	
 	module.exports = データ;
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -36102,7 +36127,7 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _js = __webpack_require__(26);
+	var _js = __webpack_require__(27);
 	
 	var _js2 = _interopRequireDefault(_js);
 	
@@ -36115,45 +36140,6 @@
 	
 	exports['default'] = 漢字サービス;
 	module.exports = exports['default'];
-
-/***/ },
-/* 28 */
-/***/ function(module, exports) {
-
-	'use strict';
-	
-	function merge(target, source) {
-	
-	  /* Merges two (or more) objects,
-	     giving the last one precedence */
-	
-	  if (typeof target !== 'object') {
-	    target = {};
-	  }
-	
-	  for (var property in source) {
-	
-	    if (source.hasOwnProperty(property)) {
-	
-	      var sourceProperty = source[property];
-	
-	      if (typeof sourceProperty === 'object') {
-	        target[property] = merge(target[property], sourceProperty);
-	        continue;
-	      }
-	
-	      target[property] = sourceProperty;
-	    }
-	  }
-	
-	  for (var a = 2, l = arguments.length; a < l; a++) {
-	    merge(target, arguments[a]);
-	  }
-	
-	  return target;
-	};
-	
-	module.exports = merge;
 
 /***/ },
 /* 29 */
