@@ -31,6 +31,7 @@
     <div class="row"
       ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit">
 
+      <a name="{{ word.character }}"></a>
       <div class="col-xs-3 col-sm-3 col-md-2 col-lg-2 col-md-offset-3 col-lg-offset-3">
         <span class="漢字">
           {{ word.character }}
@@ -38,6 +39,7 @@
         <span class="jlpt">
           {{ word.jlpt }}
         </span>
+        <a class="⚓" href="##{{ word.character }}">link</a>
       </div><!-- col -->
 
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">

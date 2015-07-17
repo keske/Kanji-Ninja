@@ -64,6 +64,11 @@
     padding: 30px;
   }
 
+  .⚓ {
+    margin-top: 30px;
+    display: none;
+  }
+
   .漢字 {
     font-size: 84px;
     color: $金;
@@ -95,6 +100,8 @@
     padding: 2px 4px;
 
     position: absolute;
+
+    display: none;
   }
 
   .音読み, .訓読み {
