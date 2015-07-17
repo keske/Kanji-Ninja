@@ -64,9 +64,7 @@
         <p class="意味">
           <!-- {{ word.meaning }} -->
           <span ng-repeat="ru in vm.getTranslate(word.meaning) track by $index">
-            <span>
-              {{ ru }}
-            </span>
+            {{ ru }}
           </span>
         </p>
       </div><!-- col -->
