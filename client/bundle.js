@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "6058352a2f2acbaa7e87"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "957d71479136dae27ace"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -34065,6 +34065,8 @@
 	  this.showMore = function () {
 	    _this.limit += _this.defaultLimit;
 	  };
+	
+	  console.log(this.query);
 	
 	  // Header scroll
 	  _ui2['default'].scroll();

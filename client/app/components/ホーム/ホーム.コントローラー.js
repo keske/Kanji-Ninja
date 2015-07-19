@@ -42,6 +42,8 @@ class ホームコントローラー {
       this.limit += this.defaultLimit;
     }
 
+    console.log(this.query)
+
     // Header scroll
     header.scroll();
   }
