@@ -15,6 +15,7 @@
             placeholder="Поиск по {{ vm.kanji.length }} иероглифам. Пиши на русском, хираганой, катаканой и кандзи">
 
           <div class="グループ hidden-xs">
+          {{vm.query}}
             <span
               ng-repeat="group in vm.groups | orderBy: -'group'"
               ng-click="vm.applyGroup(group);">
@@ -26,6 +27,14 @@
       </div><!-- row -->
     </div><!-- container -->
   </div><!-- サーチ -->
+
+  <widget query="{{ vm.query }}">
+    <!-- kana -->
+    <div ng-show="vm.query == 'кана'">
+      <!-- todo: -->
+    </div><!-- kana -->
+  </widget>
+
 
   <div class="container アイテム">
     <div class="row"
