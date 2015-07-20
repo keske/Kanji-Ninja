@@ -28,14 +28,6 @@
     </div><!-- container -->
   </div><!-- サーチ -->
 
-  <widget query="{{ vm.query }}">
-    <!-- kana -->
-    <div ng-show="vm.query == 'кана'">
-      <!-- todo: -->
-    </div><!-- kana -->
-  </widget>
-
-
   <div class="container アイテム">
     <div class="row"
       ng-repeat="word in vm.kanji | filter: vm.query | orderBy: 'meaning' | limitTo: vm.limit">
