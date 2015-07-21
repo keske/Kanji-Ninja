@@ -7,9 +7,9 @@ let headerコンポ = function() {
     template,
     controller,
     restrict: 'E',
-      controllerAs: 'vm',
-      scope: {},
-      bindToController: true
+    controllerAs: 'vm',
+    scope: {},
+    bindToController: true
   };
 };
 

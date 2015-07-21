@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "87c009b9d8c87cb20584"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "5d4e38c7891629813916"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -5256,7 +5256,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\nbody {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n\n.ボタン {\n  border-radius: 10px;\n  padding: 10px 20px;\n  cursor: pointer;\n  display: inline-block; }\n  .ボタン:hover {\n    opacity: .87; }\n  .ボタン.青い {\n    background: #2d72d9;\n    color: #FFF; }\n    .ボタン.青い.アウトライン {\n      background: #FFF;\n      border: 1px solid #2d72d9;\n      color: #2d72d9; }\n      .ボタン.青い.アウトライン:hover {\n        background: #2d72d9;\n        color: #FFF; }\n  .ボタン.block {\n    display: block; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\nbody {\n  margin: 30px; }\n\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both; }\n\na {\n  color: #2d72d9; }\n\n.ボタン {\n  border-radius: 10px;\n  padding: 10px 20px;\n  cursor: pointer;\n  display: inline-block; }\n  .ボタン:hover {\n    opacity: .87; }\n  .ボタン.青い {\n    background: #2d72d9;\n    color: #FFF; }\n    .ボタン.青い.アウトライン {\n      background: #FFF;\n      border: 1px solid #2d72d9;\n      color: #2d72d9; }\n      .ボタン.青い.アウトライン:hover {\n        background: #2d72d9;\n        color: #FFF; }\n  .ボタン.block {\n    display: block; }\n", ""]);
 	
 	// exports
 
@@ -5284,7 +5284,7 @@
 	
 	
 	// module
-	exports.push([module.id, "", ""]);
+	exports.push([module.id, ".header {\n  position: absolute;\n  top: 5px;\n  left: 0; }\n  .header nav a {\n    margin-right: 10px; }\n", ""]);
 	
 	// exports
 
@@ -5312,7 +5312,7 @@
 	
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  top: 0;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: block;\n    box-shadow: none;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    @media (max-width: 768px) {\n      .サーチ input[type=\"text\"] {\n        padding: 10px 15px; } }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #2d72d9; }\n\n.グループ {\n  padding: 3px 0;\n  transition: .333s; }\n  .グループ.scrolled {\n    opacity: .21; }\n    .グループ.scrolled:hover {\n      opacity: 1; }\n  .グループ span {\n    display: inline-block;\n    cursor: pointer;\n    font-size: 10px;\n    color: #2d72d9;\n    padding-right: 10px; }\n\n.アイテム {\n  margin-top: 70px; }\n  .アイテム .row {\n    padding: 30px; }\n  .アイテム .⚓ {\n    margin-top: 30px;\n    display: none; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #b88b58;\n    font-family: Serif;\n    text-align: center;\n    display: block;\n    cursor: default; }\n    @media (max-width: 768px) {\n      .アイテム .漢字 {\n        font-size: 60px;\n        margin-top: 10px; } }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #99C5F7;\n    border-radius: 3px;\n    border: 1px solid #B3D3F8;\n    padding: 2px 4px;\n    position: absolute;\n    display: none; }\n  @media (max-width: 768px) {\n    .アイテム .音読み, .アイテム .訓読み {\n      padding-left: 20px; } }\n  .アイテム .音読み .題, .アイテム .訓読み .題 {\n    font-size: 10px;\n    color: #CCC;\n    display: block; }\n  .アイテム .意味 {\n    font-size: 14px;\n    text-transform: capitalize;\n    margin-top: 26px; }\n    .アイテム .意味 span {\n      display: block; }\n\n.モレ {\n  text-align: center;\n  margin-top: 50px;\n  margin-bottom: 100px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.サーチ {\n  position: fixed;\n  z-index: 3;\n  top: 30px;\n  background: rgba(255, 255, 255, 0.95);\n  padding: 5px 0; }\n  .サーチ input[type=\"text\"] {\n    outline: none;\n    padding: 5px 10px;\n    width: 100%;\n    display: block;\n    box-shadow: none;\n    border: 2px solid rgba(0, 0, 0, 0.1);\n    border-radius: 3px;\n    background: rgba(255, 255, 255, 0.75); }\n    @media (max-width: 768px) {\n      .サーチ input[type=\"text\"] {\n        padding: 10px 15px; } }\n    .サーチ input[type=\"text\"]:focus {\n      border: 2px solid #2d72d9; }\n\n.グループ {\n  padding: 3px 0;\n  transition: .333s; }\n  .グループ.scrolled {\n    opacity: .21; }\n    .グループ.scrolled:hover {\n      opacity: 1; }\n  .グループ span {\n    display: inline-block;\n    cursor: pointer;\n    font-size: 10px;\n    color: #2d72d9;\n    padding-right: 10px; }\n\n.アイテム {\n  margin-top: 70px; }\n  .アイテム .row {\n    padding: 30px; }\n  .アイテム .⚓ {\n    margin-top: 30px;\n    display: none; }\n  .アイテム .漢字 {\n    font-size: 84px;\n    color: #b88b58;\n    font-family: Serif;\n    text-align: center;\n    display: block;\n    cursor: default; }\n    @media (max-width: 768px) {\n      .アイテム .漢字 {\n        font-size: 60px;\n        margin-top: 10px; } }\n    .アイテム .漢字:hover {\n      font-family: Serif; }\n  .アイテム .jlpt {\n    font-size: 8px;\n    color: #99C5F7;\n    border-radius: 3px;\n    border: 1px solid #B3D3F8;\n    padding: 2px 4px;\n    position: absolute;\n    display: none; }\n  @media (max-width: 768px) {\n    .アイテム .音読み, .アイテム .訓読み {\n      padding-left: 20px; } }\n  .アイテム .音読み .題, .アイテム .訓読み .題 {\n    font-size: 10px;\n    color: #CCC;\n    display: block; }\n  .アイテム .意味 {\n    font-size: 14px;\n    text-transform: capitalize;\n    margin-top: 26px; }\n    .アイテム .意味 span {\n      display: block; }\n\n.モレ {\n  text-align: center;\n  margin-top: 50px;\n  margin-bottom: 100px; }\n", ""]);
 	
 	// exports
 
@@ -45598,7 +45598,7 @@
 /* 42 */
 /***/ function(module, exports) {
 
-	module.exports = "<!--  -->"
+	module.exports = "<div class=\"header\">\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2\">\n\n        <nav>\n          <a href=\"#\">\n            Кана\n          </a>\n          <a href=\"#\">\n            Правила\n          </a>\n        </nav>\n\n      </div>\n    </div><!-- row -->\n  </div><!-- container -->\n\n</div><!-- header -->"
 
 /***/ },
 /* 43 */
