@@ -2,13 +2,19 @@
 @import '../../mixins';
 
 .サーチ {
-  position: fixed;
+  position: absolute;
   z-index: 3;
 
   top: 30px;
 
   background: rgba(255, 255, 255, .95);
   padding: 5px 0;
+
+  &.fixed {
+    position: fixed;
+
+    top: 0;
+  }
 
   input[type="text"] {
     outline: none;

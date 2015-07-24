@@ -1,20 +1,20 @@
 import $ from 'jquery';
 
-let header = {
+let サーチ = {
   scroll() {
     let scroll = 0;
-    let min = 50;
+    let min = 30;
 
     $(window).scroll(() => {
       scroll = $(window).scrollTop();
 
       if (scroll > min) {
-        $('.グループ').addClass('scrolled');
+        $('.サーチ').addClass('fixed');
       } else {
-        $('.グループ').removeClass('scrolled');
+        $('.サーチ').removeClass('fixed');
       }
     });
   }
 }
 
-export default header;
+export default サーチ;
