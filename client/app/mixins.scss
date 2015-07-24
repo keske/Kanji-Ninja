@@ -1,4 +1,51 @@
-$phone: "max-width: 768px"; // Use: @media (#{$phone}) { ... }
-$tablet: "min-width: 768px"; // Use: @media (#{$tablet}) { ... }
-$desktop: "min-width: 992px"; // Use: @media (#{$desktop}) { ... }
-$large-desktop: "min-width: 1200px"; // Use:  @media (#{$large-desktop}) { ... }
+// Phone
+//
+//  @media (#{$phone}) {
+//    code-here
+//  }
+//
+$phone: "max-width: 768px";
+
+
+// Tablet
+//
+//  @media (#{$tablet}) {
+//    code-here
+//  }
+//
+$tablet: "min-width: 768px";
+
+
+// Desktop
+//
+//  @media (#{$desktop}) {
+//    code-here
+//  }
+$desktop: "min-width: 992px";
+
+
+// Phone
+//
+//  @media (#{$large-desktop}) {
+//   code-here
+//  }
+$large-desktop: "min-width: 1200px";
+
+
+// Flexbox
+//
+// Vertical align middle
+.vertical-align-middle {
+  display: -webkit-flexbox;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: row wrap;
+
+  -webkit-flex-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+
+  align-items: center;
+  text-align: center;
+}

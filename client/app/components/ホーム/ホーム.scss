@@ -60,6 +60,35 @@
 .アイテム {
   margin-top: 70px;
 
+  &.カタカナとひらがな {
+    // @extend .vertical-align-middle;
+
+    @mixin カカ() {
+      font-size: 84px;
+      font-family: Serif;
+
+      color: $金;
+    }
+
+    .カタカナ {
+      @include カカ();
+
+      text-align: right;
+    }
+
+    .means {
+      text-align: center;
+
+      margin-top: 50px;
+    }
+
+    .ひらがな {
+      @include カカ();
+
+      text-align: left;
+    }
+  }
+
   .row {
     padding: 30px;
   }

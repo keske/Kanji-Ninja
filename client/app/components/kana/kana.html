@@ -1,3 +1,43 @@
-<div>
-  <h1>KANA</h1>
-</div>
+<header></header>
+
+<main>
+
+  <div class="サーチ">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8
+          col-md-offset-2 col-lg-offset-2">
+          <input
+            ng-model="vm.query"
+            onclick="this.select()"
+            type="text"
+            size="99"
+            placeholder="Катакана и хирагана">
+
+        </div><!-- col -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </div><!-- サーチ -->
+
+  <div class="container アイテム カタカナとひらがな">
+    <div class="row" ng-repeat="charset in vm.kana | filter: vm.query">
+
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2
+        col-md-offset-3 col-lg-offset-3 カタカナ">
+        {{ charset.katakana }}
+      </div><!-- col --><!-- カタカナ -->
+
+      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 means">
+        {{ charset.means }}
+      </div><!-- col --><!-- meaning -->
+
+      <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ひらがな">
+        {{ charset.hiragana }}
+      </div><!-- col --><!-- ひらがな -->
+
+    </div><!-- row -->
+  </div><!-- container -->
+
+</main>
+
+<footer></footer>
