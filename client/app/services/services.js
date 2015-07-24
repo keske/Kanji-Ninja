@@ -4,7 +4,7 @@ import カナサービス from './カナ/カナ.サービス';
 
 let servicesModule = angular.module('app.services', [
   漢字サービス.name,
-  カナサービス.name
+  カナサービス.name,
 ]);
 
 export default servicesModule;

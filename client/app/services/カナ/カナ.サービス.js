@@ -237,7 +237,7 @@ let カナ = [{
     "hiragana": "わ",
     "katakana": "ワ",
     "means": "вa",
-    "hidden": "wа"
+    "hidden": "wa"
   }, {
     "hiragana": "ゐ",
     "katakana": "ヰ",
@@ -270,7 +270,7 @@ let カナ = [{
 
 module.exports = カナ;
 
-let カナサービス = angular.module('漢字サービス', [])
+let カナサービス = angular.module('カナサービス', [])
   .service('カナサービス', function() {
 
     this.get = () => {

@@ -54,7 +54,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "d5345093dfc324097898"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "8f4bd3172021dc9e64b3"; // eslint-disable-line no-unused-vars
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentParents = []; // eslint-disable-line no-unused-vars
 /******/ 	
@@ -549,11 +549,11 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _commonCommon = __webpack_require__(17);
+	var _commonCommon = __webpack_require__(18);
 	
 	var _commonCommon2 = _interopRequireDefault(_commonCommon);
 	
-	var _componentsComponents = __webpack_require__(27);
+	var _componentsComponents = __webpack_require__(28);
 	
 	var _componentsComponents2 = _interopRequireDefault(_componentsComponents);
 	
@@ -561,7 +561,7 @@
 	
 	var _servicesServices2 = _interopRequireDefault(_servicesServices);
 	
-	var _appComponent = __webpack_require__(16);
+	var _appComponent = __webpack_require__(17);
 	
 	var _appComponent2 = _interopRequireDefault(_appComponent);
 	
@@ -573,7 +573,7 @@
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(15);
+	__webpack_require__(16);
 	module.exports = angular;
 
 
@@ -14565,12 +14565,48 @@
 /* 14 */
 /***/ function(module, exports, __webpack_require__) {
 
+	'use strict';
+	
+	Object.defineProperty(exports, '__esModule', {
+	  value: true
+	});
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+	
+	var _jquery = __webpack_require__(13);
+	
+	var _jquery2 = _interopRequireDefault(_jquery);
+	
+	var サーチ = {
+	  scroll: function scroll() {
+	    var scroll = 0;
+	    var min = 30;
+	
+	    (0, _jquery2['default'])(window).scroll(function () {
+	      scroll = (0, _jquery2['default'])(window).scrollTop();
+	
+	      if (scroll > min) {
+	        (0, _jquery2['default'])('.サーチ').addClass('fixed');
+	      } else {
+	        (0, _jquery2['default'])('.サーチ').removeClass('fixed');
+	      }
+	    });
+	  }
+	};
+	
+	exports['default'] = サーチ;
+	module.exports = exports['default'];
+
+/***/ },
+/* 15 */
+/***/ function(module, exports, __webpack_require__) {
+
 	__webpack_require__(49);
 	__webpack_require__(46);
 
 
 /***/ },
-/* 15 */
+/* 16 */
 /***/ function(module, exports) {
 
 	/**
@@ -42941,7 +42977,7 @@
 	!window.angular.$$csp() && window.angular.element(document).find('head').prepend('<style type="text/css">@charset "UTF-8";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>');
 
 /***/ },
-/* 16 */
+/* 17 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42969,7 +43005,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 17 */
+/* 18 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -42984,15 +43020,15 @@
 	
 	var _angular2 = _interopRequireDefault(_angular);
 	
-	var _headerHeader = __webpack_require__(21);
+	var _headerHeader = __webpack_require__(22);
 	
 	var _headerHeader2 = _interopRequireDefault(_headerHeader);
 	
-	var _footerFooter = __webpack_require__(18);
+	var _footerFooter = __webpack_require__(19);
 	
 	var _footerFooter2 = _interopRequireDefault(_footerFooter);
 	
-	var _widgetWidget = __webpack_require__(24);
+	var _widgetWidget = __webpack_require__(25);
 	
 	var _widgetWidget2 = _interopRequireDefault(_widgetWidget);
 	
@@ -43002,7 +43038,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43021,7 +43057,7 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _footer = __webpack_require__(20);
+	var _footer = __webpack_require__(21);
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
@@ -43031,7 +43067,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -43052,7 +43088,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43067,7 +43103,7 @@
 	
 	var _footerHtml2 = _interopRequireDefault(_footerHtml);
 	
-	var _footer = __webpack_require__(19);
+	var _footer = __webpack_require__(20);
 	
 	var _footer2 = _interopRequireDefault(_footer);
 	
@@ -43088,7 +43124,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43107,7 +43143,7 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _header = __webpack_require__(23);
+	var _header = __webpack_require__(24);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
@@ -43117,7 +43153,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -43138,7 +43174,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43153,7 +43189,7 @@
 	
 	var _headerHtml2 = _interopRequireDefault(_headerHtml);
 	
-	var _header = __webpack_require__(22);
+	var _header = __webpack_require__(23);
 	
 	var _header2 = _interopRequireDefault(_header);
 	
@@ -43174,7 +43210,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43193,7 +43229,7 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _widget = __webpack_require__(26);
+	var _widget = __webpack_require__(27);
 	
 	var _widget2 = _interopRequireDefault(_widget);
 	
@@ -43203,7 +43239,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports) {
 
 	"use strict";
@@ -43224,7 +43260,7 @@
 	// this.name = 'widget';
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43239,7 +43275,7 @@
 	
 	var _widgetHtml2 = _interopRequireDefault(_widgetHtml);
 	
-	var _widget = __webpack_require__(25);
+	var _widget = __webpack_require__(26);
 	
 	var _widget2 = _interopRequireDefault(_widget);
 	
@@ -43270,7 +43306,7 @@
 	// }
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43289,7 +43325,7 @@
 	
 	var _2 = _interopRequireDefault(_);
 	
-	var _kanaKana = __webpack_require__(28);
+	var _kanaKana = __webpack_require__(29);
 	
 	var _kanaKana2 = _interopRequireDefault(_kanaKana);
 	
@@ -43303,7 +43339,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 28 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43322,7 +43358,7 @@
 	
 	var _angularUiRouter2 = _interopRequireDefault(_angularUiRouter);
 	
-	var _kana = __webpack_require__(30);
+	var _kana = __webpack_require__(31);
 	
 	var _kana2 = _interopRequireDefault(_kana);
 	
@@ -43337,7 +43373,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 29 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43350,7 +43386,7 @@
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
-	var _ui = __webpack_require__(31);
+	var _ui = __webpack_require__(14);
 	
 	var _ui2 = _interopRequireDefault(_ui);
 	
@@ -43369,7 +43405,7 @@
 	module.exports = exports['default'];
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -43384,7 +43420,7 @@
 	
 	var _kanaHtml2 = _interopRequireDefault(_kanaHtml);
 	
-	var _kana = __webpack_require__(29);
+	var _kana = __webpack_require__(30);
 	
 	var _kana2 = _interopRequireDefault(_kana);
 	
@@ -43402,42 +43438,6 @@
 	};
 	
 	exports['default'] = kanaコンポ;
-	module.exports = exports['default'];
-
-/***/ },
-/* 31 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, '__esModule', {
-	  value: true
-	});
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
-	
-	var _jquery = __webpack_require__(13);
-	
-	var _jquery2 = _interopRequireDefault(_jquery);
-	
-	var サーチ = {
-	  scroll: function scroll() {
-	    var scroll = 0;
-	    var min = 30;
-	
-	    (0, _jquery2['default'])(window).scroll(function () {
-	      scroll = (0, _jquery2['default'])(window).scrollTop();
-	
-	      if (scroll > min) {
-	        (0, _jquery2['default'])('.サーチ').addClass('fixed');
-	      } else {
-	        (0, _jquery2['default'])('.サーチ').removeClass('fixed');
-	      }
-	    });
-	  }
-	};
-	
-	exports['default'] = サーチ;
 	module.exports = exports['default'];
 
 /***/ },
@@ -43515,7 +43515,7 @@
 	
 	var _rules2 = _interopRequireDefault(_rules);
 	
-	__webpack_require__(14);
+	__webpack_require__(15);
 	
 	__webpack_require__(63);
 	
@@ -43627,6 +43627,10 @@
 	
 	var _ui2 = _interopRequireDefault(_ui);
 	
+	var _kanaUi = __webpack_require__(14);
+	
+	var _kanaUi2 = _interopRequireDefault(_kanaUi);
+	
 	var ホームコントローラー = function ホームコントローラー(漢字サービス) {
 	  var _this = this;
 	
@@ -43672,6 +43676,7 @@
 	  };
 	
 	  // Header scroll
+	  _kanaUi2['default'].scroll();
 	  _ui2['default'].scroll();
 	};
 	
@@ -43699,7 +43704,7 @@
 	
 	var _2 = _interopRequireDefault(_);
 	
-	__webpack_require__(14);
+	__webpack_require__(15);
 	
 	__webpack_require__(64);
 	
@@ -43981,7 +43986,7 @@
 	  "hiragana": "わ",
 	  "katakana": "ワ",
 	  "means": "вa",
-	  "hidden": "wа"
+	  "hidden": "wa"
 	}, {
 	  "hiragana": "ゐ",
 	  "katakana": "ヰ",
@@ -44011,7 +44016,7 @@
 	
 	module.exports = カナ;
 	
-	var カナサービス = _angular2["default"].module("漢字サービス", []).service("カナサービス", function () {
+	var カナサービス = _angular2["default"].module("カナサービス", []).service("カナサービス", function () {
 	
 	  this.get = function () {
 	    return カナ;
@@ -46144,7 +46149,7 @@
 /* 52 */
 /***/ function(module, exports) {
 
-	module.exports = "<div class=\"header\">\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2\">\n\n        <nav>\n          <a ui-sref=\"kana\">\n            Кана\n          </a>\n          <a ui-sref=\"rules\">\n            Правила\n          </a>\n        </nav>\n\n      </div>\n    </div><!-- row -->\n  </div><!-- container -->\n\n</div><!-- header -->"
+	module.exports = "<div class=\"header\">\n\n  <div class=\"container\">\n    <div class=\"row\">\n      <div class=\"col-xs-12 col-sm-12 col-md-8 col-lg-8\n        col-md-offset-2 col-lg-offset-2\">\n\n        <nav>\n          <a ui-sref=\"kana\">\n            Кана\n          </a>\n          <!-- <a ui-sref=\"rules\">\n            Правила\n          </a> -->\n        </nav>\n\n      </div>\n    </div><!-- row -->\n  </div><!-- container -->\n\n</div><!-- header -->"
 
 /***/ },
 /* 53 */
