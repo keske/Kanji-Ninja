@@ -268,6 +268,8 @@ let カナ = [{
   },
 ];
 
+// 89310019323
+
 module.exports = カナ;
 
 let カナサービス = angular.module('カナサービス', [])
